@@ -1,0 +1,836 @@
+[
+  {
+    "source_id": "radar",
+    "collector": "/root/collect_radar",
+    "reviewer": "/root/review_radar",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-27T21:06:30.209594+05:00"
+  },
+  {
+    "source_id": "official-sdk",
+    "collector": "/root/collect_official_sdk",
+    "reviewer": "/root/review_official_sdk",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-27T21:04:14.915124+05:00"
+  },
+  {
+    "source_id": "for-vibecoders",
+    "repo": "corerudo/for-vibecoders",
+    "collector": "/root/collect_vibecoders",
+    "reviewer": "/root/review_vibecoders",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-27T21:03:08.448137+05:00"
+  },
+  {
+    "source_id": "gradle-plugin",
+    "repo": "exteraStuff/gradle-plugin",
+    "collector": "/root/collect_gradle_plugin",
+    "reviewer": "/root/review_gradle_plugin",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-27T21:15:05.550551+05:00"
+  },
+  {
+    "source_id": "extcli",
+    "repo": "vcvkk/extCLI",
+    "collector": "/root/collect_extcli",
+    "reviewer": "/root/review_extcli",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-27T21:18:12.288902+05:00"
+  },
+  {
+    "source_id": "altylib",
+    "repo": "Altuskhins/AltyLib",
+    "collector": "/root/collect_altylib",
+    "reviewer": "/root/review_altylib",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-27T21:21:35.301435+05:00"
+  },
+  {
+    "source_id": "exteralib",
+    "repo": "fossSquad/exteralib",
+    "collector": "/root/collect_exteralib",
+    "reviewer": "/root/review_exteralib",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-27T21:26:10.953651+05:00"
+  },
+  {
+    "source_id": "catalib",
+    "repo": "cataIystdev/catalib",
+    "collector": "/root/collect_catalib",
+    "reviewer": "/root/review_catalib",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-27T21:35:40.096713+05:00"
+  },
+  {
+    "source_id": "template-n08",
+    "repo": "n08i40k/exteragram-plugin-template",
+    "collector": "/root/collect_template_n08",
+    "reviewer": "/root/review_template_n08",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T01:19:45.051122+05:00"
+  },
+  {
+    "source_id": "template-robotiaga",
+    "repo": "RObotiaga/exteragram-plugin-template",
+    "collector": "/root/collect_template_robotiaga",
+    "reviewer": "/root/review_template_robotiaga",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T01:19:44.878396+05:00"
+  },
+  {
+    "source_id": "exteragram-mcp",
+    "repo": "cataIystdev/exteragram-mcp",
+    "collector": "/root/collect_exteragram_mcp",
+    "reviewer": "/root/review_exteragram_mcp",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T01:54:41+05:00"
+  },
+  {
+    "source_id": "exteragram-docs",
+    "repo": "yearningss/exteraGram-docs",
+    "collector": "/root/collect_exteragram_docs",
+    "reviewer": "/root/review_exteragram_docs",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T01:58:46+05:00"
+  },
+  {
+    "source_id": "skill-makarworld",
+    "repo": "makarworld/exteragram-plugin-skill",
+    "collector": "/root/collect_skill_makarworld",
+    "reviewer": "/root/review_skill_makarworld",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T02:00:29+05:00"
+  },
+  {
+    "source_id": "skill-foss",
+    "repo": "fossSquad/exteraSkill",
+    "collector": "/root/collect_skill_foss",
+    "reviewer": "/root/review_skill_foss",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T02:13:46.9541724+05:00"
+  },
+  {
+    "source_id": "skill-faust",
+    "repo": "faustyu1/exteragram-plugins-skill",
+    "collector": "/root/collect_skill_faust",
+    "reviewer": "/root/review_skill_faust",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T02:20:23.766353+05:00"
+  },
+  {
+    "source_id": "mioplugin",
+    "repo": "fuckramochka/mioplugin",
+    "collector": "/root/collect_mioplugin",
+    "reviewer": "/root/review_mioplugin",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T02:24:10.489303+05:00"
+  },
+  {
+    "source_id": "zwylib",
+    "repo": "Zwylair/zwylib-docs",
+    "collector": "/root/collect_zwylib",
+    "reviewer": "/root/review_zwylib",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T02:35:39+05:00"
+  },
+  {
+    "source_id": "re-extera",
+    "repo": "fossSquad/re-extera",
+    "collector": "/root/collect_re_extera",
+    "reviewer": "/root/review_re_extera",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T02:45:59.754595+05:00"
+  },
+  {
+    "source_id": "re-extera-shajon",
+    "repo": "SHAJON-404/re-extera",
+    "collector": "/root/collect_re_extera_shajon",
+    "reviewer": "/root/review_re_extera_shajon",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T02:50:44.860953+05:00"
+  },
+  {
+    "source_id": "tg-streaks",
+    "repo": "n08i40k/tg-streaks",
+    "collector": "/root/collect_tg_streaks",
+    "reviewer": "/root/review_tg_streaks",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T03:01:43.53892+05:00"
+  },
+  {
+    "source_id": "elyxbuilder-shareui",
+    "repo": "shareui/ElyxBuilder",
+    "collector": "/root/collect_elyxbuilder_shareui",
+    "reviewer": "/root/review_elyxbuilder_shareui",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T03:12:14+05:00"
+  },
+  {
+    "source_id": "elyxbuilder-kangel",
+    "repo": "Kangel-Plugins/ElyxBuilder",
+    "collector": "/root/collect_elyxbuilder_kangel",
+    "reviewer": "/root/review_elyxbuilder_kangel",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T03:09:21.712869+05:00"
+  },
+  {
+    "source_id": "ceps",
+    "repo": "m4rker20-rgb/CEPS",
+    "collector": "/root/collect_ceps",
+    "reviewer": "/root/review_ceps",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T03:22:15.605515+05:00"
+  },
+  {
+    "source_id": "bubble-outline",
+    "repo": "xwwvv/ios-bubble-outline",
+    "collector": "/root/collect_bubble_outline",
+    "reviewer": "/root/review_bubble_outline",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T03:25:13+05:00"
+  },
+  {
+    "source_id": "av1-decoder",
+    "repo": "stxlvn/exteragram-av1-sw-decoder",
+    "collector": "/root/collect_av1_decoder",
+    "reviewer": "/root/review_av1_decoder",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T03:29:27+05:00"
+  },
+  {
+    "source_id": "link-guard",
+    "repo": "L0lopop/Link-Guard",
+    "collector": "/root/collect_link_guard",
+    "reviewer": "/root/review_link_guard",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T03:37:31.455891+05:00"
+  },
+  {
+    "source_id": "syncprofile",
+    "repo": "Kukuryzen666/SyncProfile",
+    "collector": "/root/collect_syncprofile",
+    "reviewer": "/root/review_syncprofile",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-27T22:48:55Z"
+  },
+  {
+    "source_id": "syncprofile-server",
+    "repo": "Kukuryzen666/SyncProfile-Selfhosted",
+    "collector": "/root/collect_syncprofile_server",
+    "reviewer": "/root/review_syncprofile_server",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T03:55:22+05:00"
+  },
+  {
+    "source_id": "plugins-robot",
+    "repo": "itsv1eds/exteraPluginsRobot",
+    "collector": "/root/collect_plugins_robot",
+    "reviewer": "/root/review_plugins_robot",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T03:59:21.622576+05:00"
+  },
+  {
+    "source_id": "packit",
+    "repo": "shareui/packit-source",
+    "collector": "/root/collect_packit",
+    "reviewer": "/root/review_packit",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T04:09:45+05:00"
+  },
+  {
+    "source_id": "vestr-plugins",
+    "repo": "mr-Vestr/plugins",
+    "collector": "/root/collect_vestr_plugins",
+    "reviewer": "/root/review_vestr_plugins",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T04:15:00+05:00"
+  },
+  {
+    "source_id": "plugins-store",
+    "repo": "Kangel-Plugins/Plugins-Store",
+    "collector": "/root/collect_plugins_store",
+    "reviewer": "/root/review_plugins_store",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-27T23:16:11Z"
+  },
+  {
+    "source_id": "ws-proxy-plugin",
+    "repo": "ReaIRyanGosling/tg_ws_proxy.plugin",
+    "collector": "/root/collect_ws_proxy_plugin",
+    "reviewer": "/root/review_ws_proxy_plugin",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T04:23:28+05:00"
+  },
+  {
+    "source_id": "ws-proxy",
+    "repo": "Flowseal/tg-ws-proxy",
+    "collector": "/root/collect_ws_proxy",
+    "reviewer": "/root/review_ws_proxy",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T04:31:30.921299+05:00"
+  },
+  {
+    "source_id": "tayugram-mcp",
+    "repo": "MRsuperkosmos/tayugram-mcp",
+    "collector": "/root/collect_tayugram_mcp",
+    "reviewer": "/root/review_tayugram_mcp_retry",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T08:23:58.368736+05:00"
+  },
+  {
+    "source_id": "chat-stats",
+    "repo": "DedyaSergey/Chat-Stats-Plugin",
+    "collector": "/root/collect_chat_stats",
+    "reviewer": "/root/review_chat_stats_retry",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T08:16:36+05:00"
+  },
+  {
+    "source_id": "smooth-scroll",
+    "repo": "DedyaSergey/Smooth-Scroll-Plugin",
+    "collector": "/root/collect_smooth_scroll",
+    "reviewer": "/root/review_smooth_scroll",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T08:20:05+05:00"
+  },
+  {
+    "source_id": "iptag",
+    "repo": "wsp2ch/iptag-plugin-Exteragramm-",
+    "collector": "/root/collect_iptag",
+    "reviewer": "/root/review_iptag",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T03:31:55Z"
+  },
+  {
+    "source_id": "custom-nft",
+    "repo": "Kisyndra1337/CustomNFT-Exteragram-Plugin",
+    "collector": "/root/collect_custom_nft_retry",
+    "reviewer": "/root/review_custom_nft",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T08:44:28.852935+05:00"
+  },
+  {
+    "source_id": "anilist",
+    "repo": "Islite/AniList.co",
+    "collector": "/root/collect_anilist",
+    "reviewer": "/root/review_anilist",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T08:42:11+05:00",
+    "accepted_facts": 23
+  },
+  {
+    "source_id": "vibogram",
+    "repo": "vibeDN/ViboGram",
+    "collector": "/root/collect_vibogram",
+    "reviewer": "/root/review_vibogram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T09:00:37+05:00",
+    "accepted_facts": 31
+  },
+  {
+    "source_id": "reqgram",
+    "repo": "voterol/ReqGram",
+    "collector": "/root/collect_reqgram",
+    "reviewer": "/root/review_reqgram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T09:03:37+05:00",
+    "fact_count": 34,
+    "accepted_facts": 34
+  },
+  {
+    "source_id": "exteraless",
+    "repo": "exteraless/exteraless",
+    "collector": "/root/collect_exteraless",
+    "reviewer": "/root/review_exteraless",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T09:05:25+05:00",
+    "accepted_facts": 32,
+    "facts_count": 32
+  },
+  {
+    "source_id": "miogram",
+    "repo": "fuckramochka/miogram",
+    "collector": "/root/collect_miogram",
+    "reviewer": "/root/review_miogram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T09:33:14+05:00",
+    "fact_count": 38,
+    "accepted_facts": 38
+  },
+  {
+    "source_id": "amegram",
+    "repo": "fuckramochka/amegram",
+    "collector": "/root/collect_amegram",
+    "reviewer": "/root/review_amegram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T10:01:00+05:00",
+    "fact_count": 42,
+    "accepted_facts": 42
+  },
+  {
+    "source_id": "niagramx",
+    "repo": "HSSkyBoy/NiagramX",
+    "collector": "/root/collect_niagramx",
+    "reviewer": "/root/review_niagramx",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T09:35:00+05:00",
+    "fact_count": 27,
+    "facts_count": 27
+  },
+  {
+    "source_id": "mercurygram",
+    "repo": "Mercurygram/Mercurygram",
+    "collector": "/root/collect_mercurygram",
+    "reviewer": "/root/review_mercurygram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T10:11:00+05:00",
+    "fact_count": 37,
+    "accepted_facts": 37
+  },
+  {
+    "source_id": "novagramx",
+    "repo": "ferelking242/novagramx",
+    "collector": "/root/collect_novagramx",
+    "reviewer": "/root/review_novagramx",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T10:20:54+05:00",
+    "accepted_facts": 29
+  },
+  {
+    "source_id": "nullcoregram",
+    "repo": "NullCoreDeveloper/NullcoreGram",
+    "collector": "/root/collect_nullcoregram",
+    "reviewer": "/root/review_nullcoregram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T10:30:00+05:00",
+    "facts_count": 33
+  },
+  {
+    "source_id": "nullgram",
+    "repo": "qwq233/Nullgram",
+    "collector": "/root/collect_nullgram",
+    "reviewer": "/root/review_nullgram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 24,
+    "updated_at": "2026-09-28T10:47:57.197314+05:00"
+  },
+  {
+    "source_id": "opexgram-docs",
+    "repo": "yearningss/opexgram-docs",
+    "collector": "/root/collect_opexgram_docs",
+    "reviewer": "/root/review_opexgram_docs",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 23,
+    "updated_at": "2026-09-28T10:41:13+05:00"
+  },
+  {
+    "source_id": "ayugram4a",
+    "repo": "BRYCE00182/AyuGram4A",
+    "collector": "/root/collect_ayugram4a",
+    "reviewer": "/root/review_ayugram4a",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 41,
+    "updated_at": "2026-09-28T11:09:50+05:00"
+  },
+  {
+    "source_id": "ayugram-desktop",
+    "repo": "AyuGram/AyuGramDesktop",
+    "collector": "/root/collect_ayugram_desktop",
+    "reviewer": "/root/review_ayugram_desktop",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 12,
+    "updated_at": "2026-09-28T11:25:28.4654993+05:00"
+  },
+  {
+    "source_id": "ayugramx",
+    "repo": "Kratapand26/AyugramX",
+    "collector": "/root/collect_ayugramx",
+    "reviewer": "/root/review_ayugramx",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 18,
+    "updated_at": "2026-09-28T11:43:22.8074323+05:00"
+  },
+  {
+    "source_id": "ayugram-desktop-plus",
+    "repo": "Kindness-Kismet/AyuGramDesktop-Plus",
+    "collector": "/root/collect_ayugram_desktop_plus",
+    "reviewer": "/root/review_ayugram_desktop_plus",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 25,
+    "updated_at": "2026-09-28T12:01:14+05:00"
+  },
+  {
+    "source_id": "ayugram-ios-tweak",
+    "repo": "Ahefh/ayugram-ios-tweak",
+    "collector": "/root/collect_ayugram_ios_tweak",
+    "reviewer": "/root/review_ayugram_ios_tweak",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 15,
+    "accepted_facts": 15,
+    "updated_at": "2026-09-28T12:30:00+05:00"
+  },
+  {
+    "source_id": "cherrygram",
+    "repo": "arsLan4k1390/Cherrygram",
+    "collector": "/root/collect_cherrygram",
+    "reviewer": "/root/review_cherrygram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 14,
+    "updated_at": "2026-09-28T12:33:53+05:00",
+    "accepted_facts": 14
+  },
+  {
+    "source_id": "nagram",
+    "repo": "NextAlone/Nagram",
+    "collector": "/root/collect_nagram",
+    "reviewer": "/root/review_nagram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T13:39:52.488168+05:00",
+    "fact_count": 34,
+    "accepted_facts": 34
+  },
+  {
+    "source_id": "nagramx",
+    "repo": "risin42/NagramX",
+    "collector": "/root/collect_nagramx",
+    "reviewer": "/root/review_nagramx",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T13:57:09+05:00",
+    "fact_count": 26,
+    "accepted_facts": 26
+  },
+  {
+    "source_id": "nekogram",
+    "repo": "Nekogram/Nekogram",
+    "collector": "/root/collect_nekogram",
+    "reviewer": "/root/review_nekogram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T14:55:00+05:00",
+    "fact_count": 36,
+    "accepted_facts": 36
+  },
+  {
+    "source_id": "nimarkogram",
+    "repo": "Ettacent/NimarkoGram",
+    "collector": "/root/collect_nimarkogram",
+    "reviewer": "/root/review_nimarkogram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 36,
+    "updated_at": "2026-09-28T14:43:08+05:00",
+    "accepted_facts": 36
+  },
+  {
+    "source_id": "octogram",
+    "repo": "OctoGramApp/OctoGram",
+    "collector": "/root/collect_octogram",
+    "reviewer": "/root/review_octogram",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T15:10:00+05:00",
+    "fact_count": 15,
+    "accepted_facts": 15
+  },
+  {
+    "source_id": "nekox",
+    "repo": "Nekogram/NekoX",
+    "collector": "/root/collect_nekox",
+    "reviewer": "/root/review_nekox",
+    "model": "gpt-6-luna",
+    "state": "unavailable-verified",
+    "accepted_facts": 8,
+    "updated_at": "2026-09-28T15:25:39+05:00",
+    "blocker": "Nekogram/NekoX independently returns HTTP 404. Current NekoX-Dev/NekoX snapshot is linked to historical NekoX by archived Nagram documentation but is not verified as historical implementation; only secondary README evidence is retained."
+  },
+  {
+    "source_id": "telegraher",
+    "repo": "phxc/telegraher",
+    "collector": "/root/collect_telegraher",
+    "reviewer": "/root/review_telegraher",
+    "model": "gpt-6-luna",
+    "state": "unavailable-verified",
+    "updated_at": "2026-09-28T15:41:31+05:00",
+    "fact_count": 3,
+    "blocker": "Exact public phxc/telegraher (GitHub repository ID 552598807) was independently confirmed empty: commits and Git refs return HTTP 409, branches/tags are empty, and contents returns HTTP 404. Three unique facts remain (2 unavailable, 1 secondary); no code SHA or snapshot exists. Same-name forks point to DrKLO/Telegram, not to this target."
+  },
+  {
+    "source_id": "ayugram-sample",
+    "repo": "MrCheatEugene/AyuSamplePlugin",
+    "collector": "/root/collect_ayu_sample",
+    "reviewer": "/root/review_ayusample",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "identification": "user-supplied-url",
+    "updated_at": "2026-09-28T01:39:01+05:00"
+  },
+  {
+    "source_id": "televip",
+    "repo": "Xposed-Modules-Repo/com.my.televip",
+    "collector": "/root/collect_televip",
+    "reviewer": "/root/review_televip",
+    "model": "gpt-6-luna",
+    "state": "unavailable-verified",
+    "fact_count": 9
+  },
+  {
+    "source_id": "llm-wiki-pattern",
+    "repo": "gist:karpathy/442a6bf555914893e9891c11519de94f",
+    "collector": "/root/collect_llm_wiki_pattern",
+    "reviewer": "/root/review_llm_wiki_pattern",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "source_url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/ac46de1ad27f92b28ac95459c782c07f6b8c964a",
+    "source_date": "2026-04-04",
+    "collected_at": "2026-09-28",
+    "updated_at": "2026-09-28T16:16:31.5360095+05:00",
+    "version": "gist commit ac46de1ad27f92b28ac95459c782c07f6b8c964a; source blob 6b0cef32d73931fcab7498a7e82208e3ea41ee6f; local raw SHA-256 D1C5F89F21FC8F2671F0C5479CCFAADFBCA1CE9FB441867172D0852529861169",
+    "evidence_status": "docs; three explicitly marked inference gaps; no runtime verification",
+    "fact_count": 32,
+    "accepted_facts": 32,
+    "duplicate_risks": "Methodology overlaps knowledge-maintenance topics; retain source provenance and do not classify as plugin API.",
+    "gaps": "No plugin SDK/calls; no fixed schema, entity dedup rules, reasoning-trace format, or security/write-conflict protocol. User attachment and standalone raw text exist; repository tree/radar-context metadata are absent."
+  },
+  {
+    "source_id": "plugins-store-codeberg",
+    "repo": "Kangel/Plugins-Store",
+    "collector": "/root/collect_plugins_store_codeberg",
+    "reviewer": "/root/review_plugins_store_codeberg",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 21,
+    "updated_at": "2026-09-28T16:44:14+05:00",
+    "accepted_fact_ids": [
+      "plugins-store-codeberg-001",
+      "plugins-store-codeberg-002",
+      "plugins-store-codeberg-003",
+      "plugins-store-codeberg-004",
+      "plugins-store-codeberg-005",
+      "plugins-store-codeberg-006",
+      "plugins-store-codeberg-007",
+      "plugins-store-codeberg-008",
+      "plugins-store-codeberg-009",
+      "plugins-store-codeberg-010",
+      "plugins-store-codeberg-011",
+      "plugins-store-codeberg-012",
+      "plugins-store-codeberg-013",
+      "plugins-store-codeberg-014",
+      "plugins-store-codeberg-015",
+      "plugins-store-codeberg-016",
+      "plugins-store-codeberg-017",
+      "plugins-store-codeberg-018",
+      "plugins-store-codeberg-019",
+      "plugins-store-codeberg-020",
+      "plugins-store-codeberg-021"
+    ]
+  },
+  {
+    "source_id": "plugins-store-gitverse",
+    "repo": "bigfishtheory/Plugins-Store",
+    "collector": "/root/collect_plugins_store_gitverse",
+    "reviewer": "/root/review_plugins_store_gitverse",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T17:14:15+05:00",
+    "version": "main @ 08ddcb84661a148b66d691f4f06fd6779e67b793",
+    "source_url": "https://gitverse.ru/bigfishtheory/Plugins-Store",
+    "fact_count": 7,
+    "accepted_facts": 7,
+    "accepted_fact_ids": [
+      "plugins-store-gitverse-001",
+      "plugins-store-gitverse-002",
+      "plugins-store-gitverse-003",
+      "plugins-store-gitverse-004",
+      "plugins-store-gitverse-005",
+      "plugins-store-gitverse-006",
+      "plugins-store-gitverse-007"
+    ],
+    "gaps": "1,315 other tree files and other plugin artifacts not individually reviewed; no KPM/Android runtime or CI execution; REST metadata endpoint /api/v1/repos/... returns HTTP 404; only GitVerse-specific raw/tree snapshot verified.",
+    "model_execution_note": "Spawn requested gpt-6-luna; reviewer final self-reported actual GPT-6. Actual model telemetry unavailable."
+  },
+  {
+    "source_id": "opexgram-apk",
+    "repo": null,
+    "collector": "/root/collect_opexgram_apk",
+    "reviewer": "/root/review_opexgram_apk",
+    "model": "gpt-6-luna",
+    "state": "unavailable-verified",
+    "fact_count": 17,
+    "collection_note": "Reviewer merged one repeated PNG/Quote Studio fact; 17 unique facts were normalized to canonical work/ and packaged wiki/facts/.",
+    "accepted_facts": 17,
+    "accepted_fact_ids": [
+      "opexgram-apk-001",
+      "opexgram-apk-002",
+      "opexgram-apk-003",
+      "opexgram-apk-004",
+      "opexgram-apk-005",
+      "opexgram-apk-006",
+      "opexgram-apk-007",
+      "opexgram-apk-009",
+      "opexgram-apk-010",
+      "opexgram-apk-011",
+      "opexgram-apk-012",
+      "opexgram-apk-013",
+      "opexgram-apk-014",
+      "opexgram-apk-015",
+      "opexgram-apk-016",
+      "opexgram-apk-017",
+      "opexgram-apk-018"
+    ],
+    "updated_at": "2026-09-28T17:31:33+05:00",
+    "gaps": "APK binary was not obtained; Telegram preview only links back to post TechCsl/6548. Version, size, SHA-256, package ID, signer, DEX/resources, API, call sites, and runtime remain unverified. Code claims from the old radar remain secondary. Beta6 docs are not a substitute. One repeated Quote Studio/PNG sticker fact was merged.",
+    "model_execution_note": "Spawn requested gpt-6-luna; reviewer could not independently confirm effective runtime model."
+  },
+  {
+    "source_id": "opexgram-announcement",
+    "repo": null,
+    "collector": "/root/collect_opexgram_announcement",
+    "reviewer": "/root/review_opexgram_announcement",
+    "model": "gpt-6-luna",
+    "requested_model": "gpt-6-luna",
+    "model_execution_note": "Requested gpt-6-luna; reviewer context self-identifies as GPT-6, but effective deployment telemetry is unavailable, so exact model cannot be confirmed.",
+    "state": "accepted-with-gaps",
+    "fact_count": 5,
+    "accepted_facts": 5,
+    "accepted_fact_ids": [
+      "opexgram-announcement-001",
+      "opexgram-announcement-002",
+      "opexgram-announcement-003",
+      "opexgram-announcement-004",
+      "opexgram-announcement-005"
+    ],
+    "gaps": "No local raw snapshot for this source; review used live public Telegram HTML. APK bytes not obtained; version, byte size, hash, package/signature/provenance, and implementation/runtime of caption claims remain unverified.",
+    "updated_at": "2026-09-28T17:40:25+05:00"
+  },
+  {
+    "source_id": "air-raid-alert",
+    "repo": null,
+    "collector": "/root/collect_air_raid_alert",
+    "reviewer": "/root/review_air_raid_alert",
+    "model": "gpt-6-luna",
+    "requested_model": "gpt-6-luna",
+    "state": "unavailable-verified",
+    "verdict": "unavailable-verified",
+    "updated_at": "2026-09-28T19:12:00+05:00",
+    "fact_count": 4,
+    "fact_ids": [
+      "air-raid-alert-001",
+      "air-raid-alert-002",
+      "air-raid-alert-003",
+      "air-raid-alert-004"
+    ],
+    "gaps": "No primary URL/owner_repo, repository snapshot/tree/SHA, README, manifest, or .elyx bytes/hash. Exact GitHub repository/file searches returned 0; Code Search returned 401; GitLab and Codeberg exact-name/file searches returned empty; Wayback CDX returned 503. The separate KPM .eaf catalog entry is verified but cannot be linked to the radar .elyx. Search/index absence cannot prove the repository never existed.",
+    "model_execution_note": "Spawn requested gpt-6-luna; effective runtime model was not independently verified."
+  },
+  {
+    "source_id": "exteragram-utils",
+    "repo": null,
+    "collector": "/root/collect_exteragram_utils",
+    "reviewer": "/root/review_exteragram_utils",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "updated_at": "2026-09-28T01:28:03.52189+05:00"
+  },
+  {
+    "source_id": "nagramx-turbo",
+    "repo": "temporaryna/NagramXTurbo",
+    "collector": "/root/collect_nagramx_turbo",
+    "reviewer": "/root/review_nagramx_turbo",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "identification": "user-supplied-url",
+    "updated_at": "2026-09-28T01:42:41.94398+05:00"
+  },
+  {
+    "source_id": "exteragram-mcp-npm",
+    "repo": null,
+    "collector": "/root/collect_exteragram_mcp_npm",
+    "reviewer": "/root/review_exteragram_mcp_npm",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "fact_count": 10,
+    "fact_ids": [
+      "exteragram-mcp-npm-001",
+      "exteragram-mcp-npm-002",
+      "exteragram-mcp-npm-003",
+      "exteragram-mcp-npm-004",
+      "exteragram-mcp-npm-005",
+      "exteragram-mcp-npm-006",
+      "exteragram-mcp-npm-007",
+      "exteragram-mcp-npm-008",
+      "exteragram-mcp-npm-009",
+      "exteragram-mcp-npm-010"
+    ],
+    "gaps": "Compiled dist was not reproducibly built from the pinned GitHub commit; npm signature not independently validated; no install, runtime MCP enumeration, tests, or device verification. Static JS registration count is 81 versus README 76. prepublishOnly does not prove CI success.",
+    "updated_at": "2026-09-28T13:49:12.253752+00:00"
+  },
+  {
+    "source_id": "ayugram-plengine",
+    "collector": "/root/collect_ayugram_plengine",
+    "reviewer": "/root/review_ayugram_plengine",
+    "model": "gpt-6-luna",
+    "state": "accepted-with-gaps",
+    "repo": "MrCheatEugene/AyuGramDesktop-PLEngine",
+    "identification": "user-supplied-url",
+    "updated_at": "2026-09-28T01:34:14.87737+05:00"
+  }
+]

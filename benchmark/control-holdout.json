@@ -1,0 +1,145 @@
+{
+  "summary": {
+    "cases": 12,
+    "top1": 0.4166666666666667,
+    "top3": 0.5,
+    "top5": 0.5833333333333334,
+    "top10": 0.8333333333333334,
+    "recall": 0.7916666666666666
+  },
+  "cases": [
+    {
+      "id": "app-events",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": false,
+      "recall": 0.0,
+      "ranks": {
+        "official-sdk:app-events": null
+      }
+    },
+    {
+      "id": "long-click",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:android-listeners": 1
+      }
+    },
+    {
+      "id": "bulletin",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:bulletins": 8
+      }
+    },
+    {
+      "id": "dialog",
+      "top1": false,
+      "top3": false,
+      "top5": true,
+      "top10": true,
+      "recall": 0.5,
+      "ranks": {
+        "official-sdk:ui-thread": null,
+        "official-sdk:dialogs": 5
+      }
+    },
+    {
+      "id": "send-media",
+      "top1": false,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:send-helpers": 3
+      }
+    },
+    {
+      "id": "low-send",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:low-level-send": 1
+      }
+    },
+    {
+      "id": "formatting",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:text-formatting": 1
+      }
+    },
+    {
+      "id": "file-io",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": false,
+      "recall": 0.0,
+      "ranks": {
+        "official-sdk:file-io": null
+      }
+    },
+    {
+      "id": "settings-storage",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:settings-storage": 9
+      }
+    },
+    {
+      "id": "elyx-assets",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:elyx-assets": 1
+      }
+    },
+    {
+      "id": "elyx-requirements",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:elyx-requirements": 1
+      }
+    },
+    {
+      "id": "elyx-reload",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:elyx-dev-reload": 10
+      }
+    }
+  ]
+}

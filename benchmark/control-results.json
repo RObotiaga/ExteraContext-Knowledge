@@ -1,0 +1,292 @@
+{
+  "summary": {
+    "top1": 0.4,
+    "top3": 0.6,
+    "top5": 0.6,
+    "top10": 0.7333333333333333,
+    "recall": 0.5555555555555556
+  },
+  "cases": [
+    {
+      "id": "outgoing-text",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": true,
+      "recall": 0.3333333333333333,
+      "ranks": {
+        "official-sdk:outgoing-hook": 9,
+        "official-sdk:hook-strategies": null,
+        "official-sdk:hook-registration": null
+      },
+      "top_ids": [
+        "vestr-plugins:vestr-plugins-010",
+        "vestr-plugins:vestr-plugins-005",
+        "zwylib:zwylib-014",
+        "vestr-plugins:vestr-plugins-009",
+        "vestr-plugins:vestr-plugins-007"
+      ]
+    },
+    {
+      "id": "multi-account",
+      "top1": false,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:account-scope": 3,
+        "official-sdk:account-client": 6
+      },
+      "top_ids": [
+        "skill-foss:skill-foss-007",
+        "official-sdk:hook-signatures",
+        "official-sdk:account-scope",
+        "skill-makarworld:skill-makarworld-012",
+        "re-extera:re-extera-031"
+      ]
+    },
+    {
+      "id": "background-ui",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": false,
+      "recall": 0.0,
+      "ranks": {
+        "official-sdk:queue-api": null,
+        "official-sdk:ui-thread": null
+      },
+      "top_ids": [
+        "cherrygram:cherrygram-009",
+        "packit:packit-005",
+        "anilist:anilist-005",
+        "zwylib:zwylib-050",
+        "zwylib:zwylib-049"
+      ]
+    },
+    {
+      "id": "tl-request",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": true,
+      "recall": 0.5,
+      "ranks": {
+        "official-sdk:account-client": null,
+        "official-sdk:send-request": 7
+      },
+      "top_ids": [
+        "skill-makarworld:skill-makarworld-012",
+        "skill-foss:skill-foss-010",
+        "nullgram:nullgram-012",
+        "zwylib:zwylib-016",
+        "skill-faust:skill-faust-019"
+      ]
+    },
+    {
+      "id": "edit-message",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:edit-message": 1
+      },
+      "top_ids": [
+        "official-sdk:edit-message",
+        "vibogram:vibogram-021",
+        "vibogram:vibogram-005",
+        "skill-foss:skill-foss-012",
+        "re-extera-shajon:re-extera-shajon-021"
+      ]
+    },
+    {
+      "id": "reflection-private",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": false,
+      "recall": 0.0,
+      "ranks": {
+        "official-sdk:java-reflection-find": null,
+        "official-sdk:private-fields": null
+      },
+      "top_ids": [
+        "zwylib:zwylib-052",
+        "syncprofile:syncprofile-006",
+        "plugins-store:plugins-store-011",
+        "for-vibecoders:fvb-016",
+        "exteragram-mcp:exteragram-mcp-022"
+      ]
+    },
+    {
+      "id": "xposed-replacement",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:xposed-hooks": 3,
+        "official-sdk:xposed-param": 1
+      },
+      "top_ids": [
+        "official-sdk:xposed-param",
+        "skill-foss:skill-foss-015",
+        "official-sdk:xposed-hooks",
+        "exteragram-docs:exteragram-docs-008",
+        "amegram:amegram-006"
+      ]
+    },
+    {
+      "id": "custom-settings",
+      "top1": false,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 0.5,
+      "ranks": {
+        "official-sdk:settings-row-types": null,
+        "official-sdk:custom-settings-factory": 2
+      },
+      "top_ids": [
+        "skill-foss:skill-foss-014",
+        "official-sdk:custom-settings-factory",
+        "official-sdk:android-listeners",
+        "novagramx:novagramx-022",
+        "nagramx:nagramx-021"
+      ]
+    },
+    {
+      "id": "lifecycle-cleanup",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 0.5,
+      "ranks": {
+        "official-sdk:hook-registration": null,
+        "official-sdk:lifecycle": 1
+      },
+      "top_ids": [
+        "official-sdk:lifecycle",
+        "zwylib:zwylib-031",
+        "vestr-plugins:vestr-plugins-007",
+        "template-n08:template-n08-007",
+        "skill-makarworld:skill-makarworld-039"
+      ]
+    },
+    {
+      "id": "elyx-archive",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:elyx-archive": 1
+      },
+      "top_ids": [
+        "official-sdk:elyx-archive",
+        "skill-makarworld:skill-makarworld-022",
+        "skill-foss:skill-foss-021",
+        "official-sdk:elyx-troubleshooting",
+        "skill-makarworld:skill-makarworld-021"
+      ]
+    },
+    {
+      "id": "elyx-import",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": false,
+      "recall": 0.0,
+      "ranks": {
+        "official-sdk:elyx-imports": null
+      },
+      "top_ids": [
+        "zwylib:zwylib-001",
+        "skill-foss:skill-foss-032",
+        "exteraless:exteraless-032",
+        "exteragram-mcp:exteragram-mcp-036",
+        "catalib:catalib-013"
+      ]
+    },
+    {
+      "id": "file-handler",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": false,
+      "recall": 0.0,
+      "ranks": {
+        "official-sdk:file-controller": null
+      },
+      "top_ids": [
+        "vibogram:vibogram-004",
+        "skill-foss:skill-foss-018",
+        "plugins-robot:plugins-robot-004",
+        "miogram:miogram-008",
+        "exteragram-mcp:exteragram-mcp-013"
+      ]
+    },
+    {
+      "id": "intents",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 0.5,
+      "ranks": {
+        "official-sdk:intents": null,
+        "official-sdk:intents-query-name": 1
+      },
+      "top_ids": [
+        "official-sdk:intents-query-name",
+        "extcli:extcli-025",
+        "elyxbuilder-shareui:elyxbuilder-shareui-021",
+        "zwylib:zwylib-059",
+        "zwylib:zwylib-006"
+      ]
+    },
+    {
+      "id": "metadata",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:metadata-ast": 2,
+        "official-sdk:plugin-id-single": 1
+      },
+      "top_ids": [
+        "official-sdk:plugin-id-single",
+        "official-sdk:metadata-ast",
+        "exteragram-mcp:exteragram-mcp-009",
+        "catalib:catalib-025",
+        "ws-proxy-plugin:ws-proxy-plugin-014"
+      ]
+    },
+    {
+      "id": "permissions-negative",
+      "top1": false,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:permissions-undocumented": 2
+      },
+      "top_ids": [
+        "ws-proxy:ws-proxy-001",
+        "official-sdk:permissions-undocumented",
+        "zwylib:zwylib-041",
+        "zwylib:zwylib-001",
+        "vibogram:vibogram-027"
+      ]
+    }
+  ]
+}

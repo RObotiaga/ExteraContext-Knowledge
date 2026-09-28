@@ -1,0 +1,53 @@
+[
+  {
+    "id": "telegraher:telegraher-001",
+    "topic": "portability",
+    "claim": "GitHub API подтверждает публичную запись phxc/telegraher (repository ID 552598807, fork=false, created 2022-10-16, size=0, default branch main); запись идентифицирована, но доступного исходного содержимого нет.",
+    "api": "GET https://api.github.com/repos/phxc/telegraher",
+    "evidence_url": "https://api.github.com/repos/phxc/telegraher",
+    "evidence_path": "outputs/plugin-wiki/wiki/reviews/telegraher.md#scope-и-evidence; raw/telegraher/acquisition-error.json:1-6; repository metadata observed 2026-09-28T10:35:06Z",
+    "version": "unavailable",
+    "status": "unavailable",
+    "recipe": "Сначала сверяйте owner/repo; пустую точную запись не заменяйте кодом одноимённого форка без доказанной истории связи.",
+    "platform": "Android",
+    "source_id": "telegraher",
+    "source_fact_id": "telegraher-001",
+    "original_status": "unavailable",
+    "canonical_topic": "portability",
+    "review_status": "unavailable-verified"
+  },
+  {
+    "id": "telegraher:telegraher-002",
+    "topic": "workflow",
+    "claim": "Для phxc/telegraher GitHub commits API отвечает HTTP 409 Git Repository is empty, branches и tags пусты, contents API отвечает HTTP 404 This repository is empty; commit SHA и snapshot исходного проекта получить нельзя.",
+    "api": "GET https://api.github.com/repos/phxc/telegraher/commits; /branches; /tags; /git/refs; /git/matching-refs/heads/; /git/matching-refs/tags/; /contents/",
+    "evidence_url": "https://api.github.com/repos/phxc/telegraher/commits",
+    "evidence_path": "outputs/plugin-wiki/wiki/reviews/telegraher.md#scope-и-evidence; raw/telegraher/acquisition-error.json:1-6",
+    "version": "unavailable",
+    "status": "unavailable",
+    "recipe": "Не формируйте code facts или API каталог без commit SHA; запросите архив либо доказуемо связанный исторический remote.",
+    "platform": "Android",
+    "source_id": "telegraher",
+    "source_fact_id": "telegraher-002",
+    "original_status": "unavailable",
+    "canonical_topic": "workflow",
+    "review_status": "unavailable-verified"
+  },
+  {
+    "id": "telegraher:telegraher-003",
+    "topic": "workflow",
+    "claim": "Предоставленный радар называет Telegraher среди проверенных Telegram-клиентов, но не задаёт конкретной функции или API для phxc/telegraher; отдельное замечание об отсутствии новых находок относится к старым Telegraher направлениям в целом.",
+    "api": "",
+    "evidence_url": "https://github.com/phxc/telegraher",
+    "evidence_path": "outputs/plugin-wiki/raw/telegraher/radar-context.md:10,35; outputs/plugin-wiki/raw/telegraher/radar-urls.json:1; outputs/plugin-wiki/wiki/reviews/telegraher.md#facts-coverage-и-verdict",
+    "version": "radar snapshot in supplied workspace; source SHA unavailable",
+    "status": "secondary",
+    "recipe": "Используйте радар только как указатель на непокрытый источник; для технической рекомендации дождитесь первичных файлов и SHA.",
+    "platform": "Android",
+    "source_id": "telegraher",
+    "source_fact_id": "telegraher-003",
+    "original_status": "secondary",
+    "canonical_topic": "workflow",
+    "review_status": "unavailable-verified"
+  }
+]

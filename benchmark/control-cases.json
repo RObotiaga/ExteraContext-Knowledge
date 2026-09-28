@@ -1,0 +1,188 @@
+{
+  "summary": {
+    "cases": 15,
+    "top1": 0.4,
+    "top3": 0.6,
+    "top5": 0.6,
+    "top10": 0.7333333333333333,
+    "recall": 0.5555555555555556
+  },
+  "cases": [
+    {
+      "id": "outgoing-text",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": true,
+      "recall": 0.3333333333333333,
+      "ranks": {
+        "official-sdk:hook-strategies": null,
+        "official-sdk:outgoing-hook": 9,
+        "official-sdk:hook-registration": null
+      }
+    },
+    {
+      "id": "multi-account",
+      "top1": false,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:account-scope": 3,
+        "official-sdk:account-client": 6
+      }
+    },
+    {
+      "id": "background-ui",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": false,
+      "recall": 0.0,
+      "ranks": {
+        "official-sdk:queue-api": null,
+        "official-sdk:ui-thread": null
+      }
+    },
+    {
+      "id": "tl-request",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": true,
+      "recall": 0.5,
+      "ranks": {
+        "official-sdk:send-request": 7,
+        "official-sdk:account-client": null
+      }
+    },
+    {
+      "id": "edit-message",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:edit-message": 1
+      }
+    },
+    {
+      "id": "reflection-private",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": false,
+      "recall": 0.0,
+      "ranks": {
+        "official-sdk:java-reflection-find": null,
+        "official-sdk:private-fields": null
+      }
+    },
+    {
+      "id": "xposed-replacement",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:xposed-param": 1,
+        "official-sdk:xposed-hooks": 3
+      }
+    },
+    {
+      "id": "custom-settings",
+      "top1": false,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 0.5,
+      "ranks": {
+        "official-sdk:custom-settings-factory": 2,
+        "official-sdk:settings-row-types": null
+      }
+    },
+    {
+      "id": "lifecycle-cleanup",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 0.5,
+      "ranks": {
+        "official-sdk:lifecycle": 1,
+        "official-sdk:hook-registration": null
+      }
+    },
+    {
+      "id": "elyx-archive",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:elyx-archive": 1
+      }
+    },
+    {
+      "id": "elyx-import",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": false,
+      "recall": 0.0,
+      "ranks": {
+        "official-sdk:elyx-imports": null
+      }
+    },
+    {
+      "id": "file-handler",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "top10": false,
+      "recall": 0.0,
+      "ranks": {
+        "official-sdk:file-controller": null
+      }
+    },
+    {
+      "id": "intents",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 0.5,
+      "ranks": {
+        "official-sdk:intents": null,
+        "official-sdk:intents-query-name": 1
+      }
+    },
+    {
+      "id": "metadata",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:plugin-id-single": 1,
+        "official-sdk:metadata-ast": 2
+      }
+    },
+    {
+      "id": "permissions-negative",
+      "top1": false,
+      "top3": true,
+      "top5": true,
+      "top10": true,
+      "recall": 1.0,
+      "ranks": {
+        "official-sdk:permissions-undocumented": 2
+      }
+    }
+  ]
+}

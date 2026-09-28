@@ -1,0 +1,317 @@
+# Индекс базы знаний о разработке плагинов
+
+Обработано и независимо проверено 76 из 76 материалов; структурированных записей с происхождением — 2167. Статусы и ограничения указаны в [реестре](source-registry.md).
+
+## Начало
+
+- [Обзор и архитектура](overview.md)
+- [Платформы и инструменты](entities/index.md)
+- [Практические рецепты](recipes/index.md)
+- [Методы и наблюдаемые вызовы](apis/index.md)
+- [Пробелы и противоречия](gaps.md)
+- [Журнал](log.md)
+- [Правила сопровождения](../AGENTS.md)
+
+## Темы
+
+- [Разработка и выбор архитектуры](topics/workflow.md): Начните с минимального Python-плагина и определите границу платформенного кода.
+- [Жизненный цикл и освобождение ресурсов](topics/lifecycle.md): Регистрацию перехватов, слушателей и фоновых задач связывайте с загрузкой плагина.
+- [Хуки и Java reflection](topics/hooks.md): Разделяйте высокоуровневые события SDK и перехват Java-методов.
+- [Очереди, UI-поток и фоновые операции](topics/threading.md): Отделяйте сетевую работу и вычисления от изменений UI.
+- [Несколько аккаунтов и контекст запроса](topics/accounts.md): Событийный аккаунт, выбранный аккаунт интерфейса и аккаунт фоновой задачи могут различаться.
+- [TLRPC, сообщения и Telegram API](topics/requests.md): Python-хелперы, прямые TL-запросы и внутренние SendMessagesHelper-вызовы описывают разные уровни интеграции.
+- [Настройки, интерфейс и обработчики](topics/ui.md): Штатные строки настроек и dialogs сокращают зависимость от внутренних экранов клиента.
+- [Хранилища, кеширование и синхронизация](topics/storage.md): Различайте локальные настройки, долговременное хранилище, временные файлы и кеш.
+- [Сборка, упаковка и зависимости](topics/build.md): Сопоставляйте исходный формат, артефакт сборки и загрузчик: один Python-файл, Elyx/EAF, Kotlin/DEX и Desktop binary собираются по-разному.
+- [Отладка, диагностика и быстрый цикл изменений](topics/debug.md): Разделяйте DevServer, debugger и команды инструментов разработки.
+- [Границы доверия и безопасная загрузка](topics/security.md): Модель permissions определяется хостом: ее нельзя переносить между клиентами по одному совпадению BasePlugin.
+- [Сетевые транспорты, прокси и восстановление](topics/network.md): Отделяйте Telegram transport от сетевых запросов самого плагина.
+- [Медиа, форматирование текста и эффекты](topics/media.md): Текстовые entities, собственные Unicode-маркеры, Android spans и рендеринг относятся к разным слоям.
+- [LLM, транскрибация и цепочки действий](topics/ai.md): Выделяйте получение сообщений/медиа, подготовку контекста, вызов модели и применение результата.
+- [Каталоги, публикация и установка](topics/distribution.md): Каталог может содержать индекс, исходник, packaged release и отдельную инфраструктуру модерации.
+- [Платформы, версии и совместимость](topics/portability.md): Привязывайте сигнатуры к платформе, SDK, сборке и исходному SHA.
+- [Проверка качества и полноты](topics/testing.md): Независимая проверка сверяет страницу с исходником, дополняет пропущенные API и находит повторы.
+
+## Источники
+
+- [Radar: карта утверждений и кандидатов на первоисточники](sources/radar.md): 0 структурированных записей · [проверка](reviews/radar.md).
+- [Официальная документация exteraGram Plugin SDK](sources/official-sdk.md): 54 структурированных записей · [проверка](reviews/official-sdk.md).
+- [for-vibecoders: практические примеры ExteraGram/AyuGram](sources/for-vibecoders.md): 30 структурированных записей · [проверка](reviews/for-vibecoders.md).
+- [exteraStuff/gradle-plugin](sources/gradle-plugin.md): 39 структурированных записей · [проверка](reviews/gradle-plugin.md).
+- [vcvkk/extCLI — оболочка и консоль разработчика внутри exteraGram](sources/extcli.md): 35 структурированных записей · [проверка](reviews/extcli.md).
+- [Altuskhins/AltyLib](sources/altylib.md): 61 структурированных записей · [проверка](reviews/altylib.md).
+- [fossSquad/exteralib — извлечение APK и конвертация DEX в JAR](sources/exteralib.md): 19 структурированных записей · [проверка](reviews/exteralib.md).
+- [catalib — модульная разработка exteraGram-плагинов с однофайловой сборкой](sources/catalib.md): 34 структурированных записей · [проверка](reviews/catalib.md).
+- [Kotlin/DEX plugin template n08](sources/template-n08.md): 37 структурированных записей · [проверка](reviews/template-n08.md).
+- [RObotiaga/exteragram-plugin-template](sources/template-robotiaga.md): 40 структурированных записей · [проверка](reviews/template-robotiaga.md).
+- [CatalystDev exteraGram MCP](sources/exteragram-mcp.md): 37 структурированных записей · [проверка](reviews/exteragram-mcp.md).
+- [yearningss/exteraGram-docs](sources/exteragram-docs.md): 27 структурированных записей · [проверка](reviews/exteragram-docs.md).
+- [makarworld/exteragram-plugin-skill](sources/skill-makarworld.md): 39 структурированных записей · [проверка](reviews/skill-makarworld.md).
+- [fossSquad/exteraSkill](sources/skill-foss.md): 34 структурированных записей · [проверка](reviews/skill-foss.md).
+- [faustyu1/exteragram-plugins-skill](sources/skill-faust.md): 35 структурированных записей · [проверка](reviews/skill-faust.md).
+- [fuckramochka/mioplugin — каталог Miogram, Python-примеры и Rust/WASM SDK](sources/mioplugin.md): 36 структурированных записей · [проверка](reviews/mioplugin.md).
+- [ZwyLib: библиотека-помощник для Python-плагинов exteraGram](sources/zwylib.md): 63 структурированных записей · [проверка](reviews/zwylib.md).
+- [fossSquad/re-extera](sources/re-extera.md): 43 структурированных записей · [проверка](reviews/re-extera.md).
+- [SHAJON-404/re-extera — отдельная ветка DEX-плагина re:extera](sources/re-extera-shajon.md): 29 структурированных записей · [проверка](reviews/re-extera-shajon.md).
+- [Streaks: крупный Kotlin/DEX-плагин для exteraGram и AyuGram](sources/tg-streaks.md): 27 структурированных записей · [проверка](reviews/tg-streaks.md).
+- [shareui/ElyxBuilder — сборщик и упаковщик Elyx-плагинов](sources/elyxbuilder-shareui.md): 30 структурированных записей · [проверка](reviews/elyxbuilder-shareui.md).
+- [Kangel-Plugins/ElyxBuilder](sources/elyxbuilder-kangel.md): 30 структурированных записей · [проверка](reviews/elyxbuilder-kangel.md).
+- [m4rker20-rgb/CEPS — подписываемый сборщик и загрузчик ExteraGram-плагинов](sources/ceps.md): 26 структурированных записей · [проверка](reviews/ceps.md).
+- [xwwvv/ios-bubble-outline — Android ExteraGram-плагин с Kotlin DEX](sources/bubble-outline.md): 29 структурированных записей · [проверка](reviews/bubble-outline.md).
+- [stxlvn/exteragram-av1-sw-decoder](sources/av1-decoder.md): 28 структурированных записей · [проверка](reviews/av1-decoder.md).
+- [Link Guard: проверка ссылок и очистка меток в ExteraGram/AyuGram](sources/link-guard.md): 32 структурированных записей · [проверка](reviews/link-guard.md).
+- [SyncProfile: пример крупного плагина профилей для двух клиентов](sources/syncprofile.md): 42 структурированных записей · [проверка](reviews/syncprofile.md).
+- [SyncProfile-Selfhosted: клиентский контракт без серверной реализации](sources/syncprofile-server.md): 31 структурированных записей · [проверка](reviews/syncprofile-server.md).
+- [exteraPluginsRobot: приём, модерация и публикация каталога плагинов](sources/plugins-robot.md): 41 структурированных записей · [проверка](reviews/plugins-robot.md).
+- [shareui/packit-source — большой плагин-каталог как пример клиентских интеграций](sources/packit.md): 36 структурированных записей · [проверка](reviews/packit.md).
+- [mr-Vestr/plugins: три Python-плагина и практические интеграции с клиентом](sources/vestr-plugins.md): 28 структурированных записей · [проверка](reviews/vestr-plugins.md).
+- [Kangel-Plugins/Plugins-Store — каталог KPM и примеры Python-плагинов](sources/plugins-store.md): 21 структурированных записей · [проверка](reviews/plugins-store.md).
+- [tg_ws_proxy.plugin: локальный SOCKS5 и WebSocket-транспорт Telegram](sources/ws-proxy-plugin.md): 36 структурированных записей · [проверка](reviews/ws-proxy-plugin.md).
+- [Flowseal/tg-ws-proxy — локальный MTProto-to-WebSocket bridge](sources/ws-proxy.md): 35 структурированных записей · [проверка](reviews/ws-proxy.md).
+- [tayugram-mcp](sources/tayugram-mcp.md): 34 структурированных записей · [проверка](reviews/tayugram-mcp.md).
+- [Chat Stats: локальный счетчик исходящих текстовых сообщений](sources/chat-stats.md): 16 структурированных записей · [проверка](reviews/chat-stats.md).
+- [Smooth Scroll Plugin](sources/smooth-scroll.md): 25 структурированных записей · [проверка](reviews/smooth-scroll.md).
+- [`wsp2ch/iptag-plugin-Exteragramm-` — внешний IP и геолокация по команде](sources/iptag.md): 18 структурированных записей · [проверка](reviews/iptag.md).
+- [CustomNFT-Exteragram-Plugin — локальный конструктор подарков](sources/custom-nft.md): 28 структурированных записей · [проверка](reviews/custom-nft.md).
+- [AniList Anime — плагин поиска аниме](sources/anilist.md): 23 структурированных записей · [проверка](reviews/anilist.md).
+- [ViboGram: встроенная Python-система плагинов для iOS](sources/vibogram.md): 31 структурированных записей · [проверка](reviews/vibogram.md).
+- [voterol/ReqGram — iOS-клиент и донор идей AyuGram](sources/reqgram.md): 34 структурированных записей · [проверка](reviews/reqgram.md).
+- [exteraless/exteraless](sources/exteraless.md): 32 структурированных записей · [проверка](reviews/exteraless.md).
+- [Miogram / Amegram — клиент-донор и экспериментальная plugin runtime](sources/miogram.md): 38 структурированных записей · [проверка](reviews/miogram.md).
+- [fuckramochka/amegram](sources/amegram.md): 42 структурированных записей · [проверка](reviews/amegram.md).
+- [NiagramX (HSSkyBoy/NiagramX)](sources/niagramx.md): 27 структурированных записей · [проверка](reviews/niagramx.md).
+- [Mercurygram — Android-клиент-донор](sources/mercurygram.md): 37 структурированных записей · [проверка](reviews/mercurygram.md).
+- [NovagramX (`ferelking242/novagramx`)](sources/novagramx.md): 29 структурированных записей · [проверка](reviews/novagramx.md).
+- [NullcoreGram: UI-перехваты медиа и сетевой слой форка](sources/nullcoregram.md): 33 структурированных записей · [проверка](reviews/nullcoregram.md).
+- [Nullgram: tcp2ws, конфигурация и интеграция функций в Android-клиент](sources/nullgram.md): 24 структурированных записей · [проверка](reviews/nullgram.md).
+- [yearningss/opexgram-docs — документация Opexgram для Android](sources/opexgram-docs.md): 23 структурированных записей · [проверка](reviews/opexgram-docs.md).
+- [AyuGram4A (Android)](sources/ayugram4a.md): 41 структурированных записей · [проверка](reviews/ayugram4a.md).
+- [AyuGram Desktop: ограниченные seams для plugin UI](sources/ayugram-desktop.md): 12 структурированных записей · [проверка](reviews/ayugram-desktop.md).
+- [AyugramX: локальные папки и быстрые пресеты](sources/ayugramx.md): 18 структурированных записей · [проверка](reviews/ayugramx.md).
+- [AyuGram Desktop Plus: нативные паттерны форка Telegram Desktop](sources/ayugram-desktop-plus.md): 25 структурированных записей · [проверка](reviews/ayugram-desktop-plus.md).
+- [Ahefh/ayugram-ios-tweak](sources/ayugram-ios-tweak.md): 15 структурированных записей · [проверка](reviews/ayugram-ios-tweak.md).
+- [Cherrygram (Android Telegram client fork)](sources/cherrygram.md): 14 структурированных записей · [проверка](reviews/cherrygram.md).
+- [Nagram](sources/nagram.md): 34 структурированных записей · [проверка](reviews/nagram.md).
+- [NagramX (`risin42/NagramX`)](sources/nagramx.md): 26 структурированных записей · [проверка](reviews/nagramx.md).
+- [Nekogram](sources/nekogram.md): 36 структурированных записей · [проверка](reviews/nekogram.md).
+- [Ettacent/NimarkoGram](sources/nimarkogram.md): 36 структурированных записей · [проверка](reviews/nimarkogram.md).
+- [OctoGram — крупный Android-форк и примеры внутренних точек интеграции](sources/octogram.md): 15 структурированных записей · [проверка](reviews/octogram.md).
+- [NekoX — источник недоступен, сохранилась копия README](sources/nekox.md): 8 структурированных записей · [проверка](reviews/nekox.md).
+- [Telegraher (`phxc/telegraher`) — исходный репозиторий пуст](sources/telegraher.md): 3 структурированных записей · [проверка](reviews/telegraher.md).
+- [AyuSamplePlugin](sources/ayugram-sample.md): 22 структурированных записей · [проверка](reviews/ayugram-sample.md).
+- [TeleVip — `Xposed-Modules-Repo/com.my.televip`](sources/televip.md): 9 структурированных записей · [проверка](reviews/televip.md).
+- [LLM Wiki: метод поддерживаемой LLM базы знаний](sources/llm-wiki-pattern.md): 32 структурированных записей · [проверка](reviews/llm-wiki-pattern.md).
+- [Kangel/Plugins-Store на Codeberg — отдельное состояние каталога KPM](sources/plugins-store-codeberg.md): 21 структурированных записей · [проверка](reviews/plugins-store-codeberg.md).
+- [GitVerse `bigfishtheory/Plugins-Store` — собственное состояние зеркала KPM](sources/plugins-store-gitverse.md): 7 структурированных записей · [проверка](reviews/plugins-store-gitverse.md).
+- [Opexgram 12.10.1 beta4 APK — отдельный Android-артефакт](sources/opexgram-apk.md): 17 структурированных записей · [проверка](reviews/opexgram-apk.md).
+- [OpexGram в объявлении канала TechCsl](sources/opexgram-announcement.md): 5 структурированных записей · [проверка](reviews/opexgram-announcement.md).
+- [exteraGram-air-raid-alert: источник пока не идентифицирован](sources/air-raid-alert.md): 4 структурированных записей · [проверка](reviews/air-raid-alert.md).
+- [exteragram-utils 0.1.3 — SDK stubs и CLI разработки](sources/exteragram-utils.md): 41 структурированных записей · [проверка](reviews/exteragram-utils.md).
+- [Nagram X Turbo](sources/nagramx-turbo.md): 31 структурированных записей · [проверка](reviews/nagramx-turbo.md).
+- [npm: @catalystdev/exteragram-mcp@1.0.0](sources/exteragram-mcp-npm.md): 10 структурированных записей · [проверка](reviews/exteragram-mcp-npm.md).
+- [AyuGram Desktop PLEngine](sources/ayugram-plengine.md): 27 структурированных записей · [проверка](reviews/ayugram-plengine.md).
+
+## Каталог всех страниц
+
+- [Справочник вызовов](apis/index.md)
+- [Версии, форматы плагина и границы совместимости](compatibility.md)
+- [Python-плагины Android](entities/android-python.md)
+- [Каталоги и опубликованные артефакты](entities/catalogs-artifacts.md)
+- [AyuGram Desktop PLEngine](entities/desktop-plengine.md)
+- [Инструменты разработки и управление клиентом](entities/developer-tools.md)
+- [Клиенты как источники техник для портирования](entities/donor-clients.md)
+- [Сущности и группы инструментов](entities/index.md)
+- [Хосты и плагины iOS](entities/ios-hosts.md)
+- [JVM, Kotlin и DEX в плагинах](entities/jvm-dex.md)
+- [Транспорты, прокси и сетевые помощники](entities/network-proxies.md)
+- [Упаковка многофайлового Python](entities/python-packaging.md)
+- [Библиотеки, события и общие помощники](entities/shared-libraries.md)
+- [Состояние, профиль и синхронизация](entities/state-sync.md)
+- [Пробелы, ограничения и противоречия](gaps.md)
+- [Журнал wiki](log.md)
+- [Обзор базы знаний и архитектура](overview.md)
+- [Запрос и кеш в контексте аккаунта](recipes/account-routing.md)
+- [Фоновая операция с результатом в UI](recipes/async-ui.md)
+- [Кеш с правильным ключом и восстановлением](recipes/cache-sync.md)
+- [Цикл установки, reload и диагностики](recipes/dev-loop.md)
+- [Проверка конвейера Kotlin/Java → DEX](recipes/dex-build.md)
+- [Минимальный плагин и требования версии](recipes/first-plugin.md)
+- [Переносимая логика с подготовкой данных хостом](recipes/host-assisted.md)
+- [Практические рецепты](recipes/index.md)
+- [Пополнение и проверка LLM Wiki](recipes/knowledge-maintenance.md)
+- [Регистрация хуков с проверяемой очисткой](recipes/managed-hooks.md)
+- [Многофайловый Python-проект и релизный формат](recipes/multi-file.md)
+- [Python-оркестрация с отдельным DEX-модулем](recipes/python-dex.md)
+- [Происхождение релиза и обновления](recipes/release-provenance.md)
+- [Потоковый вывод с ограничением редактирования](recipes/streaming-limits.md)
+- [Независимая проверка air-raid-alert](reviews/air-raid-alert.md)
+- [Независимая проверка: Altuskhins/AltyLib](reviews/altylib.md)
+- [Независимая проверка fuckramochka/amegram](reviews/amegram.md)
+- [Независимая проверка Islite/AniList.co](reviews/anilist.md)
+- [Независимая проверка: `av1-decoder`](reviews/av1-decoder.md)
+- [Независимая проверка AyuGram Desktop Plus](reviews/ayugram-desktop-plus.md)
+- [Независимая проверка: AyuGram/AyuGramDesktop](reviews/ayugram-desktop.md)
+- [Независимое ревью: `Ahefh/ayugram-ios-tweak`](reviews/ayugram-ios-tweak.md)
+- [Независимая проверка: AyuGram Desktop PLEngine](reviews/ayugram-plengine.md)
+- [Независимая проверка: MrCheatEugene/AyuSamplePlugin](reviews/ayugram-sample.md)
+- [Независимая проверка BRYCE00182/AyuGram4A](reviews/ayugram4a.md)
+- [Независимое ревью: `Kratapand26/AyugramX`](reviews/ayugramx.md)
+- [Независимая проверка: xwwvv/ios-bubble-outline](reviews/bubble-outline.md)
+- [Независимая проверка catalib](reviews/catalib.md)
+- [Независимая проверка: m4rker20-rgb/CEPS](reviews/ceps.md)
+- [Независимая проверка: DedyaSergey/Chat-Stats-Plugin](reviews/chat-stats.md)
+- [Независимая проверка arsLan4k1390/Cherrygram](reviews/cherrygram.md)
+- [Независимая проверка CustomNFT-Exteragram-Plugin](reviews/custom-nft.md)
+- [Независимая проверка: Kangel-Plugins/ElyxBuilder](reviews/elyxbuilder-kangel.md)
+- [Независимая проверка: shareui/ElyxBuilder](reviews/elyxbuilder-shareui.md)
+- [Независимая проверка vcvkk/extCLI](reviews/extcli.md)
+- [Независимая проверка: yearningss/exteraGram-docs](reviews/exteragram-docs.md)
+- [Независимая проверка npm-публикации ExteraGram MCP](reviews/exteragram-mcp-npm.md)
+- [Независимая проверка exteragram-mcp](reviews/exteragram-mcp.md)
+- [Независимая проверка: `exteragram-utils`](reviews/exteragram-utils.md)
+- [Независимое ревью: exteraless/exteraless](reviews/exteraless.md)
+- [Независимая проверка fossSquad/exteralib](reviews/exteralib.md)
+- [Независимая проверка источника: for-vibecoders](reviews/for-vibecoders.md)
+- [Independent review: exteraStuff/gradle-plugin](reviews/gradle-plugin.md)
+- [Независимая проверка: wsp2ch/iptag-plugin-Exteragramm-](reviews/iptag.md)
+- [Независимая проверка: L0lopop/Link-Guard](reviews/link-guard.md)
+- [Независимая проверка: `llm-wiki-pattern`](reviews/llm-wiki-pattern.md)
+- [Независимое ревью: `Mercurygram/Mercurygram`](reviews/mercurygram.md)
+- [Независимое ревью: `fuckramochka/miogram`](reviews/miogram.md)
+- [Независимая проверка: mioplugin](reviews/mioplugin.md)
+- [Независимая проверка: `nagram`](reviews/nagram.md)
+- [Независимая проверка: `nagramx-turbo`](reviews/nagramx-turbo.md)
+- [Независимая проверка NagramX](reviews/nagramx.md)
+- [Независимая проверка Nekogram](reviews/nekogram.md)
+- [Независимая проверка NekoX](reviews/nekox.md)
+- [Независимая проверка NiagramX](reviews/niagramx.md)
+- [Независимая проверка Ettacent/NimarkoGram](reviews/nimarkogram.md)
+- [Независимое ревью: `ferelking242/novagramx`](reviews/novagramx.md)
+- [Независимое ревью NullcoreGram](reviews/nullcoregram.md)
+- [Независимая проверка Nullgram](reviews/nullgram.md)
+- [Независимое ревью OctoGram](reviews/octogram.md)
+- [Независимая проверка: official-sdk](reviews/official-sdk.md)
+- [Независимая проверка `opexgram-announcement`](reviews/opexgram-announcement.md)
+- [Независимая проверка Opexgram APK](reviews/opexgram-apk.md)
+- [Независимая проверка: yearningss/opexgram-docs](reviews/opexgram-docs.md)
+- [Независимая проверка shareui/packit-source](reviews/packit.md)
+- [Независимая проверка itsv1eds/exteraPluginsRobot](reviews/plugins-robot.md)
+- [Независимая проверка: `plugins-store-codeberg`](reviews/plugins-store-codeberg.md)
+- [Независимое ревью `plugins-store-gitverse`](reviews/plugins-store-gitverse.md)
+- [Независимая проверка: `plugins-store`](reviews/plugins-store.md)
+- [Независимая проверка radar corpus и source registry](reviews/radar.md)
+- [Независимая проверка: SHAJON-404/re-extera](reviews/re-extera-shajon.md)
+- [Независимое ревью источника `fossSquad/re-extera`](reviews/re-extera.md)
+- [Независимая проверка voterol/ReqGram](reviews/reqgram.md)
+- [Независимая проверка: `skill-faust`](reviews/skill-faust.md)
+- [Независимая проверка: `skill-foss`](reviews/skill-foss.md)
+- [Независимая проверка: `skill-makarworld`](reviews/skill-makarworld.md)
+- [Независимая проверка: DedyaSergey/Smooth-Scroll-Plugin](reviews/smooth-scroll.md)
+- [Независимая проверка: SyncProfile-Selfhosted](reviews/syncprofile-server.md)
+- [Независимая проверка: SyncProfile](reviews/syncprofile.md)
+- [Независимая проверка tayugram-mcp](reviews/tayugram-mcp.md)
+- [Независимая проверка Telegraher](reviews/telegraher.md)
+- [Независимая проверка TeleVip](reviews/televip.md)
+- [Независимая проверка: exteraStuff/pydex-plugin-template](reviews/template-n08.md)
+- [Независимая проверка: `template-robotiaga`](reviews/template-robotiaga.md)
+- [Независимая проверка: n08i40k/tg-streaks](reviews/tg-streaks.md)
+- [Независимая проверка: `vestr-plugins`](reviews/vestr-plugins.md)
+- [Независимая проверка vibeDN/ViboGram](reviews/vibogram.md)
+- [Независимая проверка: `tg_ws_proxy.plugin`](reviews/ws-proxy-plugin.md)
+- [Независимая проверка: `Flowseal/tg-ws-proxy`](reviews/ws-proxy.md)
+- [Независимая проверка: zwylib](reviews/zwylib.md)
+- [Канонические правила разработки](rules.md)
+- [Реестр источников и независимых проверок](source-registry.md)
+- [exteraGram-air-raid-alert: источник пока не идентифицирован](sources/air-raid-alert.md)
+- [Altuskhins/AltyLib](sources/altylib.md)
+- [fuckramochka/amegram](sources/amegram.md)
+- [AniList Anime — плагин поиска аниме](sources/anilist.md)
+- [stxlvn/exteragram-av1-sw-decoder](sources/av1-decoder.md)
+- [AyuGram Desktop Plus: нативные паттерны форка Telegram Desktop](sources/ayugram-desktop-plus.md)
+- [AyuGram Desktop: ограниченные seams для plugin UI](sources/ayugram-desktop.md)
+- [Ahefh/ayugram-ios-tweak](sources/ayugram-ios-tweak.md)
+- [AyuGram Desktop PLEngine](sources/ayugram-plengine.md)
+- [AyuSamplePlugin](sources/ayugram-sample.md)
+- [AyuGram4A (Android)](sources/ayugram4a.md)
+- [AyugramX: локальные папки и быстрые пресеты](sources/ayugramx.md)
+- [xwwvv/ios-bubble-outline — Android ExteraGram-плагин с Kotlin DEX](sources/bubble-outline.md)
+- [catalib — модульная разработка exteraGram-плагинов с однофайловой сборкой](sources/catalib.md)
+- [m4rker20-rgb/CEPS — подписываемый сборщик и загрузчик ExteraGram-плагинов](sources/ceps.md)
+- [Chat Stats: локальный счетчик исходящих текстовых сообщений](sources/chat-stats.md)
+- [Cherrygram (Android Telegram client fork)](sources/cherrygram.md)
+- [CustomNFT-Exteragram-Plugin — локальный конструктор подарков](sources/custom-nft.md)
+- [Kangel-Plugins/ElyxBuilder](sources/elyxbuilder-kangel.md)
+- [shareui/ElyxBuilder — сборщик и упаковщик Elyx-плагинов](sources/elyxbuilder-shareui.md)
+- [vcvkk/extCLI — оболочка и консоль разработчика внутри exteraGram](sources/extcli.md)
+- [yearningss/exteraGram-docs](sources/exteragram-docs.md)
+- [npm: @catalystdev/exteragram-mcp@1.0.0](sources/exteragram-mcp-npm.md)
+- [CatalystDev exteraGram MCP](sources/exteragram-mcp.md)
+- [exteragram-utils 0.1.3 — SDK stubs и CLI разработки](sources/exteragram-utils.md)
+- [exteraless/exteraless](sources/exteraless.md)
+- [fossSquad/exteralib — извлечение APK и конвертация DEX в JAR](sources/exteralib.md)
+- [for-vibecoders: практические примеры ExteraGram/AyuGram](sources/for-vibecoders.md)
+- [exteraStuff/gradle-plugin](sources/gradle-plugin.md)
+- [`wsp2ch/iptag-plugin-Exteragramm-` — внешний IP и геолокация по команде](sources/iptag.md)
+- [Link Guard: проверка ссылок и очистка меток в ExteraGram/AyuGram](sources/link-guard.md)
+- [LLM Wiki: метод поддерживаемой LLM базы знаний](sources/llm-wiki-pattern.md)
+- [Mercurygram — Android-клиент-донор](sources/mercurygram.md)
+- [Miogram / Amegram — клиент-донор и экспериментальная plugin runtime](sources/miogram.md)
+- [fuckramochka/mioplugin — каталог Miogram, Python-примеры и Rust/WASM SDK](sources/mioplugin.md)
+- [Nagram](sources/nagram.md)
+- [Nagram X Turbo](sources/nagramx-turbo.md)
+- [NagramX (`risin42/NagramX`)](sources/nagramx.md)
+- [Nekogram](sources/nekogram.md)
+- [NekoX — источник недоступен, сохранилась копия README](sources/nekox.md)
+- [NiagramX (HSSkyBoy/NiagramX)](sources/niagramx.md)
+- [Ettacent/NimarkoGram](sources/nimarkogram.md)
+- [NovagramX (`ferelking242/novagramx`)](sources/novagramx.md)
+- [NullcoreGram: UI-перехваты медиа и сетевой слой форка](sources/nullcoregram.md)
+- [Nullgram: tcp2ws, конфигурация и интеграция функций в Android-клиент](sources/nullgram.md)
+- [OctoGram — крупный Android-форк и примеры внутренних точек интеграции](sources/octogram.md)
+- [Официальная документация exteraGram Plugin SDK](sources/official-sdk.md)
+- [OpexGram в объявлении канала TechCsl](sources/opexgram-announcement.md)
+- [Opexgram 12.10.1 beta4 APK — отдельный Android-артефакт](sources/opexgram-apk.md)
+- [yearningss/opexgram-docs — документация Opexgram для Android](sources/opexgram-docs.md)
+- [shareui/packit-source — большой плагин-каталог как пример клиентских интеграций](sources/packit.md)
+- [exteraPluginsRobot: приём, модерация и публикация каталога плагинов](sources/plugins-robot.md)
+- [Kangel/Plugins-Store на Codeberg — отдельное состояние каталога KPM](sources/plugins-store-codeberg.md)
+- [GitVerse `bigfishtheory/Plugins-Store` — собственное состояние зеркала KPM](sources/plugins-store-gitverse.md)
+- [Kangel-Plugins/Plugins-Store — каталог KPM и примеры Python-плагинов](sources/plugins-store.md)
+- [Radar: карта утверждений и кандидатов на первоисточники](sources/radar.md)
+- [SHAJON-404/re-extera — отдельная ветка DEX-плагина re:extera](sources/re-extera-shajon.md)
+- [fossSquad/re-extera](sources/re-extera.md)
+- [voterol/ReqGram — iOS-клиент и донор идей AyuGram](sources/reqgram.md)
+- [faustyu1/exteragram-plugins-skill](sources/skill-faust.md)
+- [fossSquad/exteraSkill](sources/skill-foss.md)
+- [makarworld/exteragram-plugin-skill](sources/skill-makarworld.md)
+- [Smooth Scroll Plugin](sources/smooth-scroll.md)
+- [SyncProfile-Selfhosted: клиентский контракт без серверной реализации](sources/syncprofile-server.md)
+- [SyncProfile: пример крупного плагина профилей для двух клиентов](sources/syncprofile.md)
+- [tayugram-mcp](sources/tayugram-mcp.md)
+- [Telegraher (`phxc/telegraher`) — исходный репозиторий пуст](sources/telegraher.md)
+- [TeleVip — `Xposed-Modules-Repo/com.my.televip`](sources/televip.md)
+- [Kotlin/DEX plugin template n08](sources/template-n08.md)
+- [RObotiaga/exteragram-plugin-template](sources/template-robotiaga.md)
+- [Streaks: крупный Kotlin/DEX-плагин для exteraGram и AyuGram](sources/tg-streaks.md)
+- [mr-Vestr/plugins: три Python-плагина и практические интеграции с клиентом](sources/vestr-plugins.md)
+- [ViboGram: встроенная Python-система плагинов для iOS](sources/vibogram.md)
+- [tg_ws_proxy.plugin: локальный SOCKS5 и WebSocket-транспорт Telegram](sources/ws-proxy-plugin.md)
+- [Flowseal/tg-ws-proxy — локальный MTProto-to-WebSocket bridge](sources/ws-proxy.md)
+- [ZwyLib: библиотека-помощник для Python-плагинов exteraGram](sources/zwylib.md)
+- [Несколько аккаунтов и контекст запроса](topics/accounts.md)
+- [LLM, транскрибация и цепочки действий](topics/ai.md)
+- [Сборка, упаковка и зависимости](topics/build.md)
+- [Отладка, диагностика и быстрый цикл изменений](topics/debug.md)
+- [Каталоги, публикация и установка](topics/distribution.md)
+- [Хуки и Java reflection](topics/hooks.md)
+- [Жизненный цикл и освобождение ресурсов](topics/lifecycle.md)
+- [Медиа, форматирование текста и эффекты](topics/media.md)
+- [Сетевые транспорты, прокси и восстановление](topics/network.md)
+- [Платформы, версии и совместимость](topics/portability.md)
+- [TLRPC, сообщения и Telegram API](topics/requests.md)
+- [Границы доверия и безопасная загрузка](topics/security.md)
+- [Хранилища, кеширование и синхронизация](topics/storage.md)
+- [Проверка качества и полноты](topics/testing.md)
+- [Очереди, UI-поток и фоновые операции](topics/threading.md)
+- [Настройки, интерфейс и обработчики](topics/ui.md)
+- [Разработка и выбор архитектуры](topics/workflow.md)

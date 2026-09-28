@@ -1,0 +1,1704 @@
+{
+  "schema_version": 2,
+  "source_candidates": [
+    {
+      "name": "SyncProfile",
+      "explicit_url": "https://github.com/Kukuryzen666/SyncProfile",
+      "owner_repo": "Kukuryzen666/SyncProfile",
+      "aliases": [
+        "Sync Profile",
+        "Kukuryzen666/SyncProfile-Selfhosted"
+      ],
+      "relevant_line_ranges": [
+        "11",
+        "14-19"
+      ],
+      "technical_claims_to_verify": [
+        "Заявлена синхронизация локальных параметров ExteraGram/AyuGram, дельта-обновление, до четырёх аккаунтов, восстановление базы и отдельные сборки для двух клиентов; отдельно существует self-hosted companion repo."
+      ],
+      "role": "плагин",
+      "missing_url": false,
+      "canonical_source_id": "github:kukuryzen666/syncprofile",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "ViboGram",
+      "explicit_url": "https://github.com/vibeDN/ViboGram",
+      "owner_repo": "vibeDN/ViboGram",
+      "aliases": [
+        "ViboGram iOS fork",
+        "ViboGram plugin runtime"
+      ],
+      "relevant_line_ranges": [
+        "12",
+        "21-34",
+        "58",
+        "70",
+        "119-131",
+        "260-263",
+        "301-309"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт описывает Python plugin runtime на iOS-клиенте, импорт .plugin/.py, Plugin Store, текстовые эффекты Margelet, ASCII art, историю редакций и badges."
+      ],
+      "role": "клиент, экспериментальная plugin platform и документация",
+      "missing_url": false,
+      "canonical_source_id": "github:vibedn/vibogram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "for-vibecoders",
+      "explicit_url": "https://github.com/corerudo/for-vibecoders",
+      "owner_repo": "corerudo/for-vibecoders",
+      "aliases": [
+        "ExteraGram/AyuGram plugin technical docs",
+        "animtou analysis"
+      ],
+      "relevant_line_ranges": [
+        "1874",
+        "1880-1917"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт называет репозиторий документацией для разработки плагинов ExteraGram 12.5.1+ и совместимого AyuGram и ссылается на анализ animtou."
+      ],
+      "role": "документация, пример и reverse engineering",
+      "missing_url": false,
+      "canonical_source_id": "github:corerudo/for-vibecoders",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "extCLI",
+      "explicit_url": "https://github.com/vcvkk/extCLI",
+      "owner_repo": "vcvkk/extCLI",
+      "aliases": [
+        "ExteraGram developer shell",
+        "Plugin Dev Tools"
+      ],
+      "relevant_line_ranges": [
+        "68-103",
+        "172-180"
+      ],
+      "technical_claims_to_verify": [
+        "Заявлены POSIX-подобная оболочка и команды plugin/host/tg/config/log, SDK >=1.4.5.1, ExteraGram >=12.9.0, фактическое чтение истории и установка .eaf."
+      ],
+      "role": "инструмент / плагин / SDK reference",
+      "missing_url": false,
+      "canonical_source_id": "github:vcvkk/extcli",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "Chat-Stats-Plugin",
+      "explicit_url": "https://github.com/DedyaSergey/Chat-Stats-Plugin",
+      "owner_repo": "DedyaSergey/Chat-Stats-Plugin",
+      "aliases": [
+        "Chat Stats Plugin"
+      ],
+      "relevant_line_ranges": [
+        "242",
+        "246-248"
+      ],
+      "technical_claims_to_verify": [
+        "Локальная статистика сообщений и символов, хранение последних 5000 сообщений на чат, совместимость 12.1.1+."
+      ],
+      "role": "плагин / архитектурный пример",
+      "missing_url": false,
+      "canonical_source_id": "github:dedyasergey/chat-stats-plugin",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "Smooth-Scroll-Plugin",
+      "explicit_url": "https://github.com/DedyaSergey/Smooth-Scroll-Plugin",
+      "owner_repo": "DedyaSergey/Smooth-Scroll-Plugin",
+      "aliases": [
+        "Smooth Scroll Plugin"
+      ],
+      "relevant_line_ranges": [
+        "243",
+        "250-252"
+      ],
+      "technical_claims_to_verify": [
+        "README обещает жесты, анимации и GPU acceleration; отчёт считает, что архив пока не содержит реальных Telegram scroll hooks."
+      ],
+      "role": "плагин / непроверенный пример",
+      "missing_url": false,
+      "canonical_source_id": "github:dedyasergey/smooth-scroll-plugin",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "AltyLib",
+      "explicit_url": "https://github.com/Altuskhins/AltyLib",
+      "owner_repo": "Altuskhins/AltyLib",
+      "aliases": [
+        "AltyLib for ExteraGram"
+      ],
+      "relevant_line_ranges": [
+        "319-348",
+        "417"
+      ],
+      "technical_claims_to_verify": [
+        "Заявлены DSL настроек, KVStore/cache, Event Bus, RPC, command registry, scheduler, safe_hook lifecycle, Telegram helpers, CLI и hot reload; отчёт отмечает устаревшее состояние."
+      ],
+      "role": "SDK-библиотека и инструментарий",
+      "missing_url": false,
+      "canonical_source_id": "github:altuskhins/altylib",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "mioplugin",
+      "explicit_url": "https://github.com/fuckramochka/mioplugin",
+      "owner_repo": "fuckramochka/mioplugin",
+      "aliases": [
+        "Miogram plugin catalog",
+        "Miogram SDK",
+        "HOOKS_REFERENCE.md",
+        "PLUGINS_DEV_GUIDE.md"
+      ],
+      "relevant_line_ranges": [
+        "425-449",
+        "542"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт описывает BasePlugin, hooks reference, каталог и примеры, декларативные permissions и WASM/Rust sandbox; надо отделить README-заявления от работающей реализации."
+      ],
+      "role": "SDK/API, каталог плагинов, документация и примеры",
+      "missing_url": false,
+      "canonical_source_id": "github:fuckramochka/mioplugin",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "Opexgram 12.10.1 beta4 APK artifact",
+      "explicit_url": "https://t.me/s/techcsl?before=6569",
+      "owner_repo": null,
+      "aliases": [
+        "Opexgram 12.10.1 beta4 APK",
+        "opexgram-12.10.1-beta4.apk"
+      ],
+      "relevant_line_ranges": [
+        "550-595"
+      ],
+      "technical_claims_to_verify": [
+        "The radar summarizes a beta4 APK analysis and links a Telegram announcement that only supports part of the feature list. The APK itself is unavailable in this corpus; do not substitute beta6 documentation."
+      ],
+      "role": "specific APK artifact; referenced Telegram announcement is contextual evidence",
+      "missing_url": false,
+      "canonical_source_id": "artifact:opexgram-12.10.1-beta4-apk",
+      "relationship": "versioned_artifact",
+      "identification_status": "artifact_unavailable; telegram_announcement_only_partially_supports_claims",
+      "related_sources": [
+        {
+          "name": "yearningss/opexgram-docs (beta6 documentation)",
+          "canonical_source_id": "github:yearningss/opexgram-docs",
+          "relationship": "different_versioned_source_not_a_substitute",
+          "identification_status": "beta6 docs identified separately; beta4 APK unavailable"
+        }
+      ]
+    },
+    {
+      "name": "Kangel-Plugins/Plugins-Store",
+      "explicit_url": "https://github.com/Kangel-Plugins/Plugins-Store",
+      "owner_repo": "Kangel-Plugins/Plugins-Store",
+      "aliases": [
+        "KPM",
+        "Plugins-Store",
+        "store.json",
+        "Kangel/Plugins-Store (Codeberg mirror)",
+        "bigfishtheory/Plugins-Store (GitVerse mirror)",
+        "KangelPlugins/Plugins-Store (legacy reference)"
+      ],
+      "relevant_line_ranges": [
+        "72",
+        "766-776",
+        "782-788",
+        "1034-1043",
+        "1244",
+        "1577",
+        "1868",
+        "2187",
+        "2607",
+        "3016",
+        "3413",
+        "3633",
+        "3869",
+        "4955",
+        "5014"
+      ],
+      "technical_claims_to_verify": [
+        "The radar reports the Kangel-Plugins GitHub repo as the current KPM catalog and mentions two mirrors and an earlier KangelPlugins spelling. Dates/availability differ; mirror content parity and old-repo identity are not established here."
+      ],
+      "role": "каталог/магазин плагинов и KPM source of truth",
+      "missing_url": false,
+      "related_sources": [
+        {
+          "name": "Kangel/Plugins-Store",
+          "url": "https://codeberg.org/Kangel/Plugins-Store",
+          "relationship": "mirror_of",
+          "status": "mirror identity reported; equivalence of contents unverified",
+          "canonical_source_id": "github:kangel-plugins/plugins-store",
+          "identification_status": "mirror identity reported; equivalence of contents unverified"
+        },
+        {
+          "name": "bigfishtheory/Plugins-Store",
+          "url": "https://gitverse.ru/bigfishtheory/Plugins-Store",
+          "relationship": "mirror_of",
+          "status": "mirror identity reported; equivalence of contents unverified",
+          "canonical_source_id": "github:kangel-plugins/plugins-store",
+          "identification_status": "mirror identity reported; equivalence of contents unverified"
+        },
+        {
+          "name": "KangelPlugins/Plugins-Store",
+          "url": "https://github.com/KangelPlugins/Plugins-Store",
+          "relationship": "legacy_name_or_repo",
+          "status": "legacy identity in radar; not assumed same repo as current primary",
+          "canonical_source_id": "github:kangel-plugins/plugins-store",
+          "identification_status": "legacy identity in radar; not assumed same repo as current primary"
+        }
+      ],
+      "canonical_source_id": "github:kangel-plugins/plugins-store",
+      "relationship": "canonical_repo_with_reported_mirrors_and_legacy_name",
+      "identification_status": "identified_primary_url; mirror_parity_unverified"
+    },
+    {
+      "name": "n08i40k/tg-streaks",
+      "explicit_url": "https://github.com/n08i40k/tg-streaks",
+      "owner_repo": "n08i40k/tg-streaks",
+      "aliases": [],
+      "relevant_line_ranges": [
+        "788",
+        "792-811"
+      ],
+      "technical_claims_to_verify": [
+        "Релиз 2.20.0 и свойства Kotlin/DEX-плагина."
+      ],
+      "role": "плагин / архитектурный пример",
+      "missing_url": false,
+      "canonical_source_id": "github:n08i40k/tg-streaks",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "wsp2ch/iptag-plugin-Exteragramm-",
+      "explicit_url": "https://github.com/wsp2ch/iptag-plugin-Exteragramm-",
+      "owner_repo": "wsp2ch/iptag-plugin-Exteragramm-",
+      "aliases": [],
+      "relevant_line_ranges": [
+        "789",
+        "812-823"
+      ],
+      "technical_claims_to_verify": [
+        "Новый минимальный пример ExteraGram-плагина от 7 сентября."
+      ],
+      "role": "плагин / минимальный пример",
+      "missing_url": false,
+      "canonical_source_id": "github:wsp2ch/iptag-plugin-exteragramm-",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "fossSquad/re-extera",
+      "explicit_url": "https://github.com/fossSquad/re-extera",
+      "owner_repo": "fossSquad/re-extera",
+      "aliases": [
+        "re-extera"
+      ],
+      "relevant_line_ranges": [
+        "79",
+        "105-117",
+        "453-464",
+        "612",
+        "636-661",
+        "790",
+        "824-841",
+        "1497-1500",
+        "1557",
+        "1583-1597"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт приписывает проекту Python loader + DEX injection, hook lifecycle/resolution, Ghost Mode, regex filter tools, message history и API compatibility; проверить текущий код и целевые версии."
+      ],
+      "role": "плагин, reverse engineering и SDK reference",
+      "missing_url": false,
+      "canonical_source_id": "github:fosssquad/re-extera",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "Mercurygram/Mercurygram",
+      "explicit_url": "https://github.com/Mercurygram/Mercurygram",
+      "owner_repo": "Mercurygram/Mercurygram",
+      "aliases": [
+        "Mercurygram"
+      ],
+      "relevant_line_ranges": [
+        "855-958",
+        "1164-1204",
+        "2132-2159",
+        "3738-3780",
+        "3972-4075",
+        "4160-4185",
+        "4398-4480"
+      ],
+      "technical_claims_to_verify": [
+        "Клиент-донор: локальные папки, поиск, локальные черновики, уведомления, приватность, pinning, Instant View и управление папками; ряд фич повторяется."
+      ],
+      "role": "Telegram-клиент / функция-донор",
+      "missing_url": false,
+      "canonical_source_id": "github:mercurygram/mercurygram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "HSSkyBoy/NiagramX",
+      "explicit_url": "https://github.com/HSSkyBoy/NiagramX",
+      "owner_repo": "HSSkyBoy/NiagramX",
+      "aliases": [
+        "NiagramX"
+      ],
+      "relevant_line_ranges": [
+        "39",
+        "50",
+        "139",
+        "651-661",
+        "959-990",
+        "1206-1218",
+        "1267-1317",
+        "1878",
+        "2074-2130",
+        "2891-2986",
+        "3217-3264",
+        "3434-3477",
+        "3580-3598",
+        "3705-3736",
+        "3924",
+        "4119",
+        "4555",
+        "4924-4937"
+      ],
+      "technical_claims_to_verify": [
+        "Много клиентских функций и мелких хуков: checkmark/sounds/translation cache, proxy, message UI, AI and media changes; отдельные отчёты временами называют только отсутствие новых функций."
+      ],
+      "role": "Telegram-клиент / функция-донор и API reference",
+      "missing_url": false,
+      "canonical_source_id": "github:hsskyboy/niagramx",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "fuckramochka/miogram",
+      "explicit_url": "https://github.com/fuckramochka/miogram",
+      "owner_repo": "fuckramochka/miogram",
+      "aliases": [
+        "Miogram"
+      ],
+      "relevant_line_ranges": [
+        "246",
+        "433-546",
+        "669-727",
+        "853",
+        "993-1017",
+        "1081",
+        "1623-1627",
+        "1877",
+        "1972-2072",
+        "2400-2575",
+        "2614-2889",
+        "3144",
+        "3346-3379",
+        "3430-3432",
+        "3479-3578",
+        "4121",
+        "4737"
+      ],
+      "technical_claims_to_verify": [
+        "Клиент и plugin host; отчёт перечисляет Miogram SDK, AI companion, plugins, Vault, music/lyrics, presence, proxy, build/runtime и UI features."
+      ],
+      "role": "клиент, plugin host, developer SDK, источник функций",
+      "missing_url": false,
+      "canonical_source_id": "github:fuckramochka/miogram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "NullCoreDeveloper/NullcoreGram",
+      "explicit_url": "https://github.com/NullCoreDeveloper/NullcoreGram",
+      "owner_repo": "NullCoreDeveloper/NullcoreGram",
+      "aliases": [
+        "NullcoreGram"
+      ],
+      "relevant_line_ranges": [
+        "1252",
+        "1268-1383",
+        "1384-1413",
+        "1585",
+        "1813-1838",
+        "1627"
+      ],
+      "technical_claims_to_verify": [
+        "Клиент-донор с media confirmation, video gestures, web proxy/DoH and networking changes."
+      ],
+      "role": "Telegram-клиент / networking donor",
+      "missing_url": false,
+      "canonical_source_id": "github:nullcoredeveloper/nullcoregram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "itsv1eds/exteraPluginsRobot",
+      "explicit_url": "https://github.com/itsv1eds/exteraPluginsRobot",
+      "owner_repo": "itsv1eds/exteraPluginsRobot",
+      "aliases": [
+        "exteraPluginsRobot"
+      ],
+      "relevant_line_ranges": [
+        "1875",
+        "1919-1941",
+        "3023",
+        "3077-3109"
+      ],
+      "technical_claims_to_verify": [
+        "Каталог/модерация submissions и публикаций; отчёт описывает push, votes, approval/rejection, statistics and backend."
+      ],
+      "role": "инструмент / plugin-store infrastructure",
+      "missing_url": false,
+      "canonical_source_id": "github:itsv1eds/exterapluginsrobot",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "voterol/ReqGram",
+      "explicit_url": "https://github.com/voterol/ReqGram",
+      "owner_repo": "voterol/ReqGram",
+      "aliases": [
+        "ReqGram"
+      ],
+      "relevant_line_ranges": [
+        "1876",
+        "1943-1958"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт описывает iOS/Swiftgram-based AyuGram port and embedded plugins."
+      ],
+      "role": "клиент / донор и пример plugin host",
+      "missing_url": false,
+      "canonical_source_id": "github:voterol/reqgram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "ReaIRyanGosling/tg_ws_proxy.plugin",
+      "explicit_url": "https://github.com/ReaIRyanGosling/tg_ws_proxy.plugin",
+      "owner_repo": "ReaIRyanGosling/tg_ws_proxy.plugin",
+      "aliases": [
+        "tg_ws_proxy.plugin"
+      ],
+      "relevant_line_ranges": [
+        "2193",
+        "2198-2270"
+      ],
+      "technical_claims_to_verify": [
+        "Большой ExteraGram/AyuGram plugin с Telegram WebSocket transport; reported dependency on tg-ws-proxy."
+      ],
+      "role": "плагин / networking / reverse engineering",
+      "missing_url": false,
+      "canonical_source_id": "github:reairyangosling/tg_ws_proxy.plugin",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "Flowseal/tg-ws-proxy",
+      "explicit_url": "https://github.com/Flowseal/tg-ws-proxy",
+      "owner_repo": "Flowseal/tg-ws-proxy",
+      "aliases": [
+        "tg-ws-proxy"
+      ],
+      "relevant_line_ranges": [
+        "2202"
+      ],
+      "technical_claims_to_verify": [
+        "Назван базовым upstream для ExteraGram plugin с WebSocket transport."
+      ],
+      "role": "networking tool/upstream implementation",
+      "missing_url": false,
+      "canonical_source_id": "github:flowseal/tg-ws-proxy",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "m4rker20-rgb/CEPS",
+      "explicit_url": "https://github.com/m4rker20-rgb/CEPS",
+      "owner_repo": "m4rker20-rgb/CEPS",
+      "aliases": [
+        "CEPS"
+      ],
+      "relevant_line_ranges": [
+        "2194",
+        "2271-2333"
+      ],
+      "technical_claims_to_verify": [
+        "Заявлен защищённый build pipeline для .plugin/.eaf; проверить threat model, signing and supply-chain guarantees."
+      ],
+      "role": "build tool / security pipeline",
+      "missing_url": false,
+      "canonical_source_id": "github:m4rker20-rgb/ceps",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "L0lopop/Link-Guard",
+      "explicit_url": "https://github.com/L0lopop/Link-Guard",
+      "owner_repo": "L0lopop/Link-Guard",
+      "aliases": [
+        "Link Guard"
+      ],
+      "relevant_line_ranges": [
+        "2195",
+        "2335-2376",
+        "2619-2637"
+      ],
+      "technical_claims_to_verify": [
+        "Local scam-domain database and automatic updates; reported database size, version and KPM presence vary by report date."
+      ],
+      "role": "ExteraGram plugin",
+      "missing_url": false,
+      "canonical_source_id": "github:l0lopop/link-guard",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "exteraStuff/gradle-plugin",
+      "explicit_url": "https://github.com/exteraStuff/gradle-plugin",
+      "owner_repo": "exteraStuff/gradle-plugin",
+      "aliases": [
+        "extera-gradle-plugin",
+        "Kotlin DEX Gradle toolchain"
+      ],
+      "relevant_line_ranges": [
+        "1071",
+        "1257",
+        "1559",
+        "2196",
+        "2378-2396",
+        "3024",
+        "3111-3136",
+        "3640-3670",
+        "3659",
+        "4973"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт описывает Kotlin/DEX build, relocation, R8, manifest icon, DEX publication task and resource packaging; отдельные описания привязаны к датам и менялись."
+      ],
+      "role": "SDK/build tool",
+      "missing_url": false,
+      "canonical_source_id": "github:exterastuff/gradle-plugin",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "shareui/ElyxBuilder",
+      "explicit_url": "https://github.com/shareui/ElyxBuilder",
+      "owner_repo": "shareui/ElyxBuilder",
+      "aliases": [
+        "ElyxBuilder"
+      ],
+      "relevant_line_ranges": [
+        "2328"
+      ],
+      "technical_claims_to_verify": [
+        "В перечне альтернатив/связанных builder-проектов; конкретное утверждение требует восстановления контекста вокруг строки."
+      ],
+      "role": "связанный build tool",
+      "missing_url": false,
+      "canonical_source_id": "github:shareui/elyxbuilder",
+      "relationship": "related_builder_project; relationship_to_kangel_fork_unverified",
+      "identification_status": "identified_repo_url; relationship_unverified"
+    },
+    {
+      "name": "Kangel-Plugins/ElyxBuilder",
+      "explicit_url": "https://github.com/Kangel-Plugins/ElyxBuilder",
+      "owner_repo": "Kangel-Plugins/ElyxBuilder",
+      "aliases": [
+        "ElyxBuilder"
+      ],
+      "relevant_line_ranges": [
+        "2328-2329"
+      ],
+      "technical_claims_to_verify": [
+        "В перечне альтернатив/связанных builder-проектов; отношение к shareui/ElyxBuilder необходимо сверить."
+      ],
+      "role": "связанный build tool/fork (отношение не установлено)",
+      "missing_url": false,
+      "canonical_source_id": "github:kangel-plugins/elyxbuilder",
+      "relationship": "fork_or_related_project_to_shareui_elyxbuilder_unverified",
+      "identification_status": "identified_repo_url; relationship_unverified"
+    },
+    {
+      "name": "MRsuperkosmos/tayugram-mcp",
+      "explicit_url": "https://github.com/MRsuperkosmos/tayugram-mcp",
+      "owner_repo": "MRsuperkosmos/tayugram-mcp",
+      "aliases": [
+        "tayugram-mcp"
+      ],
+      "relevant_line_ranges": [
+        "3022",
+        "3026-3075"
+      ],
+      "technical_claims_to_verify": [
+        "Заявлены 200 Telegram tools и локальная AyuGram DB; проверять фактическое покрытие, происхождение данных и безопасность действий."
+      ],
+      "role": "инструмент/API/MCP server/reverse engineering",
+      "missing_url": false,
+      "canonical_source_id": "github:mrsuperkosmos/tayugram-mcp",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "exteraGram-air-raid-alert",
+      "explicit_url": null,
+      "owner_repo": null,
+      "aliases": [
+        "air raid alert plugin"
+      ],
+      "relevant_line_ranges": [
+        "3639"
+      ],
+      "technical_claims_to_verify": [
+        "Новый плагин оповещений, заявлен созданным 16 сентября."
+      ],
+      "role": "ExteraGram plugin",
+      "missing_url": true,
+      "canonical_source_id": "unresolved:exteragram-air-raid-alert",
+      "relationship": "independent_source_candidate",
+      "identification_status": "unresolved_repository_identity"
+    },
+    {
+      "name": "xwwvv/ios-bubble-outline",
+      "explicit_url": "https://github.com/xwwvv/ios-bubble-outline",
+      "owner_repo": "xwwvv/ios-bubble-outline",
+      "aliases": [
+        "ios-bubble-outline"
+      ],
+      "relevant_line_ranges": [
+        "3873-3904",
+        "4089"
+      ],
+      "technical_claims_to_verify": [
+        "DEX plugin с Kotlin/Gradle исходниками и готовым .plugin; technical build approach compared to exteraStuff toolchain."
+      ],
+      "role": "DEX plugin / build example",
+      "missing_url": false,
+      "canonical_source_id": "github:xwwvv/ios-bubble-outline",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "yearningss/exteraGram-docs",
+      "explicit_url": "https://github.com/yearningss/exteraGram-docs",
+      "owner_repo": "yearningss/exteraGram-docs",
+      "aliases": [
+        "ExteraGram docs repository"
+      ],
+      "relevant_line_ranges": [
+        "4249-4286",
+        "4549"
+      ],
+      "technical_claims_to_verify": [
+        "Документы заявляют архитектуру, exterahook, plugins-and-sdk, backend/sync, settings, UI и AI; сверить каждый пример с действующим SDK/JAR."
+      ],
+      "role": "документация (вторичная, подлежит сверке)",
+      "missing_url": false,
+      "canonical_source_id": "github:yearningss/exteragram-docs",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "stxlvn/exteragram-av1-sw-decoder",
+      "explicit_url": "https://github.com/stxlvn/exteragram-av1-sw-decoder",
+      "owner_repo": "stxlvn/exteragram-av1-sw-decoder",
+      "aliases": [
+        "ExteraGram AV1/HEVC decoder"
+      ],
+      "relevant_line_ranges": [
+        "5019-5061"
+      ],
+      "technical_claims_to_verify": [
+        "Заголовок представляет проект как программный AV1/HEVC decoder для ExteraGram; поддержка codecs, integration and limitations не подтверждены здесь."
+      ],
+      "role": "плагин / decoder library",
+      "missing_url": false,
+      "canonical_source_id": "github:stxlvn/exteragram-av1-sw-decoder",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "cataIystdev/exteragram-mcp",
+      "explicit_url": "https://github.com/cataIystdev/exteragram-mcp",
+      "owner_repo": "cataIystdev/exteragram-mcp",
+      "aliases": [
+        "@catalystdev/exteragram-mcp",
+        "ExteraGram MCP",
+        "exteragram-mcp npm 1.0.0",
+        "CatalystDev ExteraGram MCP"
+      ],
+      "relevant_line_ranges": [
+        "5208-5253",
+        "5246-5249"
+      ],
+      "technical_claims_to_verify": [
+        "The GitHub repo is named with capital I in cataIystdev, while npm scope is catalystdev. Their relationship is claimed by radar but spelling/ownership and published package contents require separate verification."
+      ],
+      "role": "MCP server/developer tool",
+      "missing_url": false,
+      "additional_urls": [
+        "https://www.npmjs.com/package/%40catalystdev/exteragram-mcp"
+      ],
+      "related_sources": [
+        {
+          "name": "@catalystdev/exteragram-mcp",
+          "url": "https://www.npmjs.com/package/@catalystdev/exteragram-mcp",
+          "relationship": "separate_distribution_artifact_of",
+          "status": "distinct published artifact; package contents/repo correspondence unverified",
+          "canonical_source_id": "npm:@catalystdev/exteragram-mcp",
+          "identification_status": "npm URL explicitly cited; package contents and repository correspondence unverified"
+        }
+      ],
+      "canonical_source_id": "github:cataIystdev/exteragram-mcp",
+      "relationship": "canonical_repo; npm_distribution_listed_separately",
+      "identification_status": "identified_repo_url; owner_spelling_differs_from_npm_scope"
+    },
+    {
+      "name": "Nekogram/Nekogram",
+      "explicit_url": "https://github.com/Nekogram/Nekogram",
+      "owner_repo": "Nekogram/Nekogram",
+      "aliases": [
+        "Nekogram",
+        "Nekogram releases"
+      ],
+      "relevant_line_ranges": [
+        "1222",
+        "1463",
+        "4555",
+        "4737"
+      ],
+      "technical_claims_to_verify": [
+        "Используется как сравнительный Android Telegram client и источник release/status assertions."
+      ],
+      "role": "Telegram client / donor",
+      "missing_url": false,
+      "canonical_source_id": "github:nekogram/nekogram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "Kratapand26/AyugramX",
+      "explicit_url": "https://github.com/Kratapand26/AyugramX",
+      "owner_repo": "Kratapand26/AyugramX",
+      "aliases": [
+        "AyugramX"
+      ],
+      "relevant_line_ranges": [
+        "1415-1459"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт описывает локальные папки и presets; версии/точки реализации нужно проверить в исходниках."
+      ],
+      "role": "AyuGram-based client / donor",
+      "missing_url": false,
+      "canonical_source_id": "github:kratapand26/ayugramx",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "fossSquad/exteraSkill",
+      "explicit_url": "https://github.com/fossSquad/exteraSkill",
+      "owner_repo": "fossSquad/exteraSkill",
+      "aliases": [
+        "ExteraGram plugin skill",
+        "unnamed export skill (export:5253-5255)"
+      ],
+      "relevant_line_ranges": [
+        "1495-1497"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт рекомендует как основной специализированный skill для разработки ExteraGram-плагинов."
+      ],
+      "role": "developer instructions / skill repository",
+      "missing_url": false,
+      "canonical_source_id": "github:fosssquad/exteraskill",
+      "relationship": "canonical_repo; unnamed_export_skill_merged_by_exact_description_topics_and_date",
+      "identification_status": "identified_by_repository_metadata_and_exact_description_match",
+      "related_sources": [
+        {
+          "name": "unnamed export skill",
+          "canonical_source_id": "github:fosssquad/exteraskill",
+          "relationship": "same_source_alias",
+          "identification_status": "high_confidence_match: identical GitHub description, matching topics, and matching 2026-07-31 update date"
+        }
+      ]
+    },
+    {
+      "name": "makarworld/exteragram-plugin-skill",
+      "explicit_url": "https://github.com/makarworld/exteragram-plugin-skill",
+      "owner_repo": "makarworld/exteragram-plugin-skill",
+      "aliases": [
+        "exteragram-plugin-skill"
+      ],
+      "relevant_line_ranges": [
+        "1498",
+        "export:5249-5255",
+        "export:5312-5316"
+      ],
+      "technical_claims_to_verify": [
+        "Назван дополнительным/проверочным skill."
+      ],
+      "role": "developer instructions / skill repository",
+      "missing_url": false,
+      "canonical_source_id": "github:makarworld/exteragram-plugin-skill",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "faustyu1/exteragram-plugins-skill",
+      "explicit_url": "https://github.com/faustyu1/exteragram-plugins-skill",
+      "owner_repo": "faustyu1/exteragram-plugins-skill",
+      "aliases": [],
+      "relevant_line_ranges": [
+        "1499"
+      ],
+      "technical_claims_to_verify": [
+        "Назван вспомогательным skill."
+      ],
+      "role": "developer instructions / skill repository",
+      "missing_url": false,
+      "canonical_source_id": "github:faustyu1/exteragram-plugins-skill",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "RObotiaga/exteragram-plugin-template",
+      "explicit_url": "https://github.com/RObotiaga/exteragram-plugin-template",
+      "owner_repo": "RObotiaga/exteragram-plugin-template",
+      "aliases": [],
+      "relevant_line_ranges": [
+        "1500"
+      ],
+      "technical_claims_to_verify": [
+        "Упоминается как практический developer workflow/template."
+      ],
+      "role": "плагинный шаблон и workflow",
+      "missing_url": false,
+      "canonical_source_id": "github:robotiaga/exteragram-plugin-template",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "exteraless/exteraless",
+      "explicit_url": "https://github.com/exteraless/exteraless/",
+      "owner_repo": "exteraless/exteraless",
+      "aliases": [
+        "exteraless"
+      ],
+      "relevant_line_ranges": [
+        "425",
+        "451-464",
+        "1558",
+        "3672-3692",
+        "3783-3837",
+        "3146",
+        "3266-3344",
+        "3479",
+        "4240",
+        "4561-4635",
+        "4767-4769",
+        "5063-5085",
+        "5093-5097"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт использует как SDK/runtime reference и client donor; claims include hooks, permissions, hidden account, Vosk, hotpatch, HDR, player decoder, cloud settings sync and ghost mode."
+      ],
+      "role": "клиент, alternate runtime/API implementation and DEX compatibility reference",
+      "missing_url": false,
+      "canonical_source_id": "github:exteraless/exteraless",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "qwq233/Nullgram (tcp2ws implementation reference)",
+      "explicit_url": "https://github.com/qwq233/Nullgram",
+      "owner_repo": "qwq233/Nullgram",
+      "aliases": [
+        "tcp2ws",
+        "Nullgram",
+        "Nullgram tcp2ws"
+      ],
+      "relevant_line_ranges": [
+        "1251",
+        "1273-1317"
+      ],
+      "technical_claims_to_verify": [
+        "NiagramX is said to integrate TCP-over-WebSocket implementation from Nullgram."
+      ],
+      "role": "Telegram client / networking donor",
+      "missing_url": false,
+      "identification_note": "Probable repository identity from supplied inventory; the radar names Nullgram and describes tcp2ws, but exact path/commit mapping still requires primary-source review.",
+      "canonical_source_id": "github:qwq233/nullgram",
+      "relationship": "probable_identity_for_nullgram_tcp2ws_mention",
+      "identification_status": "probable_repo; exact_code_path_and_commit_unverified"
+    },
+    {
+      "name": "MrCheatEugene/AyuSamplePlugin",
+      "explicit_url": "https://github.com/MrCheatEugene/AyuSamplePlugin",
+      "owner_repo": "MrCheatEugene/AyuSamplePlugin",
+      "aliases": [
+        "PLEngine",
+        "SectionBuilder",
+        "AyuSectionBuilder"
+      ],
+      "relevant_line_ranges": [
+        "611",
+        "634"
+      ],
+      "technical_claims_to_verify": [
+        "Desktop sample described as exposing context menu, custom settings and preprocess message APIs; not Android BasePlugin SDK."
+      ],
+      "role": "desktop SDK/API reference",
+      "missing_url": false,
+      "canonical_source_id": "github:mrcheateugene/ayusampleplugin",
+      "relationship": "sample_plugin_for_MrCheatEugene/AyuGramDesktop-PLEngine",
+      "identification_status": "user_supplied_exact_url; primary_capture_available",
+      "identity_provenance": "raw/user-supplied-urls.json",
+      "previous_canonical_source_id": "unresolved:ayugram-desktop-plengine-plugin-sample"
+    },
+    {
+      "name": "Kukuryzen666/SyncProfile-Selfhosted",
+      "explicit_url": "https://github.com/Kukuryzen666/SyncProfile-Selfhosted",
+      "owner_repo": "Kukuryzen666/SyncProfile-Selfhosted",
+      "aliases": [
+        "SyncProfile server/self-hosted component"
+      ],
+      "relevant_line_ranges": [
+        "16-19"
+      ],
+      "technical_claims_to_verify": [
+        "Серверная часть для самостоятельного размещения SyncProfile; protocol, auth and storage require source verification."
+      ],
+      "role": "self-hosted server for plugin",
+      "missing_url": false,
+      "canonical_source_id": "github:kukuryzen666/syncprofile-selfhosted",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "Zwylair/zwylib-docs",
+      "explicit_url": "https://github.com/Zwylair/zwylib-docs",
+      "owner_repo": "Zwylair/zwylib-docs",
+      "aliases": [
+        "ZwyLib docs"
+      ],
+      "relevant_line_ranges": [
+        "14-19"
+      ],
+      "technical_claims_to_verify": [
+        "SyncProfile is said to depend on ZwyLib; actual APIs and compatibility are not documented in radar."
+      ],
+      "role": "library documentation",
+      "missing_url": false,
+      "canonical_source_id": "github:zwylair/zwylib-docs",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "fuckramochka/amegram",
+      "explicit_url": "https://github.com/fuckramochka/amegram",
+      "owner_repo": "fuckramochka/amegram",
+      "aliases": [
+        "Amegram"
+      ],
+      "relevant_line_ranges": [
+        "4561-4635",
+        "4725-4737"
+      ],
+      "technical_claims_to_verify": [
+        "Amegram is grouped with Miogram for hotpatch, anti-censorship and local AI claims; determine shared code and exact client lineage."
+      ],
+      "role": "client / runtime donor",
+      "missing_url": false,
+      "canonical_source_id": "github:fuckramochka/amegram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "Ettacent/NimarkoGram",
+      "explicit_url": "https://github.com/Ettacent/NimarkoGram",
+      "owner_repo": "Ettacent/NimarkoGram",
+      "aliases": [
+        "NimarkoGram"
+      ],
+      "relevant_line_ranges": [
+        "468"
+      ],
+      "technical_claims_to_verify": [
+        "Mentioned only for its last substantive commit date; no feature claim is developed here."
+      ],
+      "role": "Telegram client checked for changes",
+      "missing_url": false,
+      "canonical_source_id": "github:ettacent/nimarkogram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "OctoGramApp/OctoGram",
+      "explicit_url": "https://github.com/OctoGramApp/OctoGram",
+      "owner_repo": "OctoGramApp/OctoGram",
+      "aliases": [
+        "OctoGram"
+      ],
+      "relevant_line_ranges": [
+        "168",
+        "3849"
+      ],
+      "technical_claims_to_verify": [
+        "Report says the checked GitHub branch lags and has no recent commits; verify branch/repo snapshot."
+      ],
+      "role": "Telegram client checked for changes",
+      "missing_url": false,
+      "canonical_source_id": "github:octogramapp/octogram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "arsLan4k1390/Cherrygram",
+      "explicit_url": "https://github.com/arsLan4k1390/Cherrygram",
+      "owner_repo": "arsLan4k1390/Cherrygram",
+      "aliases": [
+        "Cherrygram"
+      ],
+      "relevant_line_ranges": [
+        "162",
+        "468",
+        "665"
+      ],
+      "technical_claims_to_verify": [
+        "Report notes upstream Telegram sync and no distinct new Cherrygram functions in the periods cited."
+      ],
+      "role": "Telegram client checked for changes",
+      "missing_url": false,
+      "canonical_source_id": "github:arslan4k1390/cherrygram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "risin42/NagramX",
+      "explicit_url": "https://github.com/risin42/NagramX",
+      "owner_repo": "risin42/NagramX",
+      "aliases": [
+        "NagramX"
+      ],
+      "relevant_line_ranges": [
+        "434",
+        "1020",
+        "4737"
+      ],
+      "technical_claims_to_verify": [
+        "Identified as a fork/client with plugin engine or comparison target; reconcile with NagramXTurbo naming and repository lineage."
+      ],
+      "role": "Telegram client / plugin engine donor",
+      "missing_url": false,
+      "canonical_source_id": "github:risin42/nagramx",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "phxc/telegraher",
+      "explicit_url": "https://github.com/phxc/telegraher",
+      "owner_repo": "phxc/telegraher",
+      "aliases": [
+        "Telegraher"
+      ],
+      "relevant_line_ranges": [
+        "3849"
+      ],
+      "technical_claims_to_verify": [
+        "Mentioned only as another client/fork checked; no feature assertion is specified in radar."
+      ],
+      "role": "Telegram client checked for changes",
+      "missing_url": false,
+      "canonical_source_id": "github:phxc/telegraher",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "shareui/packit-source",
+      "explicit_url": "https://github.com/shareui/packit-source",
+      "owner_repo": "shareui/packit-source",
+      "aliases": [
+        "Packit"
+      ],
+      "relevant_line_ranges": [
+        "4759"
+      ],
+      "technical_claims_to_verify": [
+        "Described as a multi-catalog of plugins, icons and fonts with install by URL, version history and AI search; report says it is not a new find."
+      ],
+      "role": "plugin catalog/tool",
+      "missing_url": false,
+      "canonical_source_id": "github:shareui/packit-source",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "ferelking242/novagramx",
+      "explicit_url": "https://github.com/ferelking242/novagramx",
+      "owner_repo": "ferelking242/novagramx",
+      "aliases": [
+        "NovagramX"
+      ],
+      "relevant_line_ranges": [
+        "export:5324-5342",
+        "export:5350-5459"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт 26 сентября описывает активный форк NagramX/Nekogram/AyuGram, автоматическую сборку dev/APK, Regex Message Firewall, last-seen history и парольную защиту privacy-настроек."
+      ],
+      "role": "Telegram client / donor implementation",
+      "missing_url": false,
+      "canonical_source_id": "github:ferelking242/novagramx",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "mr-Vestr/plugins",
+      "explicit_url": "https://github.com/mr-Vestr/plugins",
+      "owner_repo": "mr-Vestr/plugins",
+      "aliases": [
+        "Plugin creator",
+        "ADB Lite"
+      ],
+      "relevant_line_ranges": [
+        "export:5304-5306"
+      ],
+      "technical_claims_to_verify": [
+        "Заявлены генератор plugin из текста и Wi-Fi ADB delivery; число коммитов и текущие функции требуют сверки."
+      ],
+      "role": "developer tool / plugin authoring and deployment",
+      "missing_url": false,
+      "canonical_source_id": "github:mr-vestr/plugins",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "Xposed-Modules-Repo/com.my.televip",
+      "explicit_url": "https://github.com/Xposed-Modules-Repo/com.my.televip/",
+      "owner_repo": "Xposed-Modules-Repo/com.my.televip",
+      "aliases": [
+        "TeleVip",
+        "TeleVip Xposed module"
+      ],
+      "relevant_line_ranges": [
+        "export:5502"
+      ],
+      "technical_claims_to_verify": [
+        "Упоминается как существующий зрелый проект с набором Xposed hooks; конкретные функции не перечислены."
+      ],
+      "role": "client/module donor checked as an existing project",
+      "missing_url": false,
+      "canonical_source_id": "github:xposed-modules-repo/com.my.televip",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "ExteraGram official plugin docs (SDK/PySDK references)",
+      "explicit_url": "https://plugins.exteragram.app/docs",
+      "owner_repo": "plugins.exteragram.app/docs",
+      "aliases": [
+        "ExteraGram Plugin Docs",
+        "official ExteraGram documentation",
+        "ExteraGram Plugin SDK",
+        "PySDK",
+        "SDK 1.4.5.5",
+        "SDK 1.4.4.3"
+      ],
+      "relevant_line_ranges": [
+        "export:5308-5316",
+        "export:5484-5494"
+      ],
+      "technical_claims_to_verify": [
+        "The radar conflates SDK/PySDK versions and the official documentation site; treat these as one documentation source identity while keeping version claims distinct. No API contract is asserted by this registry."
+      ],
+      "role": "official documentation source / SDK documentation context",
+      "missing_url": false,
+      "canonical_source_id": "exteragram-official-plugin-docs",
+      "relationship": "canonical_documentation_source",
+      "identification_status": "identified_from_explicit_official_docs_url; version_context_mixed_in_radar"
+    },
+    {
+      "name": "catalib",
+      "explicit_url": "https://github.com/cataIystdev/catalib",
+      "owner_repo": "cataIystdev/catalib",
+      "aliases": [
+        "multi-file Python plugin builder"
+      ],
+      "relevant_line_ranges": [
+        "export:5233",
+        "export:5281-5302",
+        "export:5310-5314",
+        "export:5512"
+      ],
+      "technical_claims_to_verify": [
+        "Описывается multi-file Python project bundler в один самодостаточный plugin file. Идентичность и repo URL в экспорте не сохранены."
+      ],
+      "role": "developer library/tool",
+      "missing_url": false,
+      "identification_note": "Owner/repository supplied by independent source inventory; radar itself only said catalib and linked a topics page.",
+      "canonical_source_id": "github:cataIystdev/catalib",
+      "relationship": "identified_by_independent_inventory; radar_link_was_topics_page",
+      "identification_status": "repo_identity_supplied_independently; radar_identity_incomplete"
+    },
+    {
+      "name": "exteralib",
+      "explicit_url": "https://github.com/fossSquad/exteralib",
+      "owner_repo": "fossSquad/exteralib",
+      "aliases": [
+        "DEX plugin patcher",
+        "exteraGram patcher"
+      ],
+      "relevant_line_ranges": [
+        "export:5257-5278",
+        "export:5310-5314",
+        "export:5512"
+      ],
+      "technical_claims_to_verify": [
+        "Описывается как patcher/library для DEX plugin development; exact repository identity lost because response links to GitHub topics page only."
+      ],
+      "role": "DEX plugin build/patch library",
+      "missing_url": false,
+      "identification_note": "Owner/repository supplied by independent source inventory; radar itself only said exteralib and linked a topics page.",
+      "canonical_source_id": "github:fossSquad/exteralib",
+      "relationship": "identified_by_independent_inventory; radar_link_was_topics_page",
+      "identification_status": "repo_identity_supplied_independently; radar_identity_incomplete"
+    },
+    {
+      "name": "exteragram-utils",
+      "explicit_url": "https://pypi.org/project/exteragram-utils/0.1.3/",
+      "owner_repo": null,
+      "aliases": [
+        "ExteraGram utilities"
+      ],
+      "relevant_line_ranges": [
+        "export:5233"
+      ],
+      "technical_claims_to_verify": [
+        "Только перечислен среди adjacent developer tools, функций не дано и прямой URL не сохранён."
+      ],
+      "role": "versioned Python development utilities package",
+      "missing_url": false,
+      "canonical_source_id": "pypi:exteragram-utils@0.1.3",
+      "relationship": "independent_source_candidate",
+      "identification_status": "user_supplied_exact_url; primary_capture_available",
+      "identity_provenance": "raw/user-supplied-urls.json",
+      "previous_canonical_source_id": "unresolved:exteragram-utils"
+    },
+    {
+      "name": "Kisyndra1337/CustomNFT-Exteragram-Plugin",
+      "explicit_url": "https://github.com/Kisyndra1337/CustomNFT-Exteragram-Plugin",
+      "owner_repo": "Kisyndra1337/CustomNFT-Exteragram-Plugin",
+      "aliases": [
+        "CustomNFT Exteragram Plugin"
+      ],
+      "relevant_line_ranges": [
+        "3419"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт называет репозиторий старым и говорит о последних commits 26 июля; проверить commit history."
+      ],
+      "role": "ExteraGram plugin / checked repository",
+      "missing_url": false,
+      "canonical_source_id": "github:kisyndra1337/customnft-exteragram-plugin",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "Islite/AniList.co",
+      "explicit_url": "https://github.com/Islite/AniList.co",
+      "owner_repo": "Islite/AniList.co",
+      "aliases": [
+        "AniList.co"
+      ],
+      "relevant_line_ranges": [
+        "2998"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт решает не включать как полноценный ExteraGram/AyuGram development tool or BasePlugin project."
+      ],
+      "role": "candidate checked and excluded",
+      "missing_url": false,
+      "identification_note": "Repository availability/URL supplied by independent inventory; radar cites only a feature/fit check.",
+      "canonical_source_id": "github:islite/anilist.co",
+      "relationship": "independent_source_candidate",
+      "identification_status": "repo_identity_and_url_supplied_independently; claims_remain_secondary"
+    },
+    {
+      "name": "BRYCE00182/AyuGram4A",
+      "explicit_url": "https://github.com/BRYCE00182/AyuGram4A",
+      "owner_repo": "BRYCE00182/AyuGram4A",
+      "aliases": [
+        "AyuGram4A"
+      ],
+      "relevant_line_ranges": [
+        "1469"
+      ],
+      "technical_claims_to_verify": [
+        "Клиент упоминается в контексте CI/CD, без заявленной новой функции."
+      ],
+      "role": "AyuGram client/fork checked",
+      "missing_url": false,
+      "canonical_source_id": "github:bryce00182/ayugram4a",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "NagramXTurbo",
+      "explicit_url": "https://github.com/temporaryna/NagramXTurbo",
+      "owner_repo": "temporaryna/NagramXTurbo",
+      "aliases": [
+        "NagramX Turbo"
+      ],
+      "relevant_line_ranges": [
+        "164"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт говорит, что изменений после 26 августа нет; repo identity not supplied."
+      ],
+      "role": "Telegram client checked for updates",
+      "missing_url": false,
+      "canonical_source_id": "github:temporaryna/nagramxturbo",
+      "relationship": "independent_source_candidate",
+      "identification_status": "user_supplied_exact_url; primary_capture_available",
+      "identity_provenance": "raw/user-supplied-urls.json",
+      "previous_canonical_source_id": "unresolved:nagramxturbo"
+    },
+    {
+      "name": "NextAlone/Nagram",
+      "explicit_url": "https://github.com/NextAlone/Nagram",
+      "owner_repo": "NextAlone/Nagram",
+      "aliases": [
+        "Nagram"
+      ],
+      "relevant_line_ranges": [
+        "166"
+      ],
+      "technical_claims_to_verify": [
+        "Отчёт указывает на последние содержательные изменения 24–25 августа."
+      ],
+      "role": "Telegram client checked for updates",
+      "missing_url": false,
+      "canonical_source_id": "github:nextalone/nagram",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "SHAJON-404/re-extera",
+      "explicit_url": "https://github.com/SHAJON-404/re-extera",
+      "owner_repo": "SHAJON-404/re-extera",
+      "aliases": [
+        "re-extera fork"
+      ],
+      "relevant_line_ranges": [
+        "export:5233"
+      ],
+      "technical_claims_to_verify": [
+        "Назван как позднее найденный adjacent tool/repository; отношение к fossSquad/re-extera нужно установить, не считать тем же repo без проверки."
+      ],
+      "role": "plugin/reverse-engineering repository, relationship unresolved",
+      "missing_url": false,
+      "canonical_source_id": "github:shajon-404/re-extera",
+      "relationship": "independent_source_candidate",
+      "identification_status": "identity_named_or_linked_in_radar; primary_material_not_established_by_registry"
+    },
+    {
+      "name": "yearningss/opexgram-docs (beta6 documentation)",
+      "explicit_url": "https://github.com/yearningss/opexgram-docs",
+      "owner_repo": "yearningss/opexgram-docs",
+      "aliases": [
+        "Opexgram beta6 docs",
+        "Opexgram documentation beta6"
+      ],
+      "relevant_line_ranges": [
+        "550-595"
+      ],
+      "technical_claims_to_verify": [
+        "The beta6 documentation is a distinct versioned source and does not establish behavior/features of the unavailable beta4 APK discussed in the same radar section."
+      ],
+      "role": "version-specific documentation source",
+      "missing_url": false,
+      "identification_note": "Explicitly kept separate from beta4 APK artifact; never use as a substitute for beta4.",
+      "canonical_source_id": "github:yearningss/opexgram-docs",
+      "relationship": "versioned_documentation; distinct_from_beta4_apk",
+      "identification_status": "identified_repo; documentation_version_is_beta6"
+    },
+    {
+      "name": "exteraStuff/pydex-plugin-template",
+      "explicit_url": "https://github.com/exteraStuff/pydex-plugin-template",
+      "owner_repo": "exteraStuff/pydex-plugin-template",
+      "aliases": [
+        "current destination of n08i40k/exteragram-plugin-template",
+        "n08i40k/exteragram-plugin-template",
+        "Kotlin/DEX template"
+      ],
+      "relevant_line_ranges": [
+        "624-632",
+        "1559",
+        "export:5233",
+        "4737"
+      ],
+      "technical_claims_to_verify": [
+        "Repository inventory reports this as the destination of the old n08i40k template path. Confirm redirect/content history before merging source-level claims."
+      ],
+      "role": "DEX plugin template",
+      "missing_url": false,
+      "identification_note": "Current repository identity and legacy redirect supplied by independent repository inventory; redirect/history equivalence not inspected in this radar corpus.",
+      "canonical_source_id": "github:exterastuff/pydex-plugin-template",
+      "relationship": "canonical_repo_with_legacy_redirect_alias",
+      "identification_status": "current_repo_identity_supplied_by_inventory; redirect_history_unverified",
+      "related_sources": [
+        {
+          "name": "n08i40k/exteragram-plugin-template",
+          "url": "https://github.com/n08i40k/exteragram-plugin-template",
+          "canonical_source_id": "github:exterastuff/pydex-plugin-template",
+          "relationship": "redirected_alias_of",
+          "identification_status": "redirect target supplied by repository inventory; content/history equivalence not independently verified"
+        }
+      ]
+    },
+    {
+      "name": "npm @catalystdev/exteragram-mcp",
+      "explicit_url": "https://www.npmjs.com/package/@catalystdev/exteragram-mcp",
+      "owner_repo": null,
+      "aliases": [
+        "@catalystdev/exteragram-mcp"
+      ],
+      "relevant_line_ranges": [
+        "export:5228-5231",
+        "export:5246-5249"
+      ],
+      "technical_claims_to_verify": [
+        "The radar claims version 1.0.0 was published. Verify package version/tarball and correspondence to cataIystdev/exteragram-mcp separately."
+      ],
+      "role": "published distribution artifact",
+      "missing_url": false,
+      "identification_note": "Distinct registry artifact; not collapsed into GitHub source pending integrity check.",
+      "canonical_source_id": "npm:@catalystdev/exteragram-mcp",
+      "relationship": "distribution_artifact_of_github_repo; correspondence_unverified",
+      "identification_status": "identified_npm_url; contents_unverified"
+    },
+    {
+      "name": "MrCheatEugene/AyuGramDesktop-PLEngine",
+      "explicit_url": "https://github.com/MrCheatEugene/AyuGramDesktop-PLEngine/blob/dev/README-pluginEngine.md",
+      "owner_repo": "MrCheatEugene/AyuGramDesktop-PLEngine",
+      "aliases": [
+        "PLEngine",
+        "README-pluginEngine.md"
+      ],
+      "relevant_line_ranges": [
+        "611",
+        "634"
+      ],
+      "technical_claims_to_verify": [
+        "Desktop sample described as exposing context menu, custom settings and preprocess message APIs; not Android BasePlugin SDK."
+      ],
+      "role": "Desktop plugin engine and normative interface documentation",
+      "missing_url": false,
+      "canonical_source_id": "github:mrcheateugene/ayugramdesktop-plengine",
+      "relationship": "engine_for_sample_plugin",
+      "identification_status": "user_supplied_exact_url; primary_capture_available",
+      "identity_provenance": "raw/user-supplied-urls.json"
+    }
+  ],
+  "non_source_references": [
+    {
+      "name": "Vosk",
+      "relevant_line_ranges": [
+        "4771-4841"
+      ],
+      "reference_role": "speech recognition library/model runtime",
+      "source_candidate": false,
+      "inspection_status": "mentioned_in_radar_only; no standalone source inspection established"
+    },
+    {
+      "name": "LRCLib",
+      "relevant_line_ranges": [
+        "680-711",
+        "744"
+      ],
+      "reference_role": "lyrics service/library reference",
+      "source_candidate": false,
+      "inspection_status": "mentioned_in_radar_only; no standalone source inspection established"
+    },
+    {
+      "name": "NetEase lyrics/music source",
+      "relevant_line_ranges": [
+        "680-711",
+        "744"
+      ],
+      "reference_role": "music/lyrics provider",
+      "source_candidate": false,
+      "inspection_status": "mentioned_in_radar_only; no standalone source inspection established"
+    },
+    {
+      "name": "Chaquopy",
+      "relevant_line_ranges": [
+        "2406",
+        "2511-2544"
+      ],
+      "reference_role": "Python-on-Android runtime/tool",
+      "source_candidate": false,
+      "inspection_status": "mentioned_in_radar_only; no standalone source inspection established"
+    },
+    {
+      "name": "LSPlant",
+      "relevant_line_ranges": [
+        "4233",
+        "4580-4635"
+      ],
+      "reference_role": "hooking/DEX library reference",
+      "source_candidate": false,
+      "inspection_status": "mentioned_in_radar_only; no standalone source inspection established"
+    },
+    {
+      "name": "Google Gemini / Google AI Studio / Vertex",
+      "relevant_line_ranges": [
+        "50",
+        "498",
+        "570",
+        "697",
+        "2471-2510",
+        "3525-3577",
+        "4725"
+      ],
+      "reference_role": "AI API/provider",
+      "source_candidate": false,
+      "inspection_status": "mentioned_in_radar_only; no standalone source inspection established"
+    },
+    {
+      "name": "Google Maps / Petal Maps / OSMDroid",
+      "relevant_line_ranges": [
+        "4119-4158"
+      ],
+      "reference_role": "mapping SDK/provider references",
+      "source_candidate": false,
+      "inspection_status": "mentioned_in_radar_only; no standalone source inspection established"
+    },
+    {
+      "name": "Android Xposed / LSPosed hook ecosystem",
+      "relevant_line_ranges": [
+        "39-41",
+        "144-158",
+        "261-299",
+        "319-348",
+        "651-661",
+        "all feature-transfer tables"
+      ],
+      "reference_role": "hooking/runtime technology",
+      "source_candidate": false,
+      "inspection_status": "mentioned_in_radar_only; no standalone source inspection established"
+    },
+    {
+      "name": "Android/Kotlin/Gradle/R8 toolchain",
+      "relevant_line_ranges": [
+        "614-632",
+        "746",
+        "1559",
+        "2196",
+        "2378-2396",
+        "3111-3136",
+        "3640-3670",
+        "3873-3904"
+      ],
+      "reference_role": "build tooling and platform libraries",
+      "source_candidate": false,
+      "inspection_status": "mentioned_in_radar_only; no standalone source inspection established"
+    },
+    {
+      "name": "GitHub REST/Contents API and GitHub Actions",
+      "relevant_line_ranges": [
+        "72-103",
+        "123-131",
+        "140-142",
+        "298-299",
+        "1875",
+        "1939",
+        "2850-2890",
+        "3016-3024"
+      ],
+      "reference_role": "platform API/CI service",
+      "source_candidate": false,
+      "inspection_status": "mentioned_in_radar_only; no standalone source inspection established"
+    },
+    {
+      "name": "ExteraGram host app / API",
+      "relevant_line_ranges": [
+        "1-5253"
+      ],
+      "source_candidate": false,
+      "inspection_status": "product/API mentioned; no separate host source snapshot represented by radar corpus"
+    },
+    {
+      "name": "AyuGram platform family",
+      "relevant_line_ranges": [
+        "1-5253"
+      ],
+      "source_candidate": false,
+      "inspection_status": "platform names across Android/Desktop/iOS are not one source identity"
+    },
+    {
+      "name": "Telegram Android/TLRPC/Telegram API",
+      "relevant_line_ranges": [
+        "96-103",
+        "105-117",
+        "144-158",
+        "291-299",
+        "323-348",
+        "651-661",
+        "2200-2270",
+        "4288-4319"
+      ],
+      "source_candidate": false,
+      "inspection_status": "technological/upstream mentions only; do not imply official API documentation was inspected"
+    },
+    {
+      "name": "GitHub REST/Contents API and Actions",
+      "relevant_line_ranges": [
+        "72-103",
+        "123-131",
+        "1875",
+        "1939",
+        "2850-2890",
+        "3016-3024"
+      ],
+      "source_candidate": false,
+      "inspection_status": "platform service mentions only; no API docs source inspected"
+    },
+    {
+      "name": "Gradle/Kotlin/R8/Android tooling",
+      "relevant_line_ranges": [
+        "614-632",
+        "746",
+        "1559",
+        "2196",
+        "2378-2396",
+        "3111-3136",
+        "3640-3670",
+        "3873-3904"
+      ],
+      "source_candidate": false,
+      "inspection_status": "technology/build mentions only; standalone docs not established"
+    }
+  ],
+  "identity_policy": "canonical_source_id identifies one source identity. Relationship and identification_status distinguish mirrors, versioned artifacts, probable identity and unresolved identity. Radar statements are secondary and do not establish primary-source inspection."
+}

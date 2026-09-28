@@ -1,0 +1,185 @@
+[
+  {
+    "id": "resource-owner",
+    "title": "У регистрации должен быть владелец и путь снятия",
+    "guidance": "Сохраняйте handles сразу после регистрации. При выгрузке снимайте hooks, observers и menu callbacks; освобождение только через atexit не заменяет plugin unload. Частичную ошибку загрузки обрабатывайте тем же механизмом очистки.",
+    "status": "synthesis",
+    "topic": "lifecycle",
+    "evidence_fact_ids": [
+      "official-sdk:lifecycle",
+      "for-vibecoders:fvb-003",
+      "for-vibecoders:fvb-028",
+      "altylib:altylib-025",
+      "altylib:altylib-041"
+    ]
+  },
+  {
+    "id": "hook-subscription",
+    "title": "Переопределение callback и подписка — два действия",
+    "guidance": "В SDK наличие callback метода не регистрирует перехват. Укажите имена событий через add_hook и отдельную подписку outgoing-send; для Java hook проверьте точный Member и сохраняемый Unhook.",
+    "status": "synthesis",
+    "topic": "hooks",
+    "evidence_fact_ids": [
+      "official-sdk:hook-registration",
+      "official-sdk:xposed-hooks",
+      "for-vibecoders:fvb-003"
+    ]
+  },
+  {
+    "id": "event-account",
+    "title": "Сохраняйте аккаунт события до конца операции",
+    "guidance": "Учитывайте account callback даже при другом выбранном аккаунте UI. Захватите его до постановки работы в очередь и используйте в запросе и ключе кеша. Helper без account может обращаться к выбранному сейчас аккаунту.",
+    "status": "synthesis",
+    "topic": "accounts",
+    "evidence_fact_ids": [
+      "official-sdk:account-scope",
+      "official-sdk:account-client",
+      "official-sdk:notification-account",
+      "extcli:extcli-013"
+    ]
+  },
+  {
+    "id": "ui-boundary",
+    "title": "Передавайте изменения интерфейса в UI thread",
+    "guidance": "Сеть, разбор и файловый ввод-вывод выполняйте в фоновой очереди; результат применяйте через UI dispatcher. Timer debounce/throttle сам по себе не дает UI context. При возврате результата сверяйте актуальность lifecycle и account.",
+    "status": "synthesis",
+    "topic": "threading",
+    "evidence_fact_ids": [
+      "official-sdk:queue-api",
+      "official-sdk:ui-thread",
+      "altylib:altylib-035"
+    ]
+  },
+  {
+    "id": "literal-metadata",
+    "title": "Метаданные должны соответствовать статическому парсеру",
+    "guidance": "Держите необходимые metadata литералами верхнего уровня. Загрузчик и validator выбранного формата определяют правила ID: ограничения single-file и Elyx могут расходиться, даже если оба создают BasePlugin.",
+    "status": "synthesis",
+    "topic": "build",
+    "evidence_fact_ids": [
+      "official-sdk:metadata-ast",
+      "official-sdk:plugin-id-single",
+      "official-sdk:elyx-troubleshooting"
+    ]
+  },
+  {
+    "id": "import-contract",
+    "title": "Сверяйте импорты с упаковщиком и загрузчиком",
+    "guidance": "Entry, относительные imports, динамические имена, assets и зависимые wheels проверяйте в конечном формате. Не переносите правила Elyx module isolation на bundler в один Python-файл без изучения его bootstrap.",
+    "status": "synthesis",
+    "topic": "build",
+    "evidence_fact_ids": [
+      "official-sdk:elyx-entry",
+      "official-sdk:elyx-imports",
+      "official-sdk:elyx-public-api",
+      "official-sdk:elyx-archive"
+    ]
+  },
+  {
+    "id": "wheel-platform",
+    "title": "Объявленная зависимость еще не означает возможность установки",
+    "guidance": "Документированный package manager поддерживает pure-Python universal wheels. Native extensions и desktop-specific wheels требуют другого пути, даже если import имя известно. Предустановленная библиотека и __requirements__ — разные источники доступности.",
+    "status": "synthesis",
+    "topic": "build",
+    "evidence_fact_ids": [
+      "official-sdk:elyx-requirements",
+      "official-sdk:preinstalled-libs",
+      "for-vibecoders:fvb-029"
+    ]
+  },
+  {
+    "id": "dex-classpath",
+    "title": "Разделяйте классы хоста и packaged program input",
+    "guidance": "Для JVM-плагина compile classpath может включать извлеченный JAR хоста, но это не означает включение всех его классов в DEX. Проверяйте фильтрацию, relocation и R8 keep rules по фактическому конвейеру.",
+    "status": "synthesis",
+    "topic": "build",
+    "evidence_fact_ids": [
+      "gradle-plugin:gradle-plugin-008",
+      "gradle-plugin:gradle-plugin-009",
+      "gradle-plugin:gradle-plugin-011",
+      "gradle-plugin:gradle-plugin-012",
+      "extcli:extcli-025"
+    ]
+  },
+  {
+    "id": "reload-state",
+    "title": "Reload обязан учитывать состояние старой загрузки",
+    "guidance": "Снятие hooks и остановка фоновых задач должны предшествовать новой регистрации. Сам вызов unload/load не доказывает, что старые Java listeners, threads или глобальные registry очищены.",
+    "status": "synthesis",
+    "topic": "lifecycle",
+    "evidence_fact_ids": [
+      "extcli:extcli-009",
+      "for-vibecoders:fvb-028",
+      "altylib:altylib-025",
+      "official-sdk:elyx-troubleshooting"
+    ]
+  },
+  {
+    "id": "ttl-contract",
+    "title": "Называйте точную политику кеша",
+    "guidance": "У AltyLib TTL фиксирован после записи и не продлевается чтением; expiry/FIFO eviction не является LRU. TTL=0 в этом снимке превращается в бессрочную запись. Эти свойства нельзя заменять обещанием generic TTL cache.",
+    "status": "synthesis",
+    "topic": "storage",
+    "evidence_fact_ids": [
+      "altylib:altylib-004",
+      "altylib:altylib-005",
+      "altylib:altylib-006",
+      "altylib:altylib-060"
+    ]
+  },
+  {
+    "id": "stream-tail",
+    "title": "Потоковый вывод требует политики обрезки и редактирования",
+    "guidance": "У extCLI relay хранит хвост текста до4096символов и редактирует сообщение по интервалу. Это конкретная политика реализации; она не дает общего гарантированного лимита UTF-16 для любого Telegram send/edit API.",
+    "status": "synthesis",
+    "topic": "requests",
+    "evidence_fact_ids": [
+      "extcli:extcli-021",
+      "official-sdk:send-request"
+    ]
+  },
+  {
+    "id": "watch-install",
+    "title": "Разделяйте сборку, передачу и установку",
+    "guidance": "Watch может только пересобирать архив. Планируйте отдельную стадию доставки, установку/reload и чтение результата загрузчика, иначе успех файловой сборки не доказывает обновление плагина на устройстве.",
+    "status": "synthesis",
+    "topic": "debug",
+    "evidence_fact_ids": [
+      "official-sdk:elyxbuilder-cli",
+      "extcli:extcli-009"
+    ]
+  },
+  {
+    "id": "docs-source-drift",
+    "title": "При конфликте документации и кода сохраняйте обе версии",
+    "guidance": "Для поведения конкретного снимка указывайте найденную реализацию и SHA. Заявление README оставляйте docs с пояснением расхождения. Например @CacheableTask и рассказ про одни up-to-date checks требуют отдельного consumer build, если нужна гарантия фактического кеширования.",
+    "status": "synthesis",
+    "topic": "testing",
+    "evidence_fact_ids": [
+      "gradle-plugin:gradle-plugin-039",
+      "altylib:altylib-060"
+    ]
+  },
+  {
+    "id": "api-export",
+    "title": "Проверяйте происхождение и экспорт помощника",
+    "guidance": "Импортированная функция не становится собственным API библиотеки. Отмечайте исходный модуль, public exports и re-export behavior; send_request в AltyLib приходит из client_utils и не перечислен в __all__.",
+    "status": "synthesis",
+    "topic": "requests",
+    "evidence_fact_ids": [
+      "altylib:altylib-031",
+      "official-sdk:send-request"
+    ]
+  },
+  {
+    "id": "replacement-type",
+    "title": "Замена Java-метода должна вернуть совместимый тип",
+    "guidance": "Сверяйте return type выбранной Java сигнатуры. Для изменений thisObject/args/result и короткоживущего replacement сохраняйте handle и снимайте его в finally даже при ошибке основной операции.",
+    "status": "synthesis",
+    "topic": "hooks",
+    "evidence_fact_ids": [
+      "official-sdk:xposed-param",
+      "for-vibecoders:fvb-019"
+    ]
+  }
+]
