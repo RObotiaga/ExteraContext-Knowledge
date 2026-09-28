@@ -1,0 +1,36 @@
+name: Knowledge CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build knowledge database
+        run: python scripts/build_index.py --db data/exteracontext.sqlite
+      - name: Validate provenance
+        run: python tests/test_legacy_provenance.py
+      - name: Validate core corpus counts
+        run: |
+          python - <<'PY'
+          import sqlite3
+          con = sqlite3.connect("data/exteracontext.sqlite")
+          facts = con.execute("select count(*) from facts").fetchone()[0]
+          docs = con.execute("select count(*) from docs").fetchone()[0]
+          assert facts >= 2167, facts
+          assert docs >= 203, docs
+          assert con.execute("pragma integrity_check").fetchone()[0] == "ok"
+          print({"facts": facts, "docs": docs})
+          PY
