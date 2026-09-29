@@ -1,11 +1,12 @@
 # Реестр источников и независимых проверок
 
-Каждая строка соответствует отдельной паре субагентов. Повторные упоминания одного проекта объединены; дополнительные материалы и проверка зеркал сохраняются с собственным происхождением. Модель всех пар: `gpt-6-luna`.
+Legacy-строки соответствуют отдельным парам субагентов; новые машинно-читаемые первичные источники могут использовать прямой capture с отдельным review. Повторные упоминания одного проекта объединены; дополнительные материалы и проверка зеркал сохраняются с собственным происхождением. Модель всех пар: `gpt-6-luna`.
 
 | Источник | Сборщик | Проверяющий | Состояние | Версия |
 |---|---|---|---|---|
 | [Radar: карта утверждений и кандидатов на первоисточники](sources/radar.md) | /root/collect_radar | [/root/review_radar](reviews/radar.md) | accepted-with-gaps | Markdown/JSON export snapshot |
 | [Официальная документация exteraGram Plugin SDK](sources/official-sdk.md) | /root/collect_official_sdk | [/root/review_official_sdk](reviews/official-sdk.md) | accepted-with-gaps | SDK 1.4.4.3; 33 docs pages, 2026-09-27T15:48:33Z |
+| [Официальные Android PySDK builds](sources/official-sdk-builds.md) | direct GitHub Releases API capture | [metadata review](reviews/official-sdk-builds.md) | accepted-with-gaps | 14 release snapshots, 2026-04-27..2026-08-28 |
 | [for-vibecoders: практические примеры ExteraGram/AyuGram](sources/for-vibecoders.md) | /root/collect_vibecoders | [/root/review_vibecoders](reviews/for-vibecoders.md) | accepted-with-gaps | 01cb2bfee889da331d348ad190862a03093c592d |
 | [exteraStuff/gradle-plugin](sources/gradle-plugin.md) | /root/collect_gradle_plugin | [/root/review_gradle_plugin](reviews/gradle-plugin.md) | accepted-with-gaps | 290bb3bc34e8cc8e8126a880a464a77bfa572d80 |
 | [vcvkk/extCLI — оболочка и консоль разработчика внутри exteraGram](sources/extcli.md) | /root/collect_extcli | [/root/review_extcli](reviews/extcli.md) | accepted-with-gaps | 0eafced3fc14dd7ffd534b103b62f4041fff6339 |
