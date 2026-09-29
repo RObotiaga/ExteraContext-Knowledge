@@ -11,6 +11,7 @@ This repository owns **knowledge content** and its provenance. It does not own t
 Key paths:
 
 - `data/wiki/` — reviewed facts, sources, recipes, topics, rules, gaps and compatibility material.
+- `data/sdk-snapshots/` — pinned metadata for official Android PySDK release/build artifacts.
 - `data/legacy-source-runs.json` — provenance reconstructed from the original collector/reviewer prompt archive.
 - `scripts/build_index.py` — deterministic SQLite/FTS5 compiler.
 - `scripts/import_legacy_prompts.py` — legacy provenance importer.
