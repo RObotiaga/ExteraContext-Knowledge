@@ -22,6 +22,8 @@ jobs:
         run: python scripts/build_index.py --db data/exteracontext.sqlite
       - name: Validate provenance
         run: python tests/test_legacy_provenance.py
+      - name: Validate SDK release inventory
+        run: python tests/test_sdk_release_inventory.py
       - name: Validate core corpus counts
         run: |
           python - <<'PY'
