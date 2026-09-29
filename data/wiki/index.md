@@ -36,6 +36,7 @@
 
 - [Radar: карта утверждений и кандидатов на первоисточники](sources/radar.md): 0 структурированных записей · [проверка](reviews/radar.md).
 - [Официальная документация exteraGram Plugin SDK](sources/official-sdk.md): 54 структурированных записей · [проверка](reviews/official-sdk.md).
+- [Официальные Android PySDK builds](sources/official-sdk-builds.md): 22 структурированных записи о 14 release snapshots · [проверка](reviews/official-sdk-builds.md).
 - [for-vibecoders: практические примеры ExteraGram/AyuGram](sources/for-vibecoders.md): 30 структурированных записей · [проверка](reviews/for-vibecoders.md).
 - [exteraStuff/gradle-plugin](sources/gradle-plugin.md): 39 структурированных записей · [проверка](reviews/gradle-plugin.md).
 - [vcvkk/extCLI — оболочка и консоль разработчика внутри exteraGram](sources/extcli.md): 35 структурированных записей · [проверка](reviews/extcli.md).
