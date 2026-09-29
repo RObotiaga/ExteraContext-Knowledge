@@ -1,0 +1,991 @@
+{
+  "source_id": "official-sdk-builds",
+  "source_repository": "exteraSquad/plugins-pysdk-builds",
+  "source_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases",
+  "collected_date": "2026-09-29",
+  "evidence_type": "official-release-metadata",
+  "note": "Captured from the official GitHub Releases API. Asset metadata and digests are stored; stubs.zip binary contents were not inspected in this ingestion.",
+  "release_count": 14,
+  "releases": [
+    {
+      "release_id": 314266287,
+      "tag": "sdk-v1.4.3.8-stable-25018973248-1",
+      "name": "Android SDK v1.4.3.8-stable build #13 (731bc0d)",
+      "published_at": "2026-04-27T20:56:40Z",
+      "sdk_version": "1.4.3.8",
+      "channel": "stable",
+      "build": 13,
+      "commit": "731bc0d0f59143463d2ed3f5e05cac7668e93906",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.3.8-stable-25018973248-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/314266287",
+      "stubs": {
+        "id": 406870228,
+        "name": "stubs.zip",
+        "size": 11752,
+        "digest": "sha256:d521ce8ae490807e9c1b1e975a93b6b37340135968a1b360a112ff37c4196b4e",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.8-stable-25018973248-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 406870232,
+          "name": "sdk-stable-arm64-v8a.zip",
+          "size": 4201905,
+          "digest": "sha256:25cec72cb6472aac11ff84a3434406915b27c67def9d54aae17d81f979f63887",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.8-stable-25018973248-1/sdk-stable-arm64-v8a.zip"
+        },
+        {
+          "id": 406870229,
+          "name": "sdk-stable-arm64-v8a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:9fc7daa44a49fc55414c160c0cce7f87c0401b799b80cae31ff57e509d6b65fe",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.8-stable-25018973248-1/sdk-stable-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 406870230,
+          "name": "sdk-stable-armeabi-v7a.zip",
+          "size": 4438466,
+          "digest": "sha256:9ed1f7c34b22da6d6d362c9085f4c5db29c78d5d22c4780c0990b6ef3e4f509c",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.8-stable-25018973248-1/sdk-stable-armeabi-v7a.zip"
+        },
+        {
+          "id": 406870231,
+          "name": "sdk-stable-armeabi-v7a.zip.sha256",
+          "size": 93,
+          "digest": "sha256:04ee5a4e5fe434912aca69dc4e6146f650f8fb68a71f19e99269fcedc515006a",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.8-stable-25018973248-1/sdk-stable-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 406870228,
+          "name": "stubs.zip",
+          "size": 11752,
+          "digest": "sha256:d521ce8ae490807e9c1b1e975a93b6b37340135968a1b360a112ff37c4196b4e",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.8-stable-25018973248-1/stubs.zip"
+        },
+        {
+          "id": 406870237,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:f442b85c4ca16e5fe46b6d1b20d81c9cf6ba8242f96931024e11d26b10225349",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.8-stable-25018973248-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 314833761,
+      "tag": "sdk-v1.4.3.9-stable-25077441883-1",
+      "name": "Android SDK v1.4.3.9-stable build #14 (ed745e9)",
+      "published_at": "2026-04-28T21:04:25Z",
+      "sdk_version": "1.4.3.9",
+      "channel": "stable",
+      "build": 14,
+      "commit": "ed745e97870c4af4a3fee6c319bca887a16c264e",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.3.9-stable-25077441883-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/314833761",
+      "stubs": {
+        "id": 407686524,
+        "name": "stubs.zip",
+        "size": 11752,
+        "digest": "sha256:8fb7e2ba255475f141c37bc7ad92657ef945c01765f4ce812e75017e59c77b66",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25077441883-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 407686527,
+          "name": "sdk-stable-arm64-v8a.zip",
+          "size": 4202326,
+          "digest": "sha256:5f07304d98a348b7e91505cf55f502d1940425be70aeb4b6d2f35437a112bd8a",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25077441883-1/sdk-stable-arm64-v8a.zip"
+        },
+        {
+          "id": 407686526,
+          "name": "sdk-stable-arm64-v8a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:5685cc91d65fa8d01f3d6f65f591ed6de7f37cc57ed7be30bd742b0b148e62b6",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25077441883-1/sdk-stable-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 407686523,
+          "name": "sdk-stable-armeabi-v7a.zip",
+          "size": 4432313,
+          "digest": "sha256:5b09df692525573d49a1563a23c531d053e19ec48c1e00880b62d61b4cd03d3e",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25077441883-1/sdk-stable-armeabi-v7a.zip"
+        },
+        {
+          "id": 407686525,
+          "name": "sdk-stable-armeabi-v7a.zip.sha256",
+          "size": 93,
+          "digest": "sha256:acafacb4f3655566d0f5a36a66ca81fbe6205637e565128c13010332a4fda03e",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25077441883-1/sdk-stable-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 407686524,
+          "name": "stubs.zip",
+          "size": 11752,
+          "digest": "sha256:8fb7e2ba255475f141c37bc7ad92657ef945c01765f4ce812e75017e59c77b66",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25077441883-1/stubs.zip"
+        },
+        {
+          "id": 407686530,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:5a507a9532a2b1b028ffa6f92644631741950b2d50dfa2f1f9ab6ccc2161315b",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25077441883-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 316540534,
+      "tag": "sdk-v1.4.3.9-stable-25233985682-1",
+      "name": "Android SDK v1.4.3.9-stable build #16 (818ff5b)",
+      "published_at": "2026-05-01T21:33:36Z",
+      "sdk_version": "1.4.3.9",
+      "channel": "stable",
+      "build": 16,
+      "commit": "818ff5b07e4fee0322320bbc25aab7c600019f3a",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.3.9-stable-25233985682-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/316540534",
+      "stubs": {
+        "id": 410131034,
+        "name": "stubs.zip",
+        "size": 12436,
+        "digest": "sha256:228262d3e1a440685b95b52d8efe4c2926c4edd2ec2d806d6bf3853407bfc5e5",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25233985682-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 410131032,
+          "name": "sdk-stable-arm64-v8a.zip",
+          "size": 4719007,
+          "digest": "sha256:beb5c66d028dc2b0906964e280ac1212cc886c44f71f16720268134891076ed5",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25233985682-1/sdk-stable-arm64-v8a.zip"
+        },
+        {
+          "id": 410131035,
+          "name": "sdk-stable-arm64-v8a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:b6a206ecc822ddc150e9716b56f621a39ab6c3d2a0215ed159de2d6932ba5a20",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25233985682-1/sdk-stable-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 410131037,
+          "name": "sdk-stable-armeabi-v7a.zip",
+          "size": 5075371,
+          "digest": "sha256:be0f12a32b74c05f4532df3f15e197cd43990f2380582df3cdc7db27f25b040b",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25233985682-1/sdk-stable-armeabi-v7a.zip"
+        },
+        {
+          "id": 410131036,
+          "name": "sdk-stable-armeabi-v7a.zip.sha256",
+          "size": 93,
+          "digest": "sha256:4abf46bc7c34bc52379bc8d6a53308c064c1812479d6fd5ff9d973e37d441217",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25233985682-1/sdk-stable-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 410131034,
+          "name": "stubs.zip",
+          "size": 12436,
+          "digest": "sha256:228262d3e1a440685b95b52d8efe4c2926c4edd2ec2d806d6bf3853407bfc5e5",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25233985682-1/stubs.zip"
+        },
+        {
+          "id": 410131040,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:dccc71eef8d5d40fe2b264e4ae71b5a35ff0fe5e9d4e1c4d4129d2b28032d40a",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.9-stable-25233985682-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 316923254,
+      "tag": "sdk-v1.4.4.1-beta-25290616118-1",
+      "name": "Android SDK v1.4.4.1-beta build #18 (9ebfdce)",
+      "published_at": "2026-05-03T21:01:26Z",
+      "sdk_version": "1.4.4.1",
+      "channel": "beta",
+      "build": 18,
+      "commit": "9ebfdce2821205a5df5d782b7b1478c2e82b9cb8",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.4.1-beta-25290616118-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/316923254",
+      "stubs": {
+        "id": 411331780,
+        "name": "stubs.zip",
+        "size": 13219,
+        "digest": "sha256:497e6008b034ff5efd456017bbb9e323bb8a14f57f1d505ecb194a01be2bc0d7",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25290616118-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 411331776,
+          "name": "sdk-beta-arm64-v8a.zip",
+          "size": 5283574,
+          "digest": "sha256:05878d51a52b9eaf3bffe19ad1ec7012b6a25659b0c0d3a6baea777dd88e9bfc",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25290616118-1/sdk-beta-arm64-v8a.zip"
+        },
+        {
+          "id": 411331779,
+          "name": "sdk-beta-arm64-v8a.zip.sha256",
+          "size": 89,
+          "digest": "sha256:8a0893104f28658610c422f72b1924d3a4df3b7b648bd5752f1edde278e61622",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25290616118-1/sdk-beta-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 411331777,
+          "name": "sdk-beta-armeabi-v7a.zip",
+          "size": 5711394,
+          "digest": "sha256:92b552275fda58c994b54c6a9463728217d3d974144daef5eda8dc21fabb0feb",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25290616118-1/sdk-beta-armeabi-v7a.zip"
+        },
+        {
+          "id": 411331778,
+          "name": "sdk-beta-armeabi-v7a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:6424429a886a3395040acb43e5d79a416722d826c690ee8217056d6d43ac81de",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25290616118-1/sdk-beta-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 411331780,
+          "name": "stubs.zip",
+          "size": 13219,
+          "digest": "sha256:497e6008b034ff5efd456017bbb9e323bb8a14f57f1d505ecb194a01be2bc0d7",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25290616118-1/stubs.zip"
+        },
+        {
+          "id": 411331781,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:158005fc33d80b3bbb8eb6131585b3c07db396769e01033002f56f17696f6738",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25290616118-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 320150940,
+      "tag": "sdk-v1.4.4.1-beta-25633423647-1",
+      "name": "Android SDK v1.4.4.1-beta build #19 (07279b0)",
+      "published_at": "2026-05-10T16:11:42Z",
+      "sdk_version": "1.4.4.1",
+      "channel": "beta",
+      "build": 19,
+      "commit": "07279b015873970cb76c80d12ce9ffae7448b339",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.4.1-beta-25633423647-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/320150940",
+      "stubs": {
+        "id": 416750895,
+        "name": "stubs.zip",
+        "size": 13219,
+        "digest": "sha256:6c3dc1aa92935107b0390d0f92cd6314ed05de001960a73c55eb24618e7c3a1f",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25633423647-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 416750898,
+          "name": "sdk-beta-arm64-v8a.zip",
+          "size": 5272707,
+          "digest": "sha256:525c9fa2bb70dcc8b8a2e358dd7eb1af18335cb23d3dace4cf9bc4c2bb51d0d8",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25633423647-1/sdk-beta-arm64-v8a.zip"
+        },
+        {
+          "id": 416750896,
+          "name": "sdk-beta-arm64-v8a.zip.sha256",
+          "size": 89,
+          "digest": "sha256:cc318f841a42d3fde892eae3a19a7a3f9082299706d9ce8e842e5560edae677c",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25633423647-1/sdk-beta-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 416750894,
+          "name": "sdk-beta-armeabi-v7a.zip",
+          "size": 5702385,
+          "digest": "sha256:bde4c4c6fe9d990c52baa9554ebece510abf426faa774149bbab83bf684fb2f0",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25633423647-1/sdk-beta-armeabi-v7a.zip"
+        },
+        {
+          "id": 416750897,
+          "name": "sdk-beta-armeabi-v7a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:7e9197668f288ea8a53ec529e53dc4eb7adccffcf2a450a82c1d6d25f21e0669",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25633423647-1/sdk-beta-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 416750895,
+          "name": "stubs.zip",
+          "size": 13219,
+          "digest": "sha256:6c3dc1aa92935107b0390d0f92cd6314ed05de001960a73c55eb24618e7c3a1f",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25633423647-1/stubs.zip"
+        },
+        {
+          "id": 416750900,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:7ab869f14ca2eabd009c9b169d65b8e1681b7af718627cf602f673c3cc1fb2f3",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.1-beta-25633423647-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 342890320,
+      "tag": "sdk-v1.4.3.10-stable-27952531946-1",
+      "name": "Android SDK v1.4.3.10-stable build #20 (69c7cb5)",
+      "published_at": "2026-06-22T12:29:38Z",
+      "sdk_version": "1.4.3.10",
+      "channel": "stable",
+      "build": 20,
+      "commit": "69c7cb51b3a96eb25bfce1d6c1d458a3df19ce8b",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.3.10-stable-27952531946-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/342890320",
+      "stubs": {
+        "id": 454562374,
+        "name": "stubs.zip",
+        "size": 11804,
+        "digest": "sha256:8b026a427b184a30e97fb16c555741ab3a313adbdf7a5e1eae031a5ce979bfd9",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.10-stable-27952531946-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 454562376,
+          "name": "sdk-stable-arm64-v8a.zip",
+          "size": 4194835,
+          "digest": "sha256:c4dda9030a089fd15a90d8598fd517bdcf7346171677a10c17a57b9562898cd0",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.10-stable-27952531946-1/sdk-stable-arm64-v8a.zip"
+        },
+        {
+          "id": 454562375,
+          "name": "sdk-stable-arm64-v8a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:af376c71686ad84c6442e3d06a211a107beb86f0c859d245d0e479769d92d2a8",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.10-stable-27952531946-1/sdk-stable-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 454562372,
+          "name": "sdk-stable-armeabi-v7a.zip",
+          "size": 4407612,
+          "digest": "sha256:aa21c976c542ed9c6502a0b0af5f8cfa429135d4366a0c9bad5b3a8f5468c30b",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.10-stable-27952531946-1/sdk-stable-armeabi-v7a.zip"
+        },
+        {
+          "id": 454562373,
+          "name": "sdk-stable-armeabi-v7a.zip.sha256",
+          "size": 93,
+          "digest": "sha256:6e165bc25b6d3d159e6b00c804ce88c865be95c9bc6c6650d0994f317991affe",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.10-stable-27952531946-1/sdk-stable-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 454562374,
+          "name": "stubs.zip",
+          "size": 11804,
+          "digest": "sha256:8b026a427b184a30e97fb16c555741ab3a313adbdf7a5e1eae031a5ce979bfd9",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.10-stable-27952531946-1/stubs.zip"
+        },
+        {
+          "id": 454562383,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:534f66795a9c748779a9e931365aabca1040d88e407a055c55ec73b72c86797e",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.3.10-stable-27952531946-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 343105813,
+      "tag": "sdk-v1.4.4.2-beta-27976524155-1",
+      "name": "Android SDK v1.4.4.2-beta build #21 (9e77645)",
+      "published_at": "2026-06-22T18:59:01Z",
+      "sdk_version": "1.4.4.2",
+      "channel": "beta",
+      "build": 21,
+      "commit": "9e77645fc3a0867a67ecd509908b109e4985bbea",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.4.2-beta-27976524155-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/343105813",
+      "stubs": {
+        "id": 454866642,
+        "name": "stubs.zip",
+        "size": 13219,
+        "digest": "sha256:f6940e9bd5a8c42b614557b759f7928dc94d3928082b93b6cd6be0d767234443",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.2-beta-27976524155-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 454866644,
+          "name": "sdk-beta-arm64-v8a.zip",
+          "size": 5296561,
+          "digest": "sha256:297b105367aa40c86f192caeed03f7e3b83dd060aaa3b9c7171184c6a56e0b72",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.2-beta-27976524155-1/sdk-beta-arm64-v8a.zip"
+        },
+        {
+          "id": 454866646,
+          "name": "sdk-beta-arm64-v8a.zip.sha256",
+          "size": 89,
+          "digest": "sha256:3819948d0593830dcb9bd60a4124ce4fd1fe52a30f11bb63f942a38140e62e79",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.2-beta-27976524155-1/sdk-beta-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 454866645,
+          "name": "sdk-beta-armeabi-v7a.zip",
+          "size": 5728386,
+          "digest": "sha256:ee9ec168c967cc4ee66c5c32c86726ffdf880c9592d877d0200ee57625851c35",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.2-beta-27976524155-1/sdk-beta-armeabi-v7a.zip"
+        },
+        {
+          "id": 454866643,
+          "name": "sdk-beta-armeabi-v7a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:cb5bb513f2c7b603e29c714e241525abd3056ec18b413747b878e6faca4d9190",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.2-beta-27976524155-1/sdk-beta-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 454866642,
+          "name": "stubs.zip",
+          "size": 13219,
+          "digest": "sha256:f6940e9bd5a8c42b614557b759f7928dc94d3928082b93b6cd6be0d767234443",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.2-beta-27976524155-1/stubs.zip"
+        },
+        {
+          "id": 454866651,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:43ad86a8996a9578dce03570f543ff9d7865838c15c52055e2b8d975b3589424",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.2-beta-27976524155-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 355395588,
+      "tag": "sdk-v1.4.4.3-beta-29520091917-3",
+      "name": "Android SDK v1.4.4.3-beta build #23 (ad8ef19)",
+      "published_at": "2026-07-16T22:49:26Z",
+      "sdk_version": "1.4.4.3",
+      "channel": "beta",
+      "build": 23,
+      "commit": "ad8ef197cc89afd1999c8743e7e40943a7eb9f50",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.4.3-beta-29520091917-3",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/355395588",
+      "stubs": {
+        "id": 479713601,
+        "name": "stubs.zip",
+        "size": 13230,
+        "digest": "sha256:29a60f83cf5e5e6069756300365013d9063aec6881ff31f9077e4a26b0c48eb8",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.3-beta-29520091917-3/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 479713604,
+          "name": "sdk-beta-arm64-v8a.zip",
+          "size": 5361007,
+          "digest": "sha256:5dae8730b54a0928cef89f99cba23e03104da9bbd414104af2a828cb424c8541",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.3-beta-29520091917-3/sdk-beta-arm64-v8a.zip"
+        },
+        {
+          "id": 479713600,
+          "name": "sdk-beta-arm64-v8a.zip.sha256",
+          "size": 89,
+          "digest": "sha256:b82a47a838539113a0b13e47871308de1ca4507460d74b1c6d34ba6e54d5d16d",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.3-beta-29520091917-3/sdk-beta-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 479713598,
+          "name": "sdk-beta-armeabi-v7a.zip",
+          "size": 5814510,
+          "digest": "sha256:076040742911515592880a51a21a1d0eedb85be708ee9870f3ddd11274714a51",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.3-beta-29520091917-3/sdk-beta-armeabi-v7a.zip"
+        },
+        {
+          "id": 479713599,
+          "name": "sdk-beta-armeabi-v7a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:aca2d48a0b799e2a35135cda2ee7178ac6940cb0ae2186e14e0730f9246b2f93",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.3-beta-29520091917-3/sdk-beta-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 479713601,
+          "name": "stubs.zip",
+          "size": 13230,
+          "digest": "sha256:29a60f83cf5e5e6069756300365013d9063aec6881ff31f9077e4a26b0c48eb8",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.3-beta-29520091917-3/stubs.zip"
+        },
+        {
+          "id": 479713608,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:5230e8e279a89b4a66208c5643552f1e01196e6bb1c58fc261b53eb77a8323ee",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.4.3-beta-29520091917-3/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 359715516,
+      "tag": "sdk-v1.4.5.0-beta-30151697627-1",
+      "name": "Android SDK v1.4.5.0-beta build #24 (9374712)",
+      "published_at": "2026-07-25T08:50:19Z",
+      "sdk_version": "1.4.5.0",
+      "channel": "beta",
+      "build": 24,
+      "commit": "93747121180076952e4843d4a4fd3c5cc26b6f60",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.5.0-beta-30151697627-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/359715516",
+      "stubs": {
+        "id": 489307669,
+        "name": "stubs.zip",
+        "size": 13553,
+        "digest": "sha256:b4391a7ab1147888d2413da9cec19500fadd97f92f66db310efce6615ff96383",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-30151697627-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 489307667,
+          "name": "sdk-beta-arm64-v8a.zip",
+          "size": 5577978,
+          "digest": "sha256:53ecb72fe11bb8f4289f78bdf80f9ee1f0e75faa7e930fc257ac17c2f98fee5e",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-30151697627-1/sdk-beta-arm64-v8a.zip"
+        },
+        {
+          "id": 489307668,
+          "name": "sdk-beta-arm64-v8a.zip.sha256",
+          "size": 89,
+          "digest": "sha256:84921af49ffde79829332df4497c1553678361f364cfd296d96a7ed9c910afef",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-30151697627-1/sdk-beta-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 489307670,
+          "name": "sdk-beta-armeabi-v7a.zip",
+          "size": 6023764,
+          "digest": "sha256:29e4b052fa3af2353fbe966109490fc72edea2d93d6287d287819fd872b442a6",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-30151697627-1/sdk-beta-armeabi-v7a.zip"
+        },
+        {
+          "id": 489307671,
+          "name": "sdk-beta-armeabi-v7a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:cc47a6e4c00c76f798b14083289499fc8da2e0e46de3ad18e11c55976fd4a0aa",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-30151697627-1/sdk-beta-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 489307669,
+          "name": "stubs.zip",
+          "size": 13553,
+          "digest": "sha256:b4391a7ab1147888d2413da9cec19500fadd97f92f66db310efce6615ff96383",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-30151697627-1/stubs.zip"
+        },
+        {
+          "id": 489307672,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:b880ae35c00c6adee93210b6cab2e6000e0c5638f184d8d0f1ba617e80cbdf6a",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-30151697627-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 362530381,
+      "tag": "sdk-v1.4.5.1-stable-30555961259-1",
+      "name": "Android SDK v1.4.5.1-stable build #35 (88b7f57)",
+      "published_at": "2026-07-30T15:22:00Z",
+      "sdk_version": "1.4.5.1",
+      "channel": "stable",
+      "build": 35,
+      "commit": "88b7f5713c982e1e07c9bbfdc33835d1b2116495",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.5.1-stable-30555961259-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/362530381",
+      "stubs": {
+        "id": 495520720,
+        "name": "stubs.zip",
+        "size": 22038,
+        "digest": "sha256:078262ded8197945de87b4f73f2ba82544f22531279ebc82039efc37850030bc",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.1-stable-30555961259-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 495520718,
+          "name": "sdk-stable-arm64-v8a.zip",
+          "size": 8725190,
+          "digest": "sha256:8e2c06e273842fc1f8e294b1d61d0a4d241363fa4fbebba6143ef6adb59be17b",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.1-stable-30555961259-1/sdk-stable-arm64-v8a.zip"
+        },
+        {
+          "id": 495520721,
+          "name": "sdk-stable-arm64-v8a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:4796b02789e3ea61647e43757be82e658c502e955b5e238a5d619835459e4443",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.1-stable-30555961259-1/sdk-stable-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 495520719,
+          "name": "sdk-stable-armeabi-v7a.zip",
+          "size": 9418047,
+          "digest": "sha256:f95e537ad5e84364e40ebab22a66f9a2140ef4f15d2ed5fc4d75ef514e638379",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.1-stable-30555961259-1/sdk-stable-armeabi-v7a.zip"
+        },
+        {
+          "id": 495520722,
+          "name": "sdk-stable-armeabi-v7a.zip.sha256",
+          "size": 93,
+          "digest": "sha256:2055ee5fad80d6d7a3a824f94ca8b4710cce9122324277417265b7a7c4246797",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.1-stable-30555961259-1/sdk-stable-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 495520720,
+          "name": "stubs.zip",
+          "size": 22038,
+          "digest": "sha256:078262ded8197945de87b4f73f2ba82544f22531279ebc82039efc37850030bc",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.1-stable-30555961259-1/stubs.zip"
+        },
+        {
+          "id": 495520728,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:19568285b55f73bc83c52dd995d06dda922150c0aeabdb51df0c6ec990fc9333",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.1-stable-30555961259-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 367017529,
+      "tag": "sdk-v1.4.5.0-beta-31219961729-1",
+      "name": "Android SDK v1.4.5.0-beta build #36 (e1e5506)",
+      "published_at": "2026-08-07T21:28:42Z",
+      "sdk_version": "1.4.5.0",
+      "channel": "beta",
+      "build": 36,
+      "commit": "e1e550601bd4934cfc298171ce8e551a38f9bb86",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.5.0-beta-31219961729-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/367017529",
+      "stubs": {
+        "id": 505683400,
+        "name": "stubs.zip",
+        "size": 13553,
+        "digest": "sha256:933b3c7703e07022dcac985413b3977ee8bc4f6be6e8c06fe0bd2d443e81f474",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-31219961729-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 505683399,
+          "name": "sdk-beta-arm64-v8a.zip",
+          "size": 5569460,
+          "digest": "sha256:9309edddecd4fc0129158d697439d15a150d7b55a134b06019df7cc24cfc8e22",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-31219961729-1/sdk-beta-arm64-v8a.zip"
+        },
+        {
+          "id": 505683402,
+          "name": "sdk-beta-arm64-v8a.zip.sha256",
+          "size": 89,
+          "digest": "sha256:ae6dbda36768fa2ec518633ca44b99fe69ec42f7e158d78dd8041c311d5dec84",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-31219961729-1/sdk-beta-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 505683398,
+          "name": "sdk-beta-armeabi-v7a.zip",
+          "size": 6037965,
+          "digest": "sha256:fa87996b677e765c4be8e65156c4e20e07bea358cbf03e2d0b46fa566cfed5d5",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-31219961729-1/sdk-beta-armeabi-v7a.zip"
+        },
+        {
+          "id": 505683401,
+          "name": "sdk-beta-armeabi-v7a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:508be9c29008b07f2045f0aaa0ed016d97cedda8c078619a1aaafd75d59509bd",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-31219961729-1/sdk-beta-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 505683400,
+          "name": "stubs.zip",
+          "size": 13553,
+          "digest": "sha256:933b3c7703e07022dcac985413b3977ee8bc4f6be6e8c06fe0bd2d443e81f474",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-31219961729-1/stubs.zip"
+        },
+        {
+          "id": 505683409,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:45adf83f24c49f92ae3d5117091cc6a529ac2e8a13976b2a60bfcedbb81b8c95",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.0-beta-31219961729-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 369886062,
+      "tag": "sdk-v1.4.5.3-beta-31698340758-1",
+      "name": "Android SDK v1.4.5.3-beta build #39 (f931e00)",
+      "published_at": "2026-08-13T12:08:06Z",
+      "sdk_version": "1.4.5.3",
+      "channel": "beta",
+      "build": 39,
+      "commit": "f931e00bc5bc31cb6959f04e2b55f11fa7d9111e",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.5.3-beta-31698340758-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/369886062",
+      "stubs": {
+        "id": 512939452,
+        "name": "stubs.zip",
+        "size": 21637,
+        "digest": "sha256:dfcde58c25aeb6273ad5ccaa929a3564384563b0471b46b3b51b47389fb83fce",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 512939432,
+          "name": "sdk-beta-arm64-v8a.zip",
+          "size": 8528604,
+          "digest": "sha256:f084148d93ba664e2b079fa7e1147851ec9b680d6351cc2c6b7af8147bc3a206",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/sdk-beta-arm64-v8a.zip"
+        },
+        {
+          "id": 512939437,
+          "name": "sdk-beta-arm64-v8a.zip.message.txt",
+          "size": 180,
+          "digest": "sha256:ca9837e4985cdf2ca5c0c92bc3d6c355a903ec10de3e96cd42d309864ec8f4ae",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/sdk-beta-arm64-v8a.zip.message.txt"
+        },
+        {
+          "id": 512939433,
+          "name": "sdk-beta-arm64-v8a.zip.sha256",
+          "size": 89,
+          "digest": "sha256:c0a2b24901ff351d9a66d531554d15e404d814c187e49f21c19530d3bc68d4c2",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/sdk-beta-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 512939434,
+          "name": "sdk-beta-arm64-v8a.zip.sig",
+          "size": 97,
+          "digest": "sha256:9ddd9a872e387e5a3fb2e52a0276953d60489f6a8aeadb98828c7eccacf89d62",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/sdk-beta-arm64-v8a.zip.sig"
+        },
+        {
+          "id": 512939431,
+          "name": "sdk-beta-armeabi-v7a.zip",
+          "size": 9184437,
+          "digest": "sha256:e84699b53c3bfbf4743c44a178ee30814fa460e59157a4b39a42847141d95460",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/sdk-beta-armeabi-v7a.zip"
+        },
+        {
+          "id": 512939445,
+          "name": "sdk-beta-armeabi-v7a.zip.message.txt",
+          "size": 182,
+          "digest": "sha256:45340008970a3bd61f30ca4f0bbe5bfd2a8467b4769280e640c523a6c8545f78",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/sdk-beta-armeabi-v7a.zip.message.txt"
+        },
+        {
+          "id": 512939448,
+          "name": "sdk-beta-armeabi-v7a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:a6d1f6d8dce16f04ad55a93434adaeaa0f2788d4d597eeb4bb3e6c19523be4e4",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/sdk-beta-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 512939450,
+          "name": "sdk-beta-armeabi-v7a.zip.sig",
+          "size": 97,
+          "digest": "sha256:8593b3db56a6172c7055348e97d70a17da60d92cf5194018629ba2c958c4cc30",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/sdk-beta-armeabi-v7a.zip.sig"
+        },
+        {
+          "id": 512939452,
+          "name": "stubs.zip",
+          "size": 21637,
+          "digest": "sha256:dfcde58c25aeb6273ad5ccaa929a3564384563b0471b46b3b51b47389fb83fce",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/stubs.zip"
+        },
+        {
+          "id": 512939456,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:74eaada5842faadbf42a3288deaf45f884ce972cca7e244b0109071335a40ead",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.3-beta-31698340758-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 369900888,
+      "tag": "sdk-v1.4.5.4-beta-31700228378-1",
+      "name": "Android SDK v1.4.5.4-beta build #40 (f449c63)",
+      "published_at": "2026-08-13T12:33:24Z",
+      "sdk_version": "1.4.5.4",
+      "channel": "beta",
+      "build": 40,
+      "commit": "f449c63b9494fd4eb2870bb428e9354964cc63a0",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.5.4-beta-31700228378-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/369900888",
+      "stubs": {
+        "id": 512965015,
+        "name": "stubs.zip",
+        "size": 21637,
+        "digest": "sha256:6d110efef1a1e035fc7f7f2ee2dbf37849a5106d65d424dbc6dd0d9401b3f3a2",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 512964988,
+          "name": "sdk-beta-arm64-v8a.zip",
+          "size": 8524480,
+          "digest": "sha256:9ea5b8e8a3cea5f3279ca8a3bb9c053f2068094781d6646d54ed843d740c77a6",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/sdk-beta-arm64-v8a.zip"
+        },
+        {
+          "id": 512964987,
+          "name": "sdk-beta-arm64-v8a.zip.message.txt",
+          "size": 180,
+          "digest": "sha256:9eb3917106049f8e170c0bbaad5821dbb8f2f07a220527a4653fffd34eda4222",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/sdk-beta-arm64-v8a.zip.message.txt"
+        },
+        {
+          "id": 512964991,
+          "name": "sdk-beta-arm64-v8a.zip.sha256",
+          "size": 89,
+          "digest": "sha256:f9abcd9fd70c10c0e3b26bae8b81471b2b6da056e643c2dcc19a1527967137b3",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/sdk-beta-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 512964990,
+          "name": "sdk-beta-arm64-v8a.zip.sig",
+          "size": 97,
+          "digest": "sha256:3b2454485ca8b49e0b3ee3dc06ecceab50bbb0cd38b39a2d665b58a6357f7979",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/sdk-beta-arm64-v8a.zip.sig"
+        },
+        {
+          "id": 512964989,
+          "name": "sdk-beta-armeabi-v7a.zip",
+          "size": 9164021,
+          "digest": "sha256:abc19059f632e1c47524b376ce92f755564bb795f5ac2245db44727a8ebeedec",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/sdk-beta-armeabi-v7a.zip"
+        },
+        {
+          "id": 512964994,
+          "name": "sdk-beta-armeabi-v7a.zip.message.txt",
+          "size": 182,
+          "digest": "sha256:6d48d37bbd2700a28d87483cfd75cbcf0f95a5f054040cb9fa1be7819f63a000",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/sdk-beta-armeabi-v7a.zip.message.txt"
+        },
+        {
+          "id": 512965004,
+          "name": "sdk-beta-armeabi-v7a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:0c6fb21bcc40b380a0ab50a0335143d6bc0eadc21f761b2160c8f3a4c1c4f524",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/sdk-beta-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 512965005,
+          "name": "sdk-beta-armeabi-v7a.zip.sig",
+          "size": 97,
+          "digest": "sha256:bfb6d24302fd43247cfc31684bba38b6e17ec91576870ad133addd4efd161e0d",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/sdk-beta-armeabi-v7a.zip.sig"
+        },
+        {
+          "id": 512965015,
+          "name": "stubs.zip",
+          "size": 21637,
+          "digest": "sha256:6d110efef1a1e035fc7f7f2ee2dbf37849a5106d65d424dbc6dd0d9401b3f3a2",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/stubs.zip"
+        },
+        {
+          "id": 512965022,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:09bf77cec4105c8138912246f70d14f2d5dc19a8d27413c902421a0786438833",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.4-beta-31700228378-1/stubs.zip.sha256"
+        }
+      ]
+    },
+    {
+      "release_id": 378452962,
+      "tag": "sdk-v1.4.5.5-beta-33168796913-1",
+      "name": "Android SDK v1.4.5.5-beta build #41 (20ef655)",
+      "published_at": "2026-08-28T11:56:28Z",
+      "sdk_version": "1.4.5.5",
+      "channel": "beta",
+      "build": 41,
+      "commit": "20ef655470d64e8bf195e3f5a9973485d1b0be19",
+      "github_prerelease": false,
+      "release_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/tag/sdk-v1.4.5.5-beta-33168796913-1",
+      "api_url": "https://api.github.com/repos/exteraSquad/plugins-pysdk-builds/releases/378452962",
+      "stubs": {
+        "id": 533735918,
+        "name": "stubs.zip",
+        "size": 21637,
+        "digest": "sha256:68b6e3a4aca601972614f47b58a6357faa5fbb5d82215dbebfa6ca898d20bdab",
+        "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/stubs.zip"
+      },
+      "assets": [
+        {
+          "id": 533735902,
+          "name": "sdk-beta-arm64-v8a.zip",
+          "size": 8523993,
+          "digest": "sha256:620f02ae2d755eb574a519480c4e272adbdf4d3937c227ad51f5dc1bdbdb711b",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/sdk-beta-arm64-v8a.zip"
+        },
+        {
+          "id": 533735903,
+          "name": "sdk-beta-arm64-v8a.zip.message.txt",
+          "size": 180,
+          "digest": "sha256:163095090ef4dce0e809b2761b5c900093c06be34e1d10a3a313af15d75c8384",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/sdk-beta-arm64-v8a.zip.message.txt"
+        },
+        {
+          "id": 533735899,
+          "name": "sdk-beta-arm64-v8a.zip.sha256",
+          "size": 89,
+          "digest": "sha256:047c650be5921ee104cc27a146022f4d8837ca3e1b38beac3962805e7e7610de",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/sdk-beta-arm64-v8a.zip.sha256"
+        },
+        {
+          "id": 533735900,
+          "name": "sdk-beta-arm64-v8a.zip.sig",
+          "size": 97,
+          "digest": "sha256:8c14a46a5dc0477bd112aba15dc8d1cd5a73acb92085f69e57aa738d9a6e0622",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/sdk-beta-arm64-v8a.zip.sig"
+        },
+        {
+          "id": 533735901,
+          "name": "sdk-beta-armeabi-v7a.zip",
+          "size": 9178514,
+          "digest": "sha256:b1576adfb7a341016aff27777a73caa07b0536de948a93759c84021e52605b4c",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/sdk-beta-armeabi-v7a.zip"
+        },
+        {
+          "id": 533735910,
+          "name": "sdk-beta-armeabi-v7a.zip.message.txt",
+          "size": 182,
+          "digest": "sha256:777a0d310a277d320fc3519096776c9ddd8dcd0830f860fa2450678bf287b229",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/sdk-beta-armeabi-v7a.zip.message.txt"
+        },
+        {
+          "id": 533735911,
+          "name": "sdk-beta-armeabi-v7a.zip.sha256",
+          "size": 91,
+          "digest": "sha256:4813652a703503101c5a709541234f94e3ccd6b0f12930309f5d6ecaa3c3e2ac",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/sdk-beta-armeabi-v7a.zip.sha256"
+        },
+        {
+          "id": 533735913,
+          "name": "sdk-beta-armeabi-v7a.zip.sig",
+          "size": 97,
+          "digest": "sha256:e94e235053f9810082d42f9d59154f3d630e7dc994a7bed839891dfd5fc498ef",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/sdk-beta-armeabi-v7a.zip.sig"
+        },
+        {
+          "id": 533735918,
+          "name": "stubs.zip",
+          "size": 21637,
+          "digest": "sha256:68b6e3a4aca601972614f47b58a6357faa5fbb5d82215dbebfa6ca898d20bdab",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/stubs.zip"
+        },
+        {
+          "id": 533735921,
+          "name": "stubs.zip.sha256",
+          "size": 76,
+          "digest": "sha256:7fe61afe7d634bca8db851aa2c55e9ff0d83e0c945b82f6a2a80b733a5f2d503",
+          "download_url": "https://github.com/exteraSquad/plugins-pysdk-builds/releases/download/sdk-v1.4.5.5-beta-33168796913-1/stubs.zip.sha256"
+        }
+      ]
+    }
+  ]
+}
