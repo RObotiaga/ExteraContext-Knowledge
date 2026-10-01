@@ -2,7 +2,7 @@
 type: review
 source_id: plugins-store-automation-tools
 review_status: accepted-with-gaps
-reviewer: subagent/collector_plugins-store-automation-tools
+reviewer: /root/review_plugins_store_automation_tools
 date: 2026-10-01
 ---
 
