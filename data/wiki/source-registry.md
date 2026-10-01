@@ -81,5 +81,13 @@ Legacy-строки соответствуют отдельным парам с�
 | [Nagram X Turbo](sources/nagramx-turbo.md) | /root/collect_nagramx_turbo | [/root/review_nagramx_turbo](reviews/nagramx-turbo.md) | accepted-with-gaps | 267a33ead32b6f003b6aa8f913e7727e9992a7f2 |
 | [npm: @catalystdev/exteragram-mcp@1.0.0](sources/exteragram-mcp-npm.md) | /root/collect_exteragram_mcp_npm | [/root/review_exteragram_mcp_npm](reviews/exteragram-mcp-npm.md) | accepted-with-gaps |  |
 | [AyuGram Desktop PLEngine](sources/ayugram-plengine.md) | /root/collect_ayugram_plengine | [/root/review_ayugram_plengine](reviews/ayugram-plengine.md) | accepted-with-gaps | 55feefdb6abd702e368b12431de97313441362a0 |
+| [Plugins-Store: UI и кастомизация](sources/plugins-store-ui-customization.md) | /root/collect_plugins_store_ui | [/root/review_plugins_store_ui](reviews/plugins-store-ui-customization.md) | accepted-with-gaps | main (84 плагина) |
+| [Plugins-Store: перехват сообщений и чат](sources/plugins-store-messages-chat.md) | /root/collect_plugins_store_msg | [/root/review_plugins_store_msg](reviews/plugins-store-messages-chat.md) | accepted-with-gaps | main (151 плагин) |
+| [Plugins-Store: глубокий хукинг и рефлексия](sources/plugins-store-hooks-reflection.md) | /root/collect_plugins_store_hooks | [/root/review_plugins_store_hooks](reviews/plugins-store-hooks-reflection.md) | accepted-with-gaps | main (40 плагинов) |
+| [Plugins-Store: медиа и файловые сервисы](sources/plugins-store-media-files.md) | /root/collect_plugins_store_media | [/root/review_plugins_store_media](reviews/plugins-store-media-files.md) | accepted-with-gaps | main (31 плагин) |
+| [Plugins-Store: сеть, асинхронность и прокси](sources/plugins-store-network-async.md) | /root/collect_plugins_store_net | [/root/review_plugins_store_net](reviews/plugins-store-network-async.md) | accepted-with-gaps | main (139 плагинов) |
+| [Plugins-Store: динамический DEX и нативный код](sources/plugins-store-dex-native.md) | /root/collect_plugins_store_dex | [/root/review_plugins_store_dex](reviews/plugins-store-dex-native.md) | accepted-with-gaps | main (111 плагинов) |
+| [Plugins-Store: аккаунты, состояние и БД](sources/plugins-store-accounts-storage.md) | /root/collect_plugins_store_acc | [/root/review_plugins_store_acc](reviews/plugins-store-accounts-storage.md) | accepted-with-gaps | main (126 плагинов) |
+| [Plugins-Store: автоматизация и утилиты](sources/plugins-store-automation-tools.md) | /root/collect_plugins_store_tools | [/root/review_plugins_store_tools](reviews/plugins-store-automation-tools.md) | accepted-with-gaps | main (22 плагина) |
 
 [Реестр идентичностей, aliases и исходных упоминаний](source-candidates.json). [Ограничения и пробелы](gaps.md).

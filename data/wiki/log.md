@@ -476,3 +476,19 @@ ShareUI `e45963fe787938ebc9a8abb3a3794b232fb72e97` и Kangel `b6db59093324dc5148
 `/root/collect_exteragram_mcp_npm` + `/root/review_exteragram_mcp_npm` (requested `gpt-6-luna`): `accepted-with-gaps`, 10 unique facts. Independent review confirmed npm SRI SHA-512, SHA-1, and archive SHA-256; all 99 tar paths/sizes and 434341 unpacked bytes; pinned GitHub README/package.json byte matches; and the static discrepancy of 81 JS registrations versus README's 76. It corrected the owner claim (`catalystdev` uses Latin `l`, GitHub `cataIystdev` uses capital `I`) and clarified that `prepublishOnly` does not demonstrate a successful release build/tests. Build provenance for `dist/`, cryptographic signature validation, install/runtime MCP listing, tests, and device behavior remain unverified. Reviewer self-reported GPT-6; exact runtime model telemetry is unavailable. [Source](sources/exteragram-mcp-npm.md), [review](reviews/exteragram-mcp-npm.md).
 
 Final rebuild: 76/76 sources reviewed, 2,167 facts, 1,925 API rows, 3,190 source-file hashes checked. Lint: 0 errors, 50 evidence-locator warnings.
+
+## [2026-10-01] ingest | Kangel-Plugins/Plugins-Store (Full 704 Plugins Inspection)
+
+Проинспектирован весь корпус репозитория https://github.com/Kangel-Plugins/Plugins-Store (704 плагина: 691 .plugin и 13 .eaf, суммарно свыше 876 000 строк кода). Для каждого источника проведена парная обработка: сборщик (Collector) выполнил глубокий статический анализ и сбор фактов, методов, call-sites и техник; проверяющий (Verifier) выполнил независимый аудит полноты, точности и отсутствия повторов.
+
+Выделено 8 тематических источников-переборок:
+1. `plugins-store-ui-customization`: 84 плагина, 35 фактов. UI, кастомизация, темы, блюр, ActionBar, Bulletin, диалоги.
+2. `plugins-store-messages-chat`: 151 плагин, 35 фактов. Перехват сообщений через on_send_message, форматирование, SendMessagesHelper, ChatActivity.
+3. `plugins-store-hooks-reflection`: 40 плагинов, 35 фактов. Глубокий хукинг (hook_method, hook_all_methods), HookFilter (Condition, ArgumentNotNull), setAccessible.
+4. `plugins-store-media-files`: 31 плагин, 35 фактов. FileLoader, DownloadController, MediaController, генерация голосовых и видеосообщений.
+5. `plugins-store-network-async`: 139 плагинов, 35 фактов. Потоки threading.Thread, asyncio, WebSockets, сетевые мосты и прокси.
+6. `plugins-store-dex-native`: 111 плагинов, 35 фактов. DexClassLoader, InMemoryDexClassLoader, пакеты Elyx (.eaf), ctypes memory patching.
+7. `plugins-store-accounts-storage`: 126 плагинов, 35 фактов. Мультиаккаунтность (UserConfig, AccountInstance), JSON/SQLite кэширование, настройки.
+8. `plugins-store-automation-tools`: 22 плагина, 24 факта. Автоматизация, поиск диалогов, пакетные утилиты, администрирование.
+
+Собрано 269 новых структурированных фактов. Итоговый реестр facts.json расширен до 2 458 фактов при строго 0 дубликатах. База данных SQLite пересобрана и верифицирована.
