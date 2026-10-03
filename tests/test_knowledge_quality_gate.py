@@ -13,7 +13,7 @@ def test_quality_gate():
         capture_output=True, text=True
     )
     assert res.returncode == 0, f"Quality gate failed:\n{res.stdout}\n{res.stderr}"
-    assert "ALL QUALITY GATES PASSED CLEANLY!" in res.stdout
+    assert "ALL STRICT QUALITY GATES PASSED (100% Verified)!" in res.stdout
 
 if __name__ == "__main__":
     test_quality_gate()

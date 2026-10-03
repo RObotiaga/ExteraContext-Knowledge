@@ -9,7 +9,7 @@ date: 2026-10-01
 
 # Plugins-Store: Раздел сообщений и чатов (Messages & Chat)
 
-Источник: 151 плагин каталога [Plugins-Store](https://github.com/Kangel-Plugins/Plugins-Store) (`Plugins/`), отобранных по функционалу перехвата и модификации сообщений, работы со стилями текста, спойлерами, форматированием, автоответами, черновиками, а также хуками на `on_send_message_hook`, `SendMessagesHelper`, `ChatActivity`, `ChatActivityEnterView` и `ChatMessageCell`. Срез зафиксирован в неизменяемом индексе партиций `data/extracted_partitions/plugins-store-messages-chat.json`.
+Источник: 150 плагинов каталога [Plugins-Store](https://github.com/Kangel-Plugins/Plugins-Store) (`Plugins/`), отобранных по функционалу перехвата и модификации сообщений, работы со стилями текста, спойлерами, форматированием, автоответами, черновиками, а также хуками на `on_send_message_hook`, `SendMessagesHelper`, `ChatActivity`, `ChatActivityEnterView` и `ChatMessageCell`. Срез зафиксирован в неизменяемом манифесте `data/plugins-manifest.json`.
 
 ## Роль и границы источника
 

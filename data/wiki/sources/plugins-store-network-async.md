@@ -9,7 +9,7 @@ date: 2026-10-01
 
 # Kangel-Plugins/Plugins-Store — Сеть, асинхронность, потоки, WebSocket и прокси (Раздел plugins-store-network-async)
 
-Источник: [репозиторий Kangel-Plugins/Plugins-Store](https://github.com/Kangel-Plugins/Plugins-Store), снимок commit `00de67026419f9dbe3a2787bb1236e8aaead8f76` (`main`). Раздел `plugins-store-network-async` охватывает 139 плагинов каталога, реализующих механизмы параллелизма через `threading.Thread`, `asyncio`, `concurrent.futures.ThreadPoolExecutor`, сокетные коммуникации (`socket`), протоколы прикладного уровня (`requests`, `urllib`), WebSocket-клиенты, локальные веб-серверы (`http.server`), туннелирование/прокси (VLESS Reality/gRPC/WS, Sing-box, SOCKS5, MTProto), обход сетевых блокировок, rate limiting и мостирование нативных MTProto RPC-вызовов клиента ExteraGram.
+Источник: [репозиторий Kangel-Plugins/Plugins-Store](https://github.com/Kangel-Plugins/Plugins-Store), снимок commit `00de67026419f9dbe3a2787bb1236e8aaead8f76` (`main`). Раздел `plugins-store-network-async` охватывает 138 плагинов каталога, реализующих механизмы параллелизма через `threading.Thread`, `asyncio`, `concurrent.futures.ThreadPoolExecutor`, сокетные коммуникации (`socket`), протоколы прикладного уровня (`requests`, `urllib`), WebSocket-клиенты, локальные веб-серверы (`http.server`), туннелирование/прокси (VLESS Reality/gRPC/WS, Sing-box, SOCKS5, MTProto), обход сетевых блокировок, rate limiting и мостирование нативных MTProto RPC-вызовов клиента ExteraGram.
 
 ## Роль и границы источника
 

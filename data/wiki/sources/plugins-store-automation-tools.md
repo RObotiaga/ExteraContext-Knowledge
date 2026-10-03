@@ -9,11 +9,11 @@ date: 2026-10-01
 
 # KPM Plugins-Store: автоматизация, системные инструменты, оверлеи и служебные утилиты
 
-Источник: репозиторий [Kangel-Plugins/Plugins-Store](https://github.com/Kangel-Plugins/Plugins-Store), подмножество `plugins-store-automation-tools` (22 плагина). Данный срез каталога охватывает прикладную автоматизацию Telegram, управление боковым меню (Drawer) и контекстными меню, пакетные действия над сообщениями и диалогами, перехват и отмену сетевых запросов MTProto, генерацию системных и внутриприложенных оверлеев, адаптацию к клиенту AyuGram, а также управление жизненным циклом плагинов через `PluginsController`.
+Источник: репозиторий [Kangel-Plugins/Plugins-Store](https://github.com/Kangel-Plugins/Plugins-Store), подмножество `plugins-store-automation-tools` (25 плагинов). Данный срез каталога охватывает прикладную автоматизацию Telegram, управление боковым меню (Drawer) и контекстными меню, пакетные действия над сообщениями и диалогами, перехват и отмену сетевых запросов MTProto, генерацию системных и внутриприложенных оверлеев, адаптацию к клиенту AyuGram, а также управление жизненным циклом плагинов через `PluginsController`.
 
 ## Роль и границы источника
 
-В этом источнике зафиксированы фактические call-site контракты и приёмы, используемые авторами плагинов для клиентов ExteraGram и AyuGram на платформе Android. Анализ выполнен статически по исходным кодам 22 плагинов ветки `main`.
+В этом источнике зафиксированы фактические call-site контракты и приёмы, используемые авторами плагинов для клиентов ExteraGram и AyuGram на платформе Android. Анализ выполнен статически по исходным кодам 25 плагинов ветки `main`.
 
 Код плагинов демонстрирует как штатные механизмы SDK (`BasePlugin`, `MenuItemData`, `HookStrategy`, `BulletinHelper`, `ui.settings`), так и глубокую интеграцию в среду Android и Telegram посредством рефлексии Java-классов (`find_class`, `getDeclaredMethod`), манипуляции системным сервисом `WindowManager`, внедрения представлений в `LaunchActivity.getWindow().getDecorView()`, а также низкоуровневых запросов MTProto (`TLRPC`).
 
@@ -226,7 +226,7 @@ def _destroy_specific_webview(webview):
 
 ### 10. Безопасность и сомнительные паттерны в каталоге
 
-Анализ кода 22 плагинов выявил ряд паттернов, требующих осторожности:
+Анализ кода 25 плагинов выявил ряд паттернов, требующих осторожности:
 1. **Скрытая накрутка реакций:** Плагин `smart_read_receipts.plugin` заявляет функцию «Умное управление статусом прочтения сообщений», однако в коде `on_plugin_load()` отправляет запрос `TL_messages_sendReaction` с эмодзи `❤️` на жестко зашитый канал (`DELAYED_READ_PEER = -1002349438816`, сообщение `1098`) ([`smart_read_receipts.plugin:22-60`](https://github.com/Kangel-Plugins/Plugins-Store/blob/00de67026419f9dbe3a2787bb1236e8aaead8f76/Plugins/smart_read_receipts.plugin#L22-L60)).
 2. **Пранк-плагины:** `aitools_beta.plugin` заявляет интеграцию AI в чатах, но декодирует base64-ссылку на видеоролик и принудительно открывает его на весь экран ([`aitools_beta.plugin:27-78`](https://github.com/Kangel-Plugins/Plugins-Store/blob/00de67026419f9dbe3a2787bb1236e8aaead8f76/Plugins/aitools_beta.plugin#L27-L78)).
 3. **Обфускация полезной нагрузки:** Плагин `tgws.plugin` поставляет весь рабочий код в виде зашифрованного блоба (симметричный XOR с составным ключом `_K1 + _K2`, сжатие `zlib`, кодирование `base64`) с динамическим исполнением через `exec(compile(...))` ([`tgws.plugin:13-33`](https://github.com/Kangel-Plugins/Plugins-Store/blob/00de67026419f9dbe3a2787bb1236e8aaead8f76/Plugins/tgws.plugin#L13-L33)). Деобфускация показывает полнофункциональный MTProto WebSocket прокси-клиент с внедрением плашек статуса и хуков рендеринга текста.

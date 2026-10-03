@@ -9,7 +9,7 @@ date: 2026-10-01
 
 # Kangel-Plugins/Plugins-Store — Мультиаккаунтность, AccountInstance, UserConfig и подсистемы хранилища
 
-Источник: репозиторий [Kangel-Plugins/Plugins-Store](https://github.com/Kangel-Plugins/Plugins-Store), ветка `main`, снимок дерева и репозитория `513e29a07858e5dec3a8dcdc6a860fe4296f1d43`. Локальные файлы плагинов расположены в `Plugins-Store/Plugins/`. Тематический раздел `plugins-store-accounts-storage` включает 126 плагинов, реализующих механизмы работы с учетными записями Telegram, многопользовательскую маршрутизацию, управление сессиями, прямое манипулирование базами данных SQLite (`MessagesStorage`), файловую персистентность, Android `SharedPreferences` и встроенный механизм настроек плагинов.
+Источник: репозиторий [Kangel-Plugins/Plugins-Store](https://github.com/Kangel-Plugins/Plugins-Store), ветка `main`, снимок дерева и репозитория `513e29a07858e5dec3a8dcdc6a860fe4296f1d43`. Локальные файлы плагинов расположены в `Plugins-Store/Plugins/`. Тематический раздел `plugins-store-accounts-storage` включает 127 плагинов, реализующих механизмы работы с учетными записями Telegram, многопользовательскую маршрутизацию, управление сессиями, прямое манипулирование базами данных SQLite (`MessagesStorage`), файловую персистентность, Android `SharedPreferences` и встроенный механизм настроек плагинов.
 
 ## Роль и границы источника
 
