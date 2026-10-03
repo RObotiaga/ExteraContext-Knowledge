@@ -17,5 +17,7 @@ date: 2026-09-27
 - [official-sdk](../sources/official-sdk.md): точные методы, версии и ограничения.
 - [for-vibecoders](../sources/for-vibecoders.md): точные методы, версии и ограничения.
 - [extcli](../sources/extcli.md): точные методы, версии и ограничения.
+- [plugins-store-ui-customization](../sources/plugins-store-ui-customization.md): диспетчеризация BulletinFactory и AlertDialog через run_on_ui_thread.
+- [plugins-store-network-async](../sources/plugins-store-network-async.md): фоновые потоки threading.Thread(daemon=True) с маршалингом результатов в UI поток Telegram.
 
 [Каталог рецептов](index.md) · [Справочник вызовов](../apis/index.md) · [Пробелы](../gaps.md)

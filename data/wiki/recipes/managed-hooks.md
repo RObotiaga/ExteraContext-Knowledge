@@ -18,5 +18,6 @@ date: 2026-09-27
 - [for-vibecoders](../sources/for-vibecoders.md): точные методы, версии и ограничения.
 - [altylib](../sources/altylib.md): точные методы, версии и ограничения.
 - [exteralib](../sources/exteralib.md): точные методы, версии и ограничения.
+- [plugins-store-hooks-reflection](../sources/plugins-store-hooks-reflection.md): фильтры HookFilter (Condition, ArgumentNotNull), hook_all_methods и безопасный unhooking в 40 плагинах каталога KPM.
 
 [Каталог рецептов](index.md) · [Справочник вызовов](../apis/index.md) · [Пробелы](../gaps.md)

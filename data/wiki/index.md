@@ -1,6 +1,6 @@
 # Индекс базы знаний о разработке плагинов
 
-Обработано и независимо проверено 76 из 76 материалов; структурированных записей с происхождением — 2167. Статусы и ограничения указаны в [реестре](source-registry.md).
+Обработано и независимо проверено 84 из 84 материалов; структурированных записей с происхождением — 2453. Статусы и ограничения указаны в [реестре](source-registry.md).
 
 ## Начало
 
@@ -111,6 +111,14 @@
 - [Nagram X Turbo](sources/nagramx-turbo.md): 31 структурированных записей · [проверка](reviews/nagramx-turbo.md).
 - [npm: @catalystdev/exteragram-mcp@1.0.0](sources/exteragram-mcp-npm.md): 10 структурированных записей · [проверка](reviews/exteragram-mcp-npm.md).
 - [AyuGram Desktop PLEngine](sources/ayugram-plengine.md): 27 структурированных записей · [проверка](reviews/ayugram-plengine.md).
+- [Plugins-Store: UI и кастомизация](sources/plugins-store-ui-customization.md): 35 структурированных записей · [проверка](reviews/plugins-store-ui-customization.md).
+- [Plugins-Store: перехват сообщений и чат](sources/plugins-store-messages-chat.md): 30 структурированных записей · [проверка](reviews/plugins-store-messages-chat.md).
+- [Plugins-Store: глубокий хукинг и рефлексия](sources/plugins-store-hooks-reflection.md): 40 структурированных записей · [проверка](reviews/plugins-store-hooks-reflection.md).
+- [Plugins-Store: медиа и файловые сервисы](sources/plugins-store-media-files.md): 35 структурированных записей · [проверка](reviews/plugins-store-media-files.md).
+- [Plugins-Store: сеть, асинхронность и прокси](sources/plugins-store-network-async.md): 35 структурированных записей · [проверка](reviews/plugins-store-network-async.md).
+- [Plugins-Store: динамический DEX и нативный код](sources/plugins-store-dex-native.md): 35 структурированных записей · [проверка](reviews/plugins-store-dex-native.md).
+- [Plugins-Store: аккаунты, состояние и БД](sources/plugins-store-accounts-storage.md): 24 структурированные записи · [проверка](reviews/plugins-store-accounts-storage.md).
+- [Plugins-Store: автоматизация и утилиты](sources/plugins-store-automation-tools.md): 30 структурированных записей · [проверка](reviews/plugins-store-automation-tools.md).
 
 ## Каталог всех страниц
 
