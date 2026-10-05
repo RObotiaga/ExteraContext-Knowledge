@@ -1,12 +1,19 @@
 ---
 type: review
 source_id: plugins-store-air-raid-alert
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
+title: "Источник: Air Raid Alert"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: e30c41d0c01b8a3e417f933a6e5426e749092d46
-plugin_id: air_raid_alert
+artifact_sha256: 6ca1da132020a54c1a7c51cd1e86b40546347fd5db7f78f9b67e4775844c85c2
+plugin_id: "air_raid_alert"
 review_status: accepted
-date: 2026-10-05
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-05"
 ---
 
 # Ревью: Air Raid Alert

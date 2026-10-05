@@ -1,19 +1,26 @@
 ---
 type: source
 source_id: plugins-store-sorter-plus
-title: Sorter+
+title: "Plugins Store: sorter_plus (Sorter+ 1.4.3)"
 source_type: plugin
-repository: Kangel-Plugins/Plugins-Store
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: 39d0a8797ddca6fd23159567311e7a0e03c342b6
-path: Plugins/sorter_plus.plugin
-version: 1.4.3
-plugin_id: sorter_plus
+path: "Plugins/sorter_plus.plugin"
+artifact_sha256: c99e7327a4def4d894689fc8c1b743c10762db5f40766e53c2d7f511993bd904
+plugin_id: "sorter_plus"
+plugin_version: "1.4.3"
 author: "@plugin_ai"
-min_version: 12.1.1
+min_version: "12.1.1"
+app_version: null
+sdk_version: null
 platform: Android
+evidence_status: code
 review_status: accepted
+collector_model: "deepseek-v4.1-flash-expires-on-0910"
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+review_mode: independent-source-reread-nonblind
 review: ../reviews/plugins-store-sorter-plus.md
-date: 2026-10-05
+date: "2026-10-05"
 ---
 
 # Plugins Store: sorter_plus (Sorter+ 1.4.3)

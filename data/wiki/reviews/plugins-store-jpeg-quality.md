@@ -1,19 +1,26 @@
 ---
 type: review
 source_id: plugins-store-jpeg-quality
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
-commit: 25d32cf2b5a19280df07e2689ef2fce4d1db2656
-plugin_id: jpeg_quality
+title: "Источник: jpeg_quality.plugin"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 25d32cf5ddc45d905120f9a83116667d1ac03f46
+artifact_sha256: b34d7ca3114625957e6d569bc003d912d93237966818a5b59ea3419a166ae0b7
+plugin_id: "jpeg_quality"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью: plugins-store-jpeg-quality
 
 Сборщик предоставил 5 фактов. Принято 5 фактов.
 
-Проверен исходный файл `Plugins/jpeg_quality.plugin` версии 2.1 на commit `25d32cf2b5a19280df07e2689ef2fce4d1db2656`. Все пять фактов согласуются с указанными строками исходника.
+Проверен исходный файл `Plugins/jpeg_quality.plugin` версии 2.1 на commit `25d32cf5ddc45d905120f9a83116667d1ac03f46`. Все пять фактов согласуются с указанными строками исходника.
 
 | ID | Вердикт | Проверка |
 |---|---|---|

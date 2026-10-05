@@ -1,13 +1,19 @@
 ---
 type: review
 source_id: plugins-store-search-plus
-reviewer: "Independent Verifier"
-repository: "Kangel-Plugins/Plugins-Store"
-commit: "ad51ff088f1dcbe1a7b0fc5678887bfe7dfa4e0a"
+title: "Search+ (search_plus)"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: ad51ff05579edd2b5af08c4294aa455fb81a24da
+artifact_sha256: 16aea984e3e00d4582e7047f9d34f15f0258372cedc88a85b3f3395067fb5462
 plugin_id: "search_plus"
-plugin_version: "2.6"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью Search+ (search_plus)

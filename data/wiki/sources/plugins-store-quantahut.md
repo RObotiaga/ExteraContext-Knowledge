@@ -1,19 +1,26 @@
 ---
 type: source
 source_id: plugins-store-quantahut
-title: QuantaHut
+title: "Plugins Store: quantahut (QuantaHut)"
 source_type: plugin
-repository: Kangel-Plugins/Plugins-Store
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: d0efb7b72bcac954d97af04670d6492900ade596
-path: Plugins/quantahut.plugin
-version: 1.5.4
-plugin_id: quantahut
+path: "Plugins/quantahut.plugin"
+artifact_sha256: 6d77ec8e97925d069c7561e1bb5828e69fed115e565dd93fbb6ad9ea65f1a307
+plugin_id: "quantahut"
+plugin_version: "1.5.4"
 author: "@luvztroy"
-min_version: 12.9.0
+min_version: "12.9.0"
+app_version: null
+sdk_version: null
 platform: Android
+evidence_status: code
 review_status: accepted
+collector_model: "deepseek-v4.1-flash-expires-on-0910"
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+review_mode: independent-source-reread-nonblind
 review: ../reviews/plugins-store-quantahut.md
-date: 2026-10-05
+date: "2026-10-05"
 ---
 
 # Plugins Store: quantahut (QuantaHut)

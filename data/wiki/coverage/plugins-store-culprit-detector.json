@@ -1,0 +1,29 @@
+{
+  "source_id": "plugins-store-culprit-detector",
+  "artifact_type": "plugin",
+  "coverage_rule": "minimum_5_facts_candidate_set",
+  "minimum_facts_satisfied": true,
+  "facts_count": 5,
+  "areas": {
+    "metadata_version": "covered",
+    "sdk_api": "covered",
+    "internal_java_api": "covered",
+    "hooks": "covered",
+    "lifecycle_cleanup": "covered",
+    "accounts": "not_present",
+    "threading": "covered",
+    "requests_tlrpc": "not_present",
+    "storage": "covered",
+    "ui": "covered",
+    "filesystem": "covered",
+    "network": "not_present",
+    "external_dependencies": "covered",
+    "security": "covered",
+    "version_sensitive_assumptions": "covered"
+  },
+  "known_gaps": [
+    "Native libculprit.so is compiled for arm64; x86/armv7 architectures are inert.",
+    "Pre-OOM watchdog and smaps scans are Linux/Android kernel specific."
+  ],
+  "reviewed": true
+}

@@ -1,19 +1,26 @@
 ---
 type: review
 source_id: plugins-store-bot-tags
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
-commit: efd7ae3b6a22f3020aa0f55cf64d36eb10f60c4a
-plugin_id: bot_tags
+title: "Bot Tags"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: efd7ae39edca5bcf33919884888a75f6ce8529b1
+artifact_sha256: 4de9e922b4029540201e121e0a2e9dbdc02272b2bc1d7b37f12fa19d771977b7
+plugin_id: "bot_tags"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью: Bot Tags
 
 Сборщик предоставил 5 фактов. Принято 5 фактов.
 
-Проверка выполнена независимо по исходному файлу на коммите `efd7ae3b6a22f3020aa0f55cf64d36eb10f60c4a`.
+Проверка выполнена независимо по исходному файлу на коммите `efd7ae39edca5bcf33919884888a75f6ce8529b1`.
 
 | ID | Вердикт | Проверка |
 |---|---|---|

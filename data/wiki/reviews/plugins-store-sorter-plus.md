@@ -1,12 +1,19 @@
 ---
 type: review
 source_id: plugins-store-sorter-plus
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
+title: "Plugins Store: sorter_plus (Sorter+ 1.4.3)"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: 39d0a8797ddca6fd23159567311e7a0e03c342b6
-plugin_id: sorter_plus
+artifact_sha256: c99e7327a4def4d894689fc8c1b743c10762db5f40766e53c2d7f511993bd904
+plugin_id: "sorter_plus"
 review_status: accepted
-date: 2026-10-05
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-05"
 ---
 
 # Ревью: Plugins Store `sorter_plus` (Sorter+ 1.4.3)

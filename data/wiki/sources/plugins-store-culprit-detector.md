@@ -1,3 +1,28 @@
+---
+type: source
+source_id: plugins-store-culprit-detector
+title: "Источник: Culprit Detector (culprit_detector) — пассивный детектор виновников падений и утечек"
+source_type: plugin
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: c38b0cdc42f868dd89ae96747e4bb4ebf2a30646
+path: "Plugins/culprit_detector.plugin"
+artifact_sha256: da78c1b975ccfec856498abb8e977bfcc9d54023e54c3e84765570321c721fe0
+plugin_id: "culprit_detector"
+plugin_version: "1.7.0"
+author: "@chestertech & @useful_plugins"
+min_version: "12.6.4"
+app_version: null
+sdk_version: null
+platform: Android
+evidence_status: code
+review_status: accepted
+collector_model: "deepseek-v4.1-flash-expires-on-0910"
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+review_mode: independent-source-reread-nonblind
+review: ../reviews/plugins-store-culprit-detector.md
+date: "2026-10-03"
+---
+
 # Источник: Culprit Detector (culprit_detector) — пассивный детектор виновников падений и утечек
 
 - Плагин: `culprit_detector`, версия `1.7.0` («Culprit Detector», `__id__ = "culprit_detector"` — строка 33, `__version__ = "1.7.0"` — строка 35)
@@ -5,7 +30,7 @@
 - Проверенный файл: `Plugins/culprit_detector.plugin` — один Python-файл (не `.eaf`), 1 293 614 байт, 25 120 строк, UTF-8 без BOM
 - SHA-256 артефакта: `da78c1b975ccfec856498abb8e977bfcc9d54023e54c3e84765570321c721fe0` (совпадает с `Plugins-Store/store.json` → `culprit_detector.hash`, с локальной копией в checkout и с независимо скачанным Raw-файлом по pinned commit: HTTP 200, 1 293 614 байт)
 - Локальная копия в рабочем checkout: `Plugins-Store/Plugins/culprit_detector.plugin` — содержимое побайтово совпадает с blob на pinned commit и с `HEAD` (сравнение после нормализации переводов строк расхождений не дало; `git diff c38b0cdc… HEAD -- Plugins/culprit_detector.plugin` пуст, последний commit, менявший файл, — сам `c38b0cdc…`)
-- Проверенный commit: `c38b0cdc42f868dd89ae96747e4bb4ebf2a30646` («Update plugin: culprit_detector v1.7.0»), существует в клоне, является предком `HEAD` (`a39cec371261c22355ce106b1a0ca559d8340f16`); `store.json` даёт `version: 1.7.0`, `status: utilities`, `min_version: 12.6.4`
+- Проверенный commit: `c38b0cdc42f868dd89ae96747e4bb4ebf2a30646` («Update plugin: culprit_detector v1.7.0»), существует в клоне, является предком `HEAD` (`f8f35b18b6148b20027b3bdeff505d240086444a`); `store.json` даёт `version: 1.7.0`, `status: utilities`, `min_version: 12.6.4`
 - Pinned URL: https://github.com/Kangel-Plugins/Plugins-Store/blob/c38b0cdc42f868dd89ae96747e4bb4ebf2a30646/Plugins/culprit_detector.plugin
 - Pinned Raw (независимо скачан: HTTP 200, 1 293 614 байт, sha256 совпал с локальным файлом и `store.json`): https://raw.githubusercontent.com/Kangel-Plugins/Plugins-Store/c38b0cdc42f868dd89ae96747e4bb4ebf2a30646/Plugins/culprit_detector.plugin
 - Встроенный нативный артефакт: блоб `_SO_ARM64` (строка 349 — 2 663, base64 из 222 112 символов) распаковывается `zlib.decompress(base64.b64decode(...))` в 400 648 байт; независимая распаковка даёт ELF64, little-endian, `e_machine = 0xB7` (AArch64/arm64), `e_type = 3` (DYN), sha256 `559b74082818c2f3bc97a4d5701b15a2ac67700804d68f487aafea732703550e`; в бинаре присутствуют символы `cd_abi_version`, `cd_start`, `cd_stop`, `cd_oom_start`, `cd_smaps_groups`, `cd_dmabuf_fd_scan`, `cd_gref_start`, `cd_gref_live`, `cd_thread_sig_unblock`

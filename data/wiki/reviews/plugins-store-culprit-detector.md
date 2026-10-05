@@ -1,7 +1,25 @@
+---
+type: review
+source_id: plugins-store-culprit-detector
+title: "Источник: Culprit Detector (culprit_detector) — пассивный детектор виновников падений и утечек"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: c38b0cdc42f868dd89ae96747e4bb4ebf2a30646
+artifact_sha256: da78c1b975ccfec856498abb8e977bfcc9d54023e54c3e84765570321c721fe0
+plugin_id: "culprit_detector"
+review_status: accepted
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
+---
+
 # Ревью: plugins-store-culprit-detector
 
 - Плагин: `culprit_detector` (Culprit Detector), версия `1.7.0`, Python `.plugin`, `__min_version__ = "12.6.4"`
-- Commit (как в задании): `c38b0cdc42f868dd89ae96747e4bb4ebf2a30646` — существует, «Update plugin: culprit_detector v1.7.0», является предком `HEAD` (`a39cec371261c22355ce106b1a0ca559d8340f16`)
+- Commit (как в задании): `c38b0cdc42f868dd89ae96747e4bb4ebf2a30646` — существует, «Update plugin: culprit_detector v1.7.0», является предком `HEAD` (`f8f35b18b6148b20027b3bdeff505d240086444a`)
 - Проверенный файл: `Plugins/culprit_detector.plugin`, 1 293 614 байт, 25 120 строк, UTF-8 без BOM; локальная копия побайтово совпадает с blob на pinned commit и с `HEAD`, `git diff c38b0cdc… HEAD -- Plugins/culprit_detector.plugin` пуст
 - SHA-256 артефакта: `da78c1b975ccfec856498abb8e977bfcc9d54023e54c3e84765570321c721fe0` (совпадает с `Plugins-Store/store.json` → `culprit_detector.hash` и с Raw-загрузкой по pinned commit: HTTP 200, 1 293 614 байт)
 - Вшитый нативный артефакт: независимая распаковка `_SO_ARM64` (`349` — `2663`) дала ELF64 little-endian AArch64 (`e_machine = 0xB7`), 400 648 байт, sha256 `559b7408…`; в бинаре присутствуют `cd_abi_version`, `cd_start`, `cd_stop`, `cd_oom_start`, `cd_smaps_groups`, `cd_dmabuf_fd_scan`, `cd_gref_start`, `cd_gref_live`

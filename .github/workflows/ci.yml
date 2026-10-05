@@ -2,7 +2,7 @@ name: Knowledge CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, "feat/**"]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -33,8 +33,8 @@ jobs:
           con = sqlite3.connect("data/exteracontext.sqlite")
           facts = con.execute("select count(*) from facts").fetchone()[0]
           docs = con.execute("select count(*) from docs").fetchone()[0]
-          assert facts >= 2453, facts
-          assert docs >= 221, docs
+          assert facts >= 2603, facts
+          assert docs >= 281, docs
           assert con.execute("pragma integrity_check").fetchone()[0] == "ok"
           print({"facts": facts, "docs": docs})
           PY

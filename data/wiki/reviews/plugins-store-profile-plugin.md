@@ -1,3 +1,21 @@
+---
+type: review
+source_id: plugins-store-profile-plugin
+title: "Источник: Profile_Plugin — генератор карточки профиля в Pillow (Python `.plugin`, `Kangel-Plugins/Plugins-Store`)"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 114f5a230b0cf82aa9986a5a89b06b2495c37240
+artifact_sha256: c97b1e50a2eec17e8c26d6d334edac380c0de9eaaaac6f2089170545ceded7f1
+plugin_id: "Profile_Plugin"
+review_status: accepted
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
+---
+
 # Ревью: plugins-store-profile-plugin
 
 - Плагин: `Profile_Plugin` (Profile Generator), версия `1.0`, Python `.plugin`, `__min_version__ = "11.9.0"`

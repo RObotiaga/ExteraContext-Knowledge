@@ -1,0 +1,29 @@
+{
+  "source_id": "plugins-store-profile-plugin",
+  "artifact_type": "plugin",
+  "coverage_rule": "minimum_5_facts_candidate_set",
+  "minimum_facts_satisfied": true,
+  "facts_count": 5,
+  "areas": {
+    "metadata_version": "covered",
+    "sdk_api": "covered",
+    "internal_java_api": "covered",
+    "hooks": "covered",
+    "lifecycle_cleanup": "covered",
+    "accounts": "not_present",
+    "threading": "covered",
+    "requests_tlrpc": "covered",
+    "storage": "covered",
+    "ui": "covered",
+    "filesystem": "covered",
+    "network": "covered",
+    "external_dependencies": "covered",
+    "security": "not_present",
+    "version_sensitive_assumptions": "covered"
+  },
+  "known_gaps": [
+    "on_plugin_unload is absent; fonts thread is not explicitly joined.",
+    "ImageFont.truetype errors silently fall back to default font."
+  ],
+  "reviewed": true
+}

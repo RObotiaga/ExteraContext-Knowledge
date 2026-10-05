@@ -1,19 +1,26 @@
 ---
 type: review
 source_id: plugins-store-local-contact-override
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
-commit: 11222d1645e546123e4ea97a315e21975e5361fe
-plugin_id: local_contact_override
+title: "Local Contact Override"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 11222d1c197556c267062bb64d879313a78effce
+artifact_sha256: 5cd8fb147d01ec10e570191b3610fd74ed7557629fd3811993a5306d72fa62bc
+plugin_id: "local_contact_override"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Review: Local Contact Override
 
 Сборщик предоставил 5 фактов. Принято 5 фактов.
 
-Independent static-source review of plugin v7.0.0 at commit `11222d1645e546123e4ea97a315e21975e5361fe`. All five claims were directly supported by the cited implementation lines.
+Independent static-source review of plugin v7.0.0 at commit `11222d1c197556c267062bb64d879313a78effce`. All five claims were directly supported by the cited implementation lines.
 
 | ID | Вердикт | Проверка |
 |---|---|---|

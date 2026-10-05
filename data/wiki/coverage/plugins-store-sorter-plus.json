@@ -1,0 +1,29 @@
+{
+  "source_id": "plugins-store-sorter-plus",
+  "artifact_type": "plugin",
+  "coverage_rule": "minimum_5_facts_candidate_set",
+  "minimum_facts_satisfied": true,
+  "facts_count": 5,
+  "areas": {
+    "metadata_version": "covered",
+    "sdk_api": "covered",
+    "internal_java_api": "covered",
+    "hooks": "covered",
+    "lifecycle_cleanup": "covered",
+    "accounts": "not_present",
+    "threading": "covered",
+    "requests_tlrpc": "not_present",
+    "storage": "covered",
+    "ui": "covered",
+    "filesystem": "covered",
+    "network": "not_present",
+    "external_dependencies": "not_present",
+    "security": "not_present",
+    "version_sensitive_assumptions": "covered"
+  },
+  "known_gaps": [
+    "Hooks PluginsActivity.fillItems; UniversalAdapter.fillItems is not hooked as an independent method.",
+    "Custom pills layout depends on PluginsActivity adapter structure."
+  ],
+  "reviewed": true
+}

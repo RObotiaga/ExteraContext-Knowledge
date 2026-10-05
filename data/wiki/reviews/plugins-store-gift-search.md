@@ -1,19 +1,26 @@
 ---
 type: review
 source_id: plugins-store-gift-search
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
-commit: 948a8557ea78e3881c2f6d2f3c70757d559981be
-plugin_id: gift_search
+title: "Источник: Gift Search"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 948a85533a5d5aa85453cf412204b11265471350
+artifact_sha256: 3ed5e78fa51fa4e56af3a71599986d0978a8c6f0918256ffce5b9d68340f436e
+plugin_id: "gift_search"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью: Gift Search
 
 Сборщик предоставил 5 фактов. Принято 5 фактов.
 
-Все пять утверждений сверены с исходным файлом `Plugins/gift_search.plugin` версии `1.0.1r` на commit `948a8557ea78e3881c2f6d2f3c70757d559981be`.
+Все пять утверждений сверены с исходным файлом `Plugins/gift_search.plugin` версии `1.0.1r` на commit `948a85533a5d5aa85453cf412204b11265471350`.
 
 | ID | Вердикт | Основание |
 |---|---|---|

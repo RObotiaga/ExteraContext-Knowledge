@@ -1,12 +1,19 @@
 ---
 type: review
 source_id: plugins-store-quantahut
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
+title: "Plugins Store: quantahut (QuantaHut)"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: d0efb7b72bcac954d97af04670d6492900ade596
-plugin_id: quantahut
+artifact_sha256: 6d77ec8e97925d069c7561e1bb5828e69fed115e565dd93fbb6ad9ea65f1a307
+plugin_id: "quantahut"
 review_status: accepted
-date: 2026-10-05
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-05"
 ---
 
 # Ревью: Plugins Store `quantahut` (QuantaHut 1.5.4)

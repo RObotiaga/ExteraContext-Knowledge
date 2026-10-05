@@ -1,17 +1,24 @@
 ---
 type: review
 source_id: plugins-store-advanced-search
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
-commit: 4ddb6c2f0fcf6d623a35f299f24ba8fbe640e70b
-plugin_id: advanced_search
+title: "Plugins Store: advanced_search"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 4ddb6c27adbc0714a2adc48e0417ebdffd22128f
+artifact_sha256: aee561b7e1a34ae719b567b9b41389f2e7141cf80ce4f81374b72901e7a9761c
+plugin_id: "advanced_search"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью: Plugins Store `advanced_search`
 
-Проверен источник `Plugins/advanced_search.plugin` в commit `4ddb6c2f0fcf6d623a35f299f24ba8fbe640e70b`.
+Проверен источник `Plugins/advanced_search.plugin` в commit `4ddb6c27adbc0714a2adc48e0417ebdffd22128f`.
 
 Сборщик предоставил 5 фактов. Принято 5 фактов.
 

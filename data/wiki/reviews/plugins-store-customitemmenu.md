@@ -1,7 +1,25 @@
+---
+type: review
+source_id: plugins-store-customitemmenu
+title: "Источник: Кастомные пункты меню (customitemmenu)"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: f8f35b18b6148b20027b3bdeff505d240086444a
+artifact_sha256: 5cc1ac05bf214d6431b910a44f9dbafd4896a96f78249670ca1548113b7c7a71
+plugin_id: "customitemmenu"
+review_status: accepted
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
+---
+
 # Ревью: plugins-store-customitemmenu
 
 - Плагин: `CustomItеmMеnu.plugin`, версия 1.5 (id `customitemmenu`)
-- Commit: `a39cec371261c22355ce106b1a0ca559d8340f16`
+- Commit: `f8f35b18b6148b20027b3bdeff505d240086444a`
 - Источник: [plugins-store-customitemmenu.md](../sources/plugins-store-customitemmenu.md)
 - Проверка: независимое сопоставление кандидатов с исходным кодом; статус доказательности — `code` (статический анализ AST + сверка blob/pinned raw-URL, не runtime-проверка).
 
@@ -26,4 +44,4 @@
 
 ## Pinned источник
 
-https://github.com/Kangel-Plugins/Plugins-Store/blob/a39cec371261c22355ce106b1a0ca559d8340f16/Plugins/CustomIt%D0%B5mM%D0%B5nu.plugin
+https://github.com/Kangel-Plugins/Plugins-Store/blob/f8f35b18b6148b20027b3bdeff505d240086444a/Plugins/CustomIt%D0%B5mM%D0%B5nu.plugin

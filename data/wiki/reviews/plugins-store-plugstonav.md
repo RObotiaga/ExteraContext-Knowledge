@@ -1,12 +1,19 @@
 ---
 type: review
 source_id: plugins-store-plugstonav
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
-commit: 5a4efa00029b44e21ba30f23f382a5c48b17b622
-plugin_id: plugstonav
+title: "Plugins Tab (plugstonav)"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 5a4efa002a7a85a232063849dc11f4c6ce7a730f
+artifact_sha256: 700fdf19b33142da8e3787917595ff818bcbddd1a4703a73e96957e86f00f355
+plugin_id: "plugstonav"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью: plugins-store-plugstonav
@@ -21,4 +28,4 @@ date: 2026-10-03
 | `plugstonav-004` | Принят | Имя класса и вызов dex.load() подтверждаются (строки 16, 104–115). |
 | `plugstonav-005` | Принят | loaded=False выполняется через finally при unload; callback ловит и логирует исключения (строки 59–65, 116–121). |
 
-Все факты подтверждены непосредственным чтением исходника на закреплённом commit `5a4efa00029b44e21ba30f23f382a5c48b17b622`.
+Все факты подтверждены непосредственным чтением исходника на закреплённом commit `5a4efa002a7a85a232063849dc11f4c6ce7a730f`.

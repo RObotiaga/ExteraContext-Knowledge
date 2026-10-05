@@ -1,12 +1,19 @@
 ---
 type: review
 source_id: plugins-store-limedex
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
+title: "limedex (v2.5.7)"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: 8cb930bf899079c56b07143b1f7209f7b25197ff
-plugin_id: limedex
+artifact_sha256: 24982dc3d0a956fad15408c330243ff209884d55bb3c4edc40c9dd7fb89032f9
+plugin_id: "limedex"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью: limedex (v2.5.7)

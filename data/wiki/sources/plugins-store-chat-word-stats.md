@@ -1,3 +1,28 @@
+---
+type: source
+source_id: plugins-store-chat-word-stats
+title: "Source: Chat Word Stats plugin"
+source_type: plugin
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: f8f35b18b6148b20027b3bdeff505d240086444a
+path: "Plugins/просьба.plugin"
+artifact_sha256: 339c4b0f072967a3bd35e34f6f085403a2bdd4c1dcad4e6bf35f59919f6947ed
+plugin_id: "chat_word_stats"
+plugin_version: "1.0"
+author: null
+min_version: "11.9.0"
+app_version: null
+sdk_version: null
+platform: Android
+evidence_status: code
+review_status: accepted
+collector_model: "deepseek-v4.1-flash-expires-on-0910"
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+review_mode: independent-source-reread-nonblind
+review: ../reviews/plugins-store-chat-word-stats.md
+date: "2026-10-03"
+---
+
 # Source: Chat Word Stats plugin
 
 - Repository: `Kangel-Plugins/Plugins-Store`

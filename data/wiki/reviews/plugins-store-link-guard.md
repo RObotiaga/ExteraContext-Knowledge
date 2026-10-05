@@ -1,3 +1,21 @@
+---
+type: review
+source_id: plugins-store-link-guard
+title: "Источник: link_guard — проверка ссылок (Python `.plugin`, `Kangel-Plugins/Plugins-Store`)"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: f553639c2305591ce215564bfc544982daa125dc
+artifact_sha256: ee1073af64f891d42c05758e0321e1f17cd373c311eb54024a1903e13e330fb4
+plugin_id: "link_guard"
+review_status: accepted
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
+---
+
 # Ревью: plugins-store-link-guard
 
 - Плагин: `link_guard` (Link Guard), версия `1.7.0`, Python `.plugin`

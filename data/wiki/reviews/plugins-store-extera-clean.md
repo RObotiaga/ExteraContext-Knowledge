@@ -1,12 +1,19 @@
 ---
 type: review
 source_id: plugins-store-extera-clean
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
+title: "exteraClean (extera_clean)"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: 73eaf8ef9da6505dd1a5498665017a1016595576
-plugin_id: extera_clean
+artifact_sha256: 1c6894abbc507e49d95c22bf02ba9f69539da7d966948f6784c0c80c8197ea15
+plugin_id: "extera_clean"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью: exteraClean (extera_clean)

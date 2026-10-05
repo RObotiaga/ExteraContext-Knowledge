@@ -1,3 +1,21 @@
+---
+type: review
+source_id: plugins-store-chat-word-stats
+title: "Source: Chat Word Stats plugin"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: f8f35b18b6148b20027b3bdeff505d240086444a
+artifact_sha256: 339c4b0f072967a3bd35e34f6f085403a2bdd4c1dcad4e6bf35f59919f6947ed
+plugin_id: "chat_word_stats"
+review_status: accepted
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
+---
+
 # Review: Chat Word Stats plugin facts
 
 Target: `Plugins/просьба.plugin`, plugin id `chat_word_stats`, version `1.0`, pinned commit `f8f35b18b6148b20027b3bdeff505d240086444a`.

@@ -1,12 +1,19 @@
 ---
 type: review
 source_id: plugins-store-plugin-guard
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
+title: "Plugin Guard (v1.4.5)"
+reviewer: independent-verifier
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: 6daceedcf7072b6ffdc8fda0ff1becb92a22f6e5
-plugin_id: plugin_guard
+artifact_sha256: 3bcd97ff899f1049d664d5762f699c07c213f9ba6757da98c562f9cdc705a9ca
+plugin_id: "plugin_guard"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью: Plugin Guard (v1.4.5)

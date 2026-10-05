@@ -1,19 +1,26 @@
 ---
 type: source
 source_id: plugins-store-air-raid-alert
-title: Air Raid Alert
-source_type: plugin
-repository: Kangel-Plugins/Plugins-Store
+title: "Источник: Air Raid Alert"
+source_type: eaf
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: e30c41d0c01b8a3e417f933a6e5426e749092d46
-path: Plugins/air_raid_alert.eaf
-version: 1.2.1
-plugin_id: air_raid_alert
+path: "Plugins/air_raid_alert.eaf"
+artifact_sha256: 6ca1da132020a54c1a7c51cd1e86b40546347fd5db7f78f9b67e4775844c85c2
+plugin_id: "air_raid_alert"
+plugin_version: "1.2.1"
 author: "@cobra_S0FT | @excess_plugins"
-min_version: 12.9.0
+min_version: ">=12.9.0"
+app_version: ">=12.9.0"
+sdk_version: ">=1.4.5.0"
 platform: Android
+evidence_status: code
 review_status: accepted
+collector_model: "google-antigravity/gemini-3.8-flash"
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+review_mode: independent-source-reread-nonblind
 review: ../reviews/plugins-store-air-raid-alert.md
-date: 2026-10-05
+date: "2026-10-05"
 ---
 
 # Источник: Air Raid Alert

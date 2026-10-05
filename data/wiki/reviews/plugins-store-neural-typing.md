@@ -1,19 +1,26 @@
 ---
 type: review
 source_id: plugins-store-neural-typing
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
-commit: f8f49767fc304856fdbdbbb5cba896f634f19fd1
-plugin_id: neural_typing
+title: "Neural Typing"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: f8f49767cb38dacde721ff0d566377d501c031ec
+artifact_sha256: 88ce09b6cebcf1a373c79730453a74049bbcc59f289cd7394b6648cff09e5c1f
+plugin_id: "neural_typing"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью: Neural Typing
 
 Сборщик предоставил 5 фактов. Принято 5 фактов.
 
-Проверка выполнена независимо по исходному файлу версии 2.3.1 на commit `f8f49767fc304856fdbdbbb5cba896f634f19fd1`. Все пять утверждений подтверждаются указанными строками исходника.
+Проверка выполнена независимо по исходному файлу версии 2.3.1 на commit `f8f49767cb38dacde721ff0d566377d501c031ec`. Все пять утверждений подтверждаются указанными строками исходника.
 
 | ID | Вердикт | Проверка |
 |---|---|---|

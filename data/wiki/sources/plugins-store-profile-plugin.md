@@ -1,3 +1,28 @@
+---
+type: source
+source_id: plugins-store-profile-plugin
+title: "Источник: Profile_Plugin — генератор карточки профиля в Pillow (Python `.plugin`, `Kangel-Plugins/Plugins-Store`)"
+source_type: plugin
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 114f5a230b0cf82aa9986a5a89b06b2495c37240
+path: "Plugins/Profile_Plugin.plugin"
+artifact_sha256: c97b1e50a2eec17e8c26d6d334edac380c0de9eaaaac6f2089170545ceded7f1
+plugin_id: "Profile_Plugin"
+plugin_version: "1.0"
+author: "@MorePlugins"
+min_version: "11.9.0"
+app_version: null
+sdk_version: null
+platform: Android
+evidence_status: code
+review_status: accepted
+collector_model: "deepseek-v4.1-flash-expires-on-0910"
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+review_mode: independent-source-reread-nonblind
+review: ../reviews/plugins-store-profile-plugin.md
+date: "2026-10-03"
+---
+
 # Источник: Profile_Plugin — генератор карточки профиля в Pillow (Python `.plugin`, `Kangel-Plugins/Plugins-Store`)
 
 - Плагин: `Profile_Plugin`, версия `1.0` («Profile Generator»), `__id__ = "Profile_Plugin"` (`14`), `__name__ = "Profile Generator"` (`15`), `__author__ = "@MorePlugins"` (`17`), `__min_version__ = "11.9.0"` (`18`), `__icon__ = "NewsEmoji/0"` (`19`), `__version__ = "1.0"` (`20`)
@@ -5,7 +30,7 @@
 - Проверенный файл: `Plugins/Profile_Plugin.plugin` — один Python-файл (не `.eaf`), 26 450 байт, 617 строк (LF только, CRLF нет, BOM нет; строка 1 пустая — файл начинается с `\n`; завершающего перевода строки нет)
 - SHA-256 артефакта: `c97b1e50a2eec17e8c26d6d334edac380c0de9eaaaac6f2089170545ceded7f1` (совпадает с `Plugins-Store/store.json` → `Profile_Plugin.hash` в текущем checkout и с независимой Raw-загрузкой по pinned commit)
 - Локальная копия в рабочем checkout: `Plugins-Store/Plugins/Profile_Plugin.plugin`, git blob `ceaaf92a992b496ee9a332dad618afa33fd1a2d9` (`git hash-object --no-filters` совпадает); blob на проверенном commit идентичен (`git rev-parse 114f5a2…:Plugins/Profile_Plugin.plugin` == `HEAD:…` == `ceaaf92…`), файл в рабочем дереве не изменён
-- Проверенный commit: `114f5a230b0cf82aa9986a5a89b06b2495c37240` («Update plugin from 10.11.2025», 10.11.2025), существует и является предком `HEAD` (`a39cec371261c22355ce106b1a0ca559d8340f16`). Сам файл плагина на этом commit не менялся с `9719d95` («Update plugin in 29.10.25»), где он и появился целиком (617 строк)
+- Проверенный commit: `114f5a230b0cf82aa9986a5a89b06b2495c37240` («Update plugin from 10.11.2025», 10.11.2025), существует и является предком `HEAD` (`f8f35b18b6148b20027b3bdeff505d240086444a`). Сам файл плагина на этом commit не менялся с `9719d95` («Update plugin in 29.10.25»), где он и появился целиком (617 строк)
 - Каталог на pinned commit: `store.txt` — для `Profile_Plugin` содержит только `url`; `store.json` с `hash`/`version` на pinned commit отсутствует. `store.json` в текущем checkout (`HEAD`) содержит `Profile_Plugin.version = "1.0"` и `hash = c97b1e50…`
 - Pinned URL: https://github.com/Kangel-Plugins/Plugins-Store/blob/114f5a230b0cf82aa9986a5a89b06b2495c37240/Plugins/Profile_Plugin.plugin
 - Pinned Raw (независимо скачан: HTTP 200, 26 450 байт, sha256 `c97b1e50…` и git blob `ceaaf92…` совпали с локальной копией): https://raw.githubusercontent.com/Kangel-Plugins/Plugins-Store/114f5a230b0cf82aa9986a5a89b06b2495c37240/Plugins/Profile_Plugin.plugin

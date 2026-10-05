@@ -1,26 +1,33 @@
 ---
 type: source
 source_id: plugins-store-advanced-search
-title: Advanced Search
+title: "Plugins Store: advanced_search"
 source_type: plugin
-repository: Kangel-Plugins/Plugins-Store
-commit: 4ddb6c2f0fcf6d623a35f299f24ba8fbe640e70b
-path: Plugins/advanced_search.plugin
-version: 1.2
-plugin_id: advanced_search
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 4ddb6c27adbc0714a2adc48e0417ebdffd22128f
+path: "Plugins/advanced_search.plugin"
+artifact_sha256: aee561b7e1a34ae719b567b9b41389f2e7141cf80ce4f81374b72901e7a9761c
+plugin_id: "advanced_search"
+plugin_version: "1.2"
 author: "@dekma0091"
-min_version: 12.5.1
+min_version: ">=12.5.1"
+app_version: ">=12.5.1"
+sdk_version: ">=1.4.0"
 platform: Android
+evidence_status: code
 review_status: accepted
+collector_model: "gpt-6-luna"
+reviewer_model: "gpt-6-luna"
+review_mode: independent-source-reread-nonblind
 review: ../reviews/plugins-store-advanced-search.md
-date: 2026-10-03
+date: "2026-10-03"
 ---
 
 # Plugins Store: advanced_search
 
-Источник: [Plugins/advanced_search.plugin](https://github.com/Kangel-Plugins/Plugins-Store/blob/4ddb6c2f0fcf6d623a35f299f24ba8fbe640e70b/Plugins/advanced_search.plugin).  
+Источник: [Plugins/advanced_search.plugin](https://github.com/Kangel-Plugins/Plugins-Store/blob/4ddb6c27adbc0714a2adc48e0417ebdffd22128f/Plugins/advanced_search.plugin).  
 Репозиторий: `Kangel-Plugins/Plugins-Store`  
-Зафиксированный commit: `4ddb6c2f0fcf6d623a35f299f24ba8fbe640e70b`
+Зафиксированный commit: `4ddb6c27adbc0714a2adc48e0417ebdffd22128f`
 
 ## Проверенные факты
 

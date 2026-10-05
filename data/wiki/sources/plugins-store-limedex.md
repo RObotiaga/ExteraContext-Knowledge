@@ -1,19 +1,26 @@
 ---
 type: source
 source_id: plugins-store-limedex
-title: limedex (v2.5.7)
-source_type: plugin
-repository: Kangel-Plugins/Plugins-Store
+title: "limedex (v2.5.7)"
+source_type: eaf
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: 8cb930bf899079c56b07143b1f7209f7b25197ff
-path: Plugins/limedex.eaf
-version: 2.5.7
-plugin_id: limedex
+path: "Plugins/limedex.eaf"
+artifact_sha256: 24982dc3d0a956fad15408c330243ff209884d55bb3c4edc40c9dd7fb89032f9
+plugin_id: "limedex"
+plugin_version: "2.5.7"
 author: "@limeplug"
-min_version: 12.9.0
+min_version: ">=12.9.0"
+app_version: ">=12.9.0"
+sdk_version: ">=1.4.5.1"
 platform: Android
+evidence_status: code
 review_status: accepted
+collector_model: "google-antigravity/gemini-3.8-flash"
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+review_mode: independent-source-reread-nonblind
 review: ../reviews/plugins-store-limedex.md
-date: 2026-10-03
+date: "2026-10-03"
 ---
 
 # limedex (v2.5.7)

@@ -1,19 +1,26 @@
 ---
 type: review
 source_id: plugins-store-iphone-like-portret
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
-commit: 1ce808e03ef3fecbaec83226a42a0b12bc1209b5
-plugin_id: iphone_like_Portret
+title: "iPhone Like Portret (v1.2)"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 1ce808e7cefd9de80cb4f76e387a1030fb740bf4
+artifact_sha256: 93e8616afcd951b104cdb45632287137d5b1dd0039abba2aa47f585b71e05727
+plugin_id: "iphone_like_Portret"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Review: iphone_like_Portret v1.2
 
 Сборщик предоставил 5 фактов. Принято 5 фактов.
 
-Проверка выполнена независимо по исходнику `Plugins/iphone_like_Portret.plugin` на pinned commit `1ce808e03ef3fecbaec83226a42a0b12bc1209b5`.
+Проверка выполнена независимо по исходнику `Plugins/iphone_like_Portret.plugin` на pinned commit `1ce808e7cefd9de80cb4f76e387a1030fb740bf4`.
 
 | ID | Вердикт | Проверка |
 |---|---|---|

@@ -1,19 +1,26 @@
 ---
 type: review
 source_id: plugins-store-save-selected-files
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
-commit: fb496c21e6490656a815a513aaee0c57173e2118
-plugin_id: save_selected_files
+title: "Save Selected Files"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: fb496c2a9e181cc0dd7f5a1eb03b4220aa31e50c
+artifact_sha256: 096340e5e4d6c4b889f07723bf6486e93fee1ad0d9303c3e64950f1a5d45564c
+plugin_id: "save_selected_files"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью: Save Selected Files
 
 Сборщик предоставил 5 фактов. Принято 5 фактов.
 
-Проверка выполнена по исходному файлу `Plugins/save_selected_files.plugin` на закреплённом commit `fb496c21e6490656a815a513aaee0c57173e2118`.
+Проверка выполнена по исходному файлу `Plugins/save_selected_files.plugin` на закреплённом commit `fb496c2a9e181cc0dd7f5a1eb03b4220aa31e50c`.
 
 | ID | Вердикт | Проверка |
 |---|---|---|

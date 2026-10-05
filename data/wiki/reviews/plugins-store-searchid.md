@@ -1,15 +1,24 @@
 ---
 type: review
 source_id: plugins-store-searchid
-reviewer: verifier
-reviewed_commit: 997557613ba8132f8373e34a6cf8038eb9f87c12
+title: "SearchID.plugin"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 997557643701844731ba0186c65dd5d551497c66
+artifact_sha256: e8fd309485618767d2924998ff29f570ffa58321330fd8785b1ac79b4f4be924
+plugin_id: "SearchID"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью фактов SearchID
 
-Проверены утверждения сборщика по исходнику `Plugins/SearchID.plugin` на commit `997557613ba8132f8373e34a6cf8038eb9f87c12`.
+Проверены утверждения сборщика по исходнику `Plugins/SearchID.plugin` на commit `997557643701844731ba0186c65dd5d551497c66`.
 
 Сборщик предоставил 5 фактов. Принято 5 фактов: три скорректированы, два подтверждены без изменения.
 

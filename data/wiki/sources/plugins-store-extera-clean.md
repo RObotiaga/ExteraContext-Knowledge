@@ -1,19 +1,26 @@
 ---
 type: source
 source_id: plugins-store-extera-clean
-title: exteraClean (extera_clean)
+title: "exteraClean (extera_clean)"
 source_type: plugin
-repository: Kangel-Plugins/Plugins-Store
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: 73eaf8ef9da6505dd1a5498665017a1016595576
-path: Plugins/extera_clean.plugin
-version: 1.0.2
-plugin_id: extera_clean
-author: "@ka1Plugins"
-min_version: 12.1.1
+path: "Plugins/extera_clean.plugin"
+artifact_sha256: 1c6894abbc507e49d95c22bf02ba9f69539da7d966948f6784c0c80c8197ea15
+plugin_id: "extera_clean"
+plugin_version: "1.0.2"
+author: "@plugin_ai"
+min_version: "12.1.1"
+app_version: null
+sdk_version: null
 platform: Android
+evidence_status: code
 review_status: accepted
+collector_model: "deepseek-v4.1-flash-expires-on-0910"
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+review_mode: independent-source-reread-nonblind
 review: ../reviews/plugins-store-extera-clean.md
-date: 2026-10-03
+date: "2026-10-03"
 ---
 
 # exteraClean (extera_clean)

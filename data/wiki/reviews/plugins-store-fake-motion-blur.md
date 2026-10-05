@@ -1,19 +1,26 @@
 ---
 type: review
 source_id: plugins-store-fake-motion-blur
-reviewer: verifier
-repository: Kangel-Plugins/Plugins-Store
-commit: 6ffd931448b111fc2e97f4cfc41be2973808ee66
-plugin_id: fake_motion_blur
+title: "fake_motion_blur"
+reviewer: independent-verifier
+reviewer_model: "gpt-6-luna"
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: 6ffd93145a9a3b025e88684d60368d2f104c76a7
+artifact_sha256: d25cc4986b96a4a660e14af6c766d123b8fda20663e5835da3d08de152b30df6
+plugin_id: "fake_motion_blur"
 review_status: accepted
-date: 2026-10-03
+review_mode: independent-source-reread-nonblind
+evidence_status: code
+runtime_verified: false
+facts_reviewed: 5
+date: "2026-10-03"
 ---
 
 # Ревью фактов fake_motion_blur
 
 Сборщик предоставил 5 фактов. Принято 5 фактов.
 
-Все пять утверждений сверены с исходным кодом `Plugins/fake_motion_blur.plugin` на commit `6ffd931448b111fc2e97f4cfc41be2973808ee66`. Для каждого факта указан закреплённый commit и точные строки исходника.
+Все пять утверждений сверены с исходным кодом `Plugins/fake_motion_blur.plugin` на commit `6ffd93145a9a3b025e88684d60368d2f104c76a7`. Для каждого факта указан закреплённый commit и точные строки исходника.
 
 | Факт | Решение | Результат проверки |
 |---|---|---|

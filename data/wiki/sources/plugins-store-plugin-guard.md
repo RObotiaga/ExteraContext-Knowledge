@@ -1,19 +1,26 @@
 ---
 type: source
 source_id: plugins-store-plugin-guard
-title: Plugin Guard (v1.4.5)
+title: "Plugin Guard (v1.4.5)"
 source_type: plugin
-repository: Kangel-Plugins/Plugins-Store
+repository: https://github.com/Kangel-Plugins/Plugins-Store
 commit: 6daceedcf7072b6ffdc8fda0ff1becb92a22f6e5
-path: Plugins/plugin_guard.plugin
-version: 1.4.5
-plugin_id: plugin_guard
-author: "@chestertech & @useful_plugins"
-min_version: 12.6.4
+path: "Plugins/plugin_guard.plugin"
+artifact_sha256: 3bcd97ff899f1049d664d5762f699c07c213f9ba6757da98c562f9cdc705a9ca
+plugin_id: "plugin_guard"
+plugin_version: "1.4.5"
+author: "@dekma0091 && @DefinitelyNotDekma"
+min_version: "12.5.1"
+app_version: null
+sdk_version: null
 platform: Android
+evidence_status: code
 review_status: accepted
+collector_model: "deepseek-v4.1-flash-expires-on-0910"
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+review_mode: independent-source-reread-nonblind
 review: ../reviews/plugins-store-plugin-guard.md
-date: 2026-10-03
+date: "2026-10-03"
 ---
 
 # Plugin Guard (v1.4.5)

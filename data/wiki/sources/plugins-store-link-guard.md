@@ -1,3 +1,28 @@
+---
+type: source
+source_id: plugins-store-link-guard
+title: "Источник: link_guard — проверка ссылок (Python `.plugin`, `Kangel-Plugins/Plugins-Store`)"
+source_type: plugin
+repository: https://github.com/Kangel-Plugins/Plugins-Store
+commit: f553639c2305591ce215564bfc544982daa125dc
+path: "Plugins/link_guard.plugin"
+artifact_sha256: ee1073af64f891d42c05758e0321e1f17cd373c311eb54024a1903e13e330fb4
+plugin_id: "link_guard"
+plugin_version: "1.7.0"
+author: "@Robobloxi"
+min_version: ">=12.1.1"
+app_version: ">=12.1.1"
+sdk_version: null
+platform: Android
+evidence_status: code
+review_status: accepted
+collector_model: "deepseek-v4.1-flash-expires-on-0910"
+reviewer_model: "deepseek-v4.1-flash-expires-on-0910"
+review_mode: independent-source-reread-nonblind
+review: ../reviews/plugins-store-link-guard.md
+date: "2026-10-03"
+---
+
 # Источник: link_guard — проверка ссылок (Python `.plugin`, `Kangel-Plugins/Plugins-Store`)
 
 - Плагин: `link_guard`, версия `1.7.0` («Link Guard»), `__id__ = "link_guard"`, автор `@Robobloxi`, `__app_version__ = ">=12.1.1"`
