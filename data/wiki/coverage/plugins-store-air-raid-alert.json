@@ -1,0 +1,29 @@
+{
+  "source_id": "plugins-store-air-raid-alert",
+  "artifact_type": "eaf",
+  "coverage_rule": "minimum_5_facts_candidate_set",
+  "minimum_facts_satisfied": true,
+  "facts_count": 5,
+  "areas": {
+    "metadata_version": "covered",
+    "sdk_api": "covered",
+    "internal_java_api": "covered",
+    "hooks": "not_present",
+    "lifecycle_cleanup": "covered",
+    "accounts": "not_present",
+    "threading": "covered",
+    "requests_tlrpc": "not_present",
+    "storage": "covered",
+    "ui": "covered",
+    "filesystem": "not_present",
+    "network": "covered",
+    "external_dependencies": "covered",
+    "security": "not_present",
+    "version_sensitive_assumptions": "covered"
+  },
+  "known_gaps": [
+    "Requires background execution permissions to keep poll loop alive.",
+    "External alert API endpoints are external services."
+  ],
+  "reviewed": true
+}

@@ -1,0 +1,29 @@
+{
+  "source_id": "plugins-store-fake-motion-blur",
+  "artifact_type": "plugin",
+  "coverage_rule": "minimum_5_facts_candidate_set",
+  "minimum_facts_satisfied": true,
+  "facts_count": 5,
+  "areas": {
+    "metadata_version": "covered",
+    "sdk_api": "covered",
+    "internal_java_api": "covered",
+    "hooks": "covered",
+    "lifecycle_cleanup": "covered",
+    "accounts": "not_present",
+    "threading": "not_present",
+    "requests_tlrpc": "not_present",
+    "storage": "not_present",
+    "ui": "covered",
+    "filesystem": "not_present",
+    "network": "not_present",
+    "external_dependencies": "not_present",
+    "security": "not_present",
+    "version_sensitive_assumptions": "covered"
+  },
+  "known_gaps": [
+    "RenderEffect is only supported on Android 12+ (API 31+).",
+    "Static verification does not test frame rate or performance impact on lower-end devices."
+  ],
+  "reviewed": true
+}

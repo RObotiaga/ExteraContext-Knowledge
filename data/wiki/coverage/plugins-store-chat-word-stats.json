@@ -1,0 +1,29 @@
+{
+  "source_id": "plugins-store-chat-word-stats",
+  "artifact_type": "plugin",
+  "coverage_rule": "minimum_5_facts_candidate_set",
+  "minimum_facts_satisfied": true,
+  "facts_count": 5,
+  "areas": {
+    "metadata_version": "covered",
+    "sdk_api": "covered",
+    "internal_java_api": "not_present",
+    "hooks": "covered",
+    "lifecycle_cleanup": "covered",
+    "accounts": "not_present",
+    "threading": "covered",
+    "requests_tlrpc": "covered",
+    "storage": "covered",
+    "ui": "covered",
+    "filesystem": "not_present",
+    "network": "covered",
+    "external_dependencies": "covered",
+    "security": "not_present",
+    "version_sensitive_assumptions": "covered"
+  },
+  "known_gaps": [
+    "Depends on mandre_lib which must be installed separately.",
+    "on_plugin_unload only logs and does not unregister the command."
+  ],
+  "reviewed": true
+}

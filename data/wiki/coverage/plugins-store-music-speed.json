@@ -1,0 +1,29 @@
+{
+  "source_id": "plugins-store-music-speed",
+  "artifact_type": "plugin",
+  "coverage_rule": "minimum_5_facts_candidate_set",
+  "minimum_facts_satisfied": true,
+  "facts_count": 5,
+  "areas": {
+    "metadata_version": "covered",
+    "sdk_api": "covered",
+    "internal_java_api": "covered",
+    "hooks": "covered",
+    "lifecycle_cleanup": "covered",
+    "accounts": "not_present",
+    "threading": "covered",
+    "requests_tlrpc": "not_present",
+    "storage": "not_present",
+    "ui": "covered",
+    "filesystem": "not_present",
+    "network": "not_present",
+    "external_dependencies": "covered",
+    "security": "not_present",
+    "version_sensitive_assumptions": "covered"
+  },
+  "known_gaps": [
+    "Media3 sendRendererMessage message type 6 depends on ExoPlayer audio renderer internal numbering.",
+    "System PresetReverb may not be supported on all Android OEM audio chipsets."
+  ],
+  "reviewed": true
+}

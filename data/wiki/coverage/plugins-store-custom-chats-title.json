@@ -1,0 +1,29 @@
+{
+  "source_id": "plugins-store-custom-chats-title",
+  "artifact_type": "plugin",
+  "coverage_rule": "minimum_5_facts_candidate_set",
+  "minimum_facts_satisfied": true,
+  "facts_count": 5,
+  "areas": {
+    "metadata_version": "covered",
+    "sdk_api": "covered",
+    "internal_java_api": "covered",
+    "hooks": "covered",
+    "lifecycle_cleanup": "covered",
+    "accounts": "covered",
+    "threading": "covered",
+    "requests_tlrpc": "not_present",
+    "storage": "covered",
+    "ui": "covered",
+    "filesystem": "not_present",
+    "network": "not_present",
+    "external_dependencies": "not_present",
+    "security": "not_present",
+    "version_sensitive_assumptions": "covered"
+  },
+  "known_gaps": [
+    "telegram_logo_2 vector drawable must be present in the host APK resources.",
+    "MVEL override in TintedLogoSpan depends on extera_utils dynamic bytecode generator."
+  ],
+  "reviewed": true
+}

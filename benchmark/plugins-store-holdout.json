@@ -1,0 +1,156 @@
+[
+  {
+    "id": "ps-api-search-id",
+    "category": "plugin API usage",
+    "query": "как искать установленные плагины не только по имени но и по их уникальному строковому ID",
+    "expected": ["plugins-store-searchid:searchid-003", "plugins-store-searchid:searchid-001"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-api-send-photo",
+    "category": "plugin API usage",
+    "query": "сгенерировать карточку в Pillow и отправить как фото в чат через generatePhotoSizes и send_message",
+    "expected": ["plugins-store-profile-plugin:profile-plugin-004", "plugins-store-profile-plugin:profile-plugin-001"],
+    "requires_evidence_distinction": true
+  },
+  {
+    "id": "ps-lifecycle-unhook",
+    "category": "lifecycle cleanup",
+    "query": "как правильно снять зарегистрированные перехваты hook_method при выгрузке плагина в on_plugin_unload",
+    "expected": ["plugins-store-searchid:searchid-005", "plugins-store-search-plus:search-plus-005"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-lifecycle-cancel-tokens",
+    "category": "lifecycle cleanup",
+    "query": "отмена фоновых пакетных задач и воркеров через инкремент токенов при закрытии плагина",
+    "expected": ["plugins-store-extera-clean:extera-clean-002", "plugins-store-search-plus:search-plus-005"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-hooks-chaquopy-methods",
+    "category": "hooks/reflection",
+    "query": "получить Java методы класса по имени через _chaquopy_reflector getMethods для установки хука",
+    "expected": ["plugins-store-searchid:searchid-001"],
+    "requires_evidence_distinction": true
+  },
+  {
+    "id": "ps-hooks-private-field",
+    "category": "hooks/reflection",
+    "query": "прочитать приватное поле Java объекта в обработчике before_hooked_method через get_private_field",
+    "expected": ["plugins-store-searchid:searchid-002"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-accounts-multi",
+    "category": "accounts",
+    "query": "сохранение индивидуального заголовка чатов для каждого аккаунта с fallback на UserConfig selectedAccount",
+    "expected": ["plugins-store-custom-chats-title:custom-chats-title-002"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-accounts-channel-offset",
+    "category": "accounts",
+    "query": "преобразование отрицательного dialog_id в chat_id для супергрупп и каналов через CHANNEL_OFFSET",
+    "expected": ["plugins-store-local-contact-override:local-contact-override-003"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-ui-render-effect-blur",
+    "category": "UI",
+    "query": "наложить направленный GPU blur на RecyclerView через RenderEffect createBlurEffect с проверкой Android 12",
+    "expected": ["plugins-store-fake-motion-blur:fake-motion-blur-001", "plugins-store-fake-motion-blur:fake-motion-blur-002"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-ui-custom-drawer-item",
+    "category": "UI",
+    "query": "добавить пункт в боковое меню шторки Drawer с собственной иконкой и subtext",
+    "expected": ["plugins-store-extera-clean:extera-clean-002", "plugins-store-limedex:limedex-003"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-ui-weakref-tracking",
+    "category": "UI",
+    "query": "предотвращение утечек памяти Activity при инжекции представлений через WeakReference parent и view",
+    "expected": ["plugins-store-search-plus:search-plus-002", "plugins-store-search-plus:search-plus-003"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-network-send-request",
+    "category": "network/TLRPC",
+    "query": "перехват сетевых вызовов sendRequest в ConnectionsManager для фильтрации поисковых запросов",
+    "expected": ["plugins-store-search-plus:search-plus-004"],
+    "requires_evidence_distinction": true
+  },
+  {
+    "id": "ps-network-history-pagination",
+    "category": "network/TLRPC",
+    "query": "постраничное чтение сообщений чата через TLRPC TL_messages_getHistory с req limit 500 и offset_id",
+    "expected": ["plugins-store-chat-word-stats:chat-word-stats-001"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-storage-inmemory-dex",
+    "category": "storage",
+    "query": "бесфайловая загрузка скомпилированного байткода из ByteBuffer через InMemoryDexClassLoader в память",
+    "expected": ["plugins-store-save-emoji:save-emoji-005", "plugins-store-plugstonav:plugstonav-002", "plugins-store-jpeg-quality:jpeg-quality-002"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-storage-downloads-scoped",
+    "category": "storage",
+    "query": "сохранение выбранных файлов в папку Download через MediaStore Downloads и ContentValues",
+    "expected": ["plugins-store-save-selected-files:save-selected-files-003"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-package-eaf-refmap",
+    "category": "package/EAF",
+    "query": "структура архива Elyx eaf и маршрутизация точек входа метаданных и локалей через refmap yml",
+    "expected": ["plugins-store-limedex:limedex-001", "plugins-store-air-raid-alert:air-raid-alert-001"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-package-eaf-metadata",
+    "category": "package/EAF",
+    "query": "объявление зависимостей и версий приложения и SDK в metainfo yml Elyx плагина",
+    "expected": ["plugins-store-air-raid-alert:air-raid-alert-002", "plugins-store-limedex:limedex-002"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-security-homograph",
+    "category": "security",
+    "query": "защита ссылок от фишинга через проверку punycode decode idna и расстояния Левенштейна",
+    "expected": ["plugins-store-link-guard:link-guard-002"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-security-ast-analysis",
+    "category": "security",
+    "query": "статический анализ кода плагина через обход AST без вызова небезопасного eval или exec",
+    "expected": ["plugins-store-plugin-guard:plugin-guard-003"],
+    "requires_evidence_distinction": false
+  },
+  {
+    "id": "ps-internal-ueh-crash",
+    "category": "version-sensitive internal API",
+    "query": "перехват необработанных сбоев через Thread setDefaultUncaughtExceptionHandler и атрибуция виновника по стеку",
+    "expected": ["plugins-store-culprit-detector:culprit-detector-003"],
+    "requires_evidence_distinction": true
+  },
+  {
+    "id": "ps-internal-samsung-stylus",
+    "category": "version-sensitive internal API",
+    "query": "обработка специфичных жестов стилуса Samsung S-Pen и вендорных кодов действий 211-214",
+    "expected": ["plugins-store-spen-support:spen-support-001"],
+    "requires_evidence_distinction": true
+  },
+  {
+    "id": "ps-internal-media3-audio",
+    "category": "version-sensitive internal API",
+    "query": "совместимость Media3 и ExoPlayer2 для AuxEffectInfo через скрытый вызов sendRendererMessage",
+    "expected": ["plugins-store-music-speed:music-speed-001"],
+    "requires_evidence_distinction": true
+  }
+]

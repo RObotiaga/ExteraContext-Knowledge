@@ -1,0 +1,29 @@
+{
+  "source_id": "plugins-store-jpeg-quality",
+  "artifact_type": "plugin",
+  "coverage_rule": "minimum_5_facts_candidate_set",
+  "minimum_facts_satisfied": true,
+  "facts_count": 5,
+  "areas": {
+    "metadata_version": "covered",
+    "sdk_api": "covered",
+    "internal_java_api": "covered",
+    "hooks": "covered",
+    "lifecycle_cleanup": "covered",
+    "accounts": "not_present",
+    "threading": "not_present",
+    "requests_tlrpc": "not_present",
+    "storage": "not_present",
+    "ui": "covered",
+    "filesystem": "not_present",
+    "network": "not_present",
+    "external_dependencies": "covered",
+    "security": "covered",
+    "version_sensitive_assumptions": "covered"
+  },
+  "known_gaps": [
+    "DEX bytecode is compressed with zlib and not analyzed line-by-line.",
+    "Rollback mechanism does not clear target_class reference if detach fails."
+  ],
+  "reviewed": true
+}
