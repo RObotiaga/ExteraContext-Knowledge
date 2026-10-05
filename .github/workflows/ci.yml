@@ -26,6 +26,8 @@ jobs:
         run: python tests/test_sdk_release_inventory.py
       - name: Validate knowledge quality gates
         run: python scripts/lint_knowledge.py
+      - name: Validate retrieval benchmarks (Core regression budget & Plugins-Store holdout)
+        run: python tests/test_retrieval_benchmarks.py
       - name: Validate core corpus counts
         run: |
           python - <<'PY'
