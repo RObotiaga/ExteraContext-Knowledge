@@ -1,6 +1,6 @@
 # Индекс базы знаний о разработке плагинов
 
-Обработано и независимо проверено 84 из 84 материалов; структурированных записей с происхождением — 2453. Статусы и ограничения указаны в [реестре](source-registry.md).
+Обработано и независимо проверено 114 из 114 материалов; структурированных записей с происхождением — 2603. Статусы и ограничения указаны в [реестре](source-registry.md).
 
 ## Начало
 
@@ -324,3 +324,38 @@
 - [Очереди, UI-поток и фоновые операции](topics/threading.md)
 - [Настройки, интерфейс и обработчики](topics/ui.md)
 - [Разработка и выбор архитектуры](topics/workflow.md)
+
+- [SearchID.plugin — поиск плагинов по ID](sources/plugins-store-searchid.md): 5 структурированных записей · [проверка](reviews/plugins-store-searchid.md).
+- [fake motion blur — направленный GPU блюр при скролле](sources/plugins-store-fake-motion-blur.md): 5 структурированных записей · [проверка](reviews/plugins-store-fake-motion-blur.md).
+- [Save Emoji — сохранение эмодзи и стикеров через InMemoryDex](sources/plugins-store-save-emoji.md): 5 структурированных записей · [проверка](reviews/plugins-store-save-emoji.md).
+- [Gifts Studio — локальная компоновка и стилизация вкладки подарков](sources/plugins-store-gifts-studio.md): 5 структурированных записей · [проверка](reviews/plugins-store-gifts-studio.md).
+- [Similar NFT — поиск похожих коллекционных подарков](sources/plugins-store-similar-nft.md): 5 структурированных записей · [проверка](reviews/plugins-store-similar-nft.md).
+- [Search+ — расширенный мультипоиск и фильтрация сообщений](sources/plugins-store-search-plus.md): 5 структурированных записей · [проверка](reviews/plugins-store-search-plus.md).
+- [Hide Gallery (higal) — скрытие медиа в галерее вложений](sources/plugins-store-higal.md): 5 структурированных записей · [проверка](reviews/plugins-store-higal.md).
+
+- [Plugins Tab (plugstonav) — вкладка плагинов в нижней панели](sources/plugins-store-plugstonav.md): 5 структурированных записей · [проверка](reviews/plugins-store-plugstonav.md).
+- [Music Speed — управление скоростью, pitch и reverb аудио](sources/plugins-store-music-speed.md): 5 структурированных записей · [проверка](reviews/plugins-store-music-speed.md).
+- [Samsung S-Pen Support — обработка стилуса и жестов в чатах](sources/plugins-store-spen-support.md): 5 структурированных записей · [проверка](reviews/plugins-store-spen-support.md).
+- [Save Selected Files — сохранение выбранных файлов из кэша и медиа](sources/plugins-store-save-selected-files.md): 5 структурированных записей · [проверка](reviews/plugins-store-save-selected-files.md).
+- [Gift Search — поиск подарков в глобальном поиске](sources/plugins-store-gift-search.md): 5 структурированных записей · [проверка](reviews/plugins-store-gift-search.md).
+- [JPEG Quality Slider — регулировка качества фото в редакторе](sources/plugins-store-jpeg-quality.md): 5 структурированных записей · [проверка](reviews/plugins-store-jpeg-quality.md).
+
+- [Custom Header (custom_chats_title) — заголовок чатов и мультиаккаунт](sources/plugins-store-custom-chats-title.md): 5 структурированных записей · [проверка](reviews/plugins-store-custom-chats-title.md).
+- [Local Contact Override — локальные имена и юзернеймы без сети](sources/plugins-store-local-contact-override.md): 5 структурированных записей · [проверка](reviews/plugins-store-local-contact-override.md).
+- [Advanced Search — расширенный поиск с локализацией и DEX-мостом](sources/plugins-store-advanced-search.md): 5 структурированных записей · [проверка](reviews/plugins-store-advanced-search.md).
+- [iPhone Like Portret — портретное боке на базе MLKit и OpenGL ES](sources/plugins-store-iphone-like-portret.md): 5 структурированных записей · [проверка](reviews/plugins-store-iphone-like-portret.md).
+- [Bot Tags — автодобавление хэштегов к исходящим сообщениям](sources/plugins-store-bot-tags.md): 5 структурированных записей · [проверка](reviews/plugins-store-bot-tags.md).
+- [Neural Typing — клиентская анимация печати сообщений](sources/plugins-store-neural-typing.md): 5 структурированных записей · [проверка](reviews/plugins-store-neural-typing.md).
+
+- [limedex (v2.5.7) — Pokédex для exteraGram (Elyx-пакет)](sources/plugins-store-limedex.md): 5 структурированных записей · [проверка](reviews/plugins-store-limedex.md).
+- [Air Raid Alert (v1.2.1) — мониторинг тревог (Elyx-пакет)](sources/plugins-store-air-raid-alert.md): 5 структурированных записей · [проверка](reviews/plugins-store-air-raid-alert.md).
+- [Link Guard (v1.7.0) — защита от фишинга и удаление трекеров](sources/plugins-store-link-guard.md): 5 структурированных записей · [проверка](reviews/plugins-store-link-guard.md).
+- [exteraClean (extera_clean) — массовая очистка диалогов](sources/plugins-store-extera-clean.md): 5 структурированных записей · [проверка](reviews/plugins-store-extera-clean.md).
+
+- [Plugin Guard (v1.4.5) — статический сканер безопасности плагинов](sources/plugins-store-plugin-guard.md): 5 структурированных записей · [проверка](reviews/plugins-store-plugin-guard.md).
+- [QuantaHut (v1.5.4) — библиотека и менеджер плагинов Quanta](sources/plugins-store-quantahut.md): 5 структурированных записей · [проверка](reviews/plugins-store-quantahut.md).
+- [Sorter+ (v1.4.3) — сортировка и папки в менеджере плагинов](sources/plugins-store-sorter-plus.md): 5 структурированных записей · [проверка](reviews/plugins-store-sorter-plus.md).
+- [Culprit Detector (v1.7.0) — пассивный детектор падающих плагинов](sources/plugins-store-culprit-detector.md): 5 структурированных записей · [проверка](reviews/plugins-store-culprit-detector.md).
+- [Кастомные пункты меню (customitemmenu v1.5) — кастомное меню](sources/plugins-store-customitemmenu.md): 5 структурированных записей · [проверка](reviews/plugins-store-customitemmenu.md).
+- [Profile Generator (Profile_Plugin v1.0) — рендеринг карточки профиля](sources/plugins-store-profile-plugin.md): 5 структурированных записей · [проверка](reviews/plugins-store-profile-plugin.md).
+- [ChatWordStats (просьба.plugin v1.0) — статистика слов чата](sources/plugins-store-chat-word-stats.md): 5 структурированных записей · [проверка](reviews/plugins-store-chat-word-stats.md).

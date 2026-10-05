@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_from": "agent-prompts.zip",
   "prompt_count": 190,
-  "unique_sources": 84,
+  "unique_sources": 114,
   "notes": [
     "Prompt bodies are reconstructed from saved templates where indicated, not verbatim transcripts.",
     "Collector and reviewer runs are separate and fork_turns=none when recorded, but legacy reviewers were non-blind: they could inspect and edit collector outputs.",
@@ -3998,6 +3998,666 @@
       "task_name_matched": true,
       "prompt_reconstructed": true,
       "prompt_file": "190--review_plugins_store_automation_tools.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-searchid",
+      "role": "collector",
+      "source_id": "plugins-store-searchid",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-searchid/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/SearchID.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-searchid.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-searchid",
+      "role": "reviewer",
+      "source_id": "plugins-store-searchid",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-searchid/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/SearchID.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-searchid.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-fake-motion-blur",
+      "role": "collector",
+      "source_id": "plugins-store-fake-motion-blur",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-fake-motion-blur/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/fake_motion_blur.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-fake-motion-blur.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-fake-motion-blur",
+      "role": "reviewer",
+      "source_id": "plugins-store-fake-motion-blur",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-fake-motion-blur/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/fake_motion_blur.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-fake-motion-blur.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-save-emoji",
+      "role": "collector",
+      "source_id": "plugins-store-save-emoji",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-save-emoji/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/save_emoji.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-save-emoji.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-save-emoji",
+      "role": "reviewer",
+      "source_id": "plugins-store-save-emoji",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-save-emoji/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/save_emoji.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-save-emoji.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-gifts-studio",
+      "role": "collector",
+      "source_id": "plugins-store-gifts-studio",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-gifts-studio/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/gifts_studio.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-gifts-studio.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-gifts-studio",
+      "role": "reviewer",
+      "source_id": "plugins-store-gifts-studio",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-gifts-studio/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/gifts_studio.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-gifts-studio.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-similar-nft",
+      "role": "collector",
+      "source_id": "plugins-store-similar-nft",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-similar-nft/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/similar_nft.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-similar-nft.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-similar-nft",
+      "role": "reviewer",
+      "source_id": "plugins-store-similar-nft",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-similar-nft/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/similar_nft.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-similar-nft.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-search-plus",
+      "role": "collector",
+      "source_id": "plugins-store-search-plus",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-search-plus/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/search_plus.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-search-plus.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-search-plus",
+      "role": "reviewer",
+      "source_id": "plugins-store-search-plus",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-search-plus/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/search_plus.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-search-plus.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-higal",
+      "role": "collector",
+      "source_id": "plugins-store-higal",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-higal/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/higal.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-higal.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-higal",
+      "role": "reviewer",
+      "source_id": "plugins-store-higal",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-higal/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/higal.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-higal.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-plugstonav",
+      "role": "collector",
+      "source_id": "plugins-store-plugstonav",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-plugstonav/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/plugstonav.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-plugstonav.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-plugstonav",
+      "role": "reviewer",
+      "source_id": "plugins-store-plugstonav",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-plugstonav/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/plugstonav.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-plugstonav.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-music-speed",
+      "role": "collector",
+      "source_id": "plugins-store-music-speed",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-music-speed/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/music_speed.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-music-speed.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-music-speed",
+      "role": "reviewer",
+      "source_id": "plugins-store-music-speed",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-music-speed/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/music_speed.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-music-speed.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-spen-support",
+      "role": "collector",
+      "source_id": "plugins-store-spen-support",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-spen-support/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/spen_support.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-spen-support.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-spen-support",
+      "role": "reviewer",
+      "source_id": "plugins-store-spen-support",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-spen-support/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/spen_support.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-spen-support.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-save-selected-files",
+      "role": "collector",
+      "source_id": "plugins-store-save-selected-files",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-save-selected-files/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/save_selected_files.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-save-selected-files.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-save-selected-files",
+      "role": "reviewer",
+      "source_id": "plugins-store-save-selected-files",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-save-selected-files/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/save_selected_files.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-save-selected-files.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-gift-search",
+      "role": "collector",
+      "source_id": "plugins-store-gift-search",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-gift-search/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/gift_search.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-gift-search.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-gift-search",
+      "role": "reviewer",
+      "source_id": "plugins-store-gift-search",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-gift-search/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/gift_search.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-gift-search.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-jpeg-quality",
+      "role": "collector",
+      "source_id": "plugins-store-jpeg-quality",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-jpeg-quality/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/jpeg_quality.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-jpeg-quality.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-jpeg-quality",
+      "role": "reviewer",
+      "source_id": "plugins-store-jpeg-quality",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-jpeg-quality/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/jpeg_quality.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-jpeg-quality.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-custom-chats-title",
+      "role": "collector",
+      "source_id": "plugins-store-custom-chats-title",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-custom-chats-title/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/custom_chats_title.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-custom-chats-title.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-custom-chats-title",
+      "role": "reviewer",
+      "source_id": "plugins-store-custom-chats-title",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-custom-chats-title/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/custom_chats_title.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-custom-chats-title.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-local-contact-override",
+      "role": "collector",
+      "source_id": "plugins-store-local-contact-override",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-local-contact-override/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/local_contact_override.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-local-contact-override.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-local-contact-override",
+      "role": "reviewer",
+      "source_id": "plugins-store-local-contact-override",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-local-contact-override/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/local_contact_override.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-local-contact-override.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-advanced-search",
+      "role": "collector",
+      "source_id": "plugins-store-advanced-search",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-advanced-search/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/advanced_search.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-advanced-search.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-advanced-search",
+      "role": "reviewer",
+      "source_id": "plugins-store-advanced-search",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-advanced-search/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/advanced_search.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-advanced-search.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-iphone-like-portret",
+      "role": "collector",
+      "source_id": "plugins-store-iphone-like-portret",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-iphone-like-portret/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/iphone_like_Portret.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-iphone-like-portret.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-iphone-like-portret",
+      "role": "reviewer",
+      "source_id": "plugins-store-iphone-like-portret",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-iphone-like-portret/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/iphone_like_Portret.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-iphone-like-portret.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-bot-tags",
+      "role": "collector",
+      "source_id": "plugins-store-bot-tags",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-bot-tags/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/bot_tags.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-bot-tags.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-bot-tags",
+      "role": "reviewer",
+      "source_id": "plugins-store-bot-tags",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-bot-tags/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/bot_tags.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-bot-tags.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-neural-typing",
+      "role": "collector",
+      "source_id": "plugins-store-neural-typing",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-neural-typing/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/neural_typing.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-neural-typing.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-neural-typing",
+      "role": "reviewer",
+      "source_id": "plugins-store-neural-typing",
+      "model": "gpt-6-luna",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-neural-typing/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/neural_typing.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-neural-typing.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-limedex",
+      "role": "collector",
+      "source_id": "plugins-store-limedex",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-limedex/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/limedex.eaf",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-limedex.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-limedex",
+      "role": "reviewer",
+      "source_id": "plugins-store-limedex",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-limedex/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/limedex.eaf",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-limedex.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-air-raid-alert",
+      "role": "collector",
+      "source_id": "plugins-store-air-raid-alert",
+      "model": "google-antigravity/gemini-3.8-flash",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-air-raid-alert/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/air_raid_alert.eaf",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-air-raid-alert.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-air-raid-alert",
+      "role": "reviewer",
+      "source_id": "plugins-store-air-raid-alert",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-air-raid-alert/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/air_raid_alert.eaf",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-air-raid-alert.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-link-guard",
+      "role": "collector",
+      "source_id": "plugins-store-link-guard",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-link-guard/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/link_guard.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-link-guard.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-link-guard",
+      "role": "reviewer",
+      "source_id": "plugins-store-link-guard",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-link-guard/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/link_guard.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-link-guard.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-extera-clean",
+      "role": "collector",
+      "source_id": "plugins-store-extera-clean",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-extera-clean/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/extera_clean.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-extera-clean.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-extera-clean",
+      "role": "reviewer",
+      "source_id": "plugins-store-extera-clean",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-extera-clean/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/extera_clean.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-extera-clean.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-plugin-guard",
+      "role": "collector",
+      "source_id": "plugins-store-plugin-guard",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-plugin-guard/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/plugin_guard.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-plugin-guard.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-plugin-guard",
+      "role": "reviewer",
+      "source_id": "plugins-store-plugin-guard",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-plugin-guard/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/plugin_guard.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-plugin-guard.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-quantahut",
+      "role": "collector",
+      "source_id": "plugins-store-quantahut",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-quantahut/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/quantahut.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-quantahut.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-quantahut",
+      "role": "reviewer",
+      "source_id": "plugins-store-quantahut",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-quantahut/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/quantahut.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-quantahut.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-sorter-plus",
+      "role": "collector",
+      "source_id": "plugins-store-sorter-plus",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-sorter-plus/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/sorter_plus.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-sorter-plus.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-sorter-plus",
+      "role": "reviewer",
+      "source_id": "plugins-store-sorter-plus",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-sorter-plus/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/sorter_plus.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-sorter-plus.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-culprit-detector",
+      "role": "collector",
+      "source_id": "plugins-store-culprit-detector",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-culprit-detector/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/culprit_detector.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-culprit-detector.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-culprit-detector",
+      "role": "reviewer",
+      "source_id": "plugins-store-culprit-detector",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-culprit-detector/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/culprit_detector.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-culprit-detector.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-customitemmenu",
+      "role": "collector",
+      "source_id": "plugins-store-customitemmenu",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-customitemmenu/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/CustomItеmMеnu.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-customitemmenu.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-customitemmenu",
+      "role": "reviewer",
+      "source_id": "plugins-store-customitemmenu",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-customitemmenu/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/CustomItеmMеnu.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-customitemmenu.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-profile-plugin",
+      "role": "collector",
+      "source_id": "plugins-store-profile-plugin",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-profile-plugin/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/Profile_Plugin.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-profile-plugin.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-profile-plugin",
+      "role": "reviewer",
+      "source_id": "plugins-store-profile-plugin",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-profile-plugin/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/Profile_Plugin.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-profile-plugin.md"
+    },
+    {
+      "run_id": "run_collect_plugins-store-chat-word-stats",
+      "role": "collector",
+      "source_id": "plugins-store-chat-word-stats",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-chat-word-stats/collector-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/просьба.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/sources/plugins-store-chat-word-stats.md"
+    },
+    {
+      "run_id": "run_review_plugins-store-chat-word-stats",
+      "role": "reviewer",
+      "source_id": "plugins-store-chat-word-stats",
+      "model": "deepseek-v4.1-flash-expires-on-0910",
+      "date": "2026-10-03",
+      "prompt_archive": "outputs/plugin-wiki/raw/plugins-store-chat-word-stats/reviewer-prompt.txt",
+      "raw_materials": "Plugins-Store/Plugins/просьба.plugin",
+      "produced_facts_count": 5,
+      "wiki_source_page": "data/wiki/reviews/plugins-store-chat-word-stats.md"
     }
   ],
   "source_summaries": [
@@ -5352,6 +6012,396 @@
       "reasoning_levels": [
         "high"
       ]
+    },
+    {
+      "source_id": "plugins-store-searchid",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-searchid",
+      "reviewer_run_id": "run_review_plugins-store-searchid",
+      "independent_run_ids": [
+        "run_collect_plugins-store-searchid",
+        "run_review_plugins-store-searchid"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-fake-motion-blur",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-fake-motion-blur",
+      "reviewer_run_id": "run_review_plugins-store-fake-motion-blur",
+      "independent_run_ids": [
+        "run_collect_plugins-store-fake-motion-blur",
+        "run_review_plugins-store-fake-motion-blur"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-save-emoji",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-save-emoji",
+      "reviewer_run_id": "run_review_plugins-store-save-emoji",
+      "independent_run_ids": [
+        "run_collect_plugins-store-save-emoji",
+        "run_review_plugins-store-save-emoji"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-gifts-studio",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-gifts-studio",
+      "reviewer_run_id": "run_review_plugins-store-gifts-studio",
+      "independent_run_ids": [
+        "run_collect_plugins-store-gifts-studio",
+        "run_review_plugins-store-gifts-studio"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-similar-nft",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-similar-nft",
+      "reviewer_run_id": "run_review_plugins-store-similar-nft",
+      "independent_run_ids": [
+        "run_collect_plugins-store-similar-nft",
+        "run_review_plugins-store-similar-nft"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-search-plus",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-search-plus",
+      "reviewer_run_id": "run_review_plugins-store-search-plus",
+      "independent_run_ids": [
+        "run_collect_plugins-store-search-plus",
+        "run_review_plugins-store-search-plus"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-higal",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-higal",
+      "reviewer_run_id": "run_review_plugins-store-higal",
+      "independent_run_ids": [
+        "run_collect_plugins-store-higal",
+        "run_review_plugins-store-higal"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-plugstonav",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-plugstonav",
+      "reviewer_run_id": "run_review_plugins-store-plugstonav",
+      "independent_run_ids": [
+        "run_collect_plugins-store-plugstonav",
+        "run_review_plugins-store-plugstonav"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-music-speed",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-music-speed",
+      "reviewer_run_id": "run_review_plugins-store-music-speed",
+      "independent_run_ids": [
+        "run_collect_plugins-store-music-speed",
+        "run_review_plugins-store-music-speed"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-spen-support",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-spen-support",
+      "reviewer_run_id": "run_review_plugins-store-spen-support",
+      "independent_run_ids": [
+        "run_collect_plugins-store-spen-support",
+        "run_review_plugins-store-spen-support"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-save-selected-files",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-save-selected-files",
+      "reviewer_run_id": "run_review_plugins-store-save-selected-files",
+      "independent_run_ids": [
+        "run_collect_plugins-store-save-selected-files",
+        "run_review_plugins-store-save-selected-files"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-gift-search",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-gift-search",
+      "reviewer_run_id": "run_review_plugins-store-gift-search",
+      "independent_run_ids": [
+        "run_collect_plugins-store-gift-search",
+        "run_review_plugins-store-gift-search"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-jpeg-quality",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-jpeg-quality",
+      "reviewer_run_id": "run_review_plugins-store-jpeg-quality",
+      "independent_run_ids": [
+        "run_collect_plugins-store-jpeg-quality",
+        "run_review_plugins-store-jpeg-quality"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-custom-chats-title",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-custom-chats-title",
+      "reviewer_run_id": "run_review_plugins-store-custom-chats-title",
+      "independent_run_ids": [
+        "run_collect_plugins-store-custom-chats-title",
+        "run_review_plugins-store-custom-chats-title"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-local-contact-override",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-local-contact-override",
+      "reviewer_run_id": "run_review_plugins-store-local-contact-override",
+      "independent_run_ids": [
+        "run_collect_plugins-store-local-contact-override",
+        "run_review_plugins-store-local-contact-override"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-advanced-search",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-advanced-search",
+      "reviewer_run_id": "run_review_plugins-store-advanced-search",
+      "independent_run_ids": [
+        "run_collect_plugins-store-advanced-search",
+        "run_review_plugins-store-advanced-search"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-iphone-like-portret",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-iphone-like-portret",
+      "reviewer_run_id": "run_review_plugins-store-iphone-like-portret",
+      "independent_run_ids": [
+        "run_collect_plugins-store-iphone-like-portret",
+        "run_review_plugins-store-iphone-like-portret"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-bot-tags",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-bot-tags",
+      "reviewer_run_id": "run_review_plugins-store-bot-tags",
+      "independent_run_ids": [
+        "run_collect_plugins-store-bot-tags",
+        "run_review_plugins-store-bot-tags"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-neural-typing",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-neural-typing",
+      "reviewer_run_id": "run_review_plugins-store-neural-typing",
+      "independent_run_ids": [
+        "run_collect_plugins-store-neural-typing",
+        "run_review_plugins-store-neural-typing"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-limedex",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-limedex",
+      "reviewer_run_id": "run_review_plugins-store-limedex",
+      "independent_run_ids": [
+        "run_collect_plugins-store-limedex",
+        "run_review_plugins-store-limedex"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-air-raid-alert",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-air-raid-alert",
+      "reviewer_run_id": "run_review_plugins-store-air-raid-alert",
+      "independent_run_ids": [
+        "run_collect_plugins-store-air-raid-alert",
+        "run_review_plugins-store-air-raid-alert"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-link-guard",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-link-guard",
+      "reviewer_run_id": "run_review_plugins-store-link-guard",
+      "independent_run_ids": [
+        "run_collect_plugins-store-link-guard",
+        "run_review_plugins-store-link-guard"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-extera-clean",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-extera-clean",
+      "reviewer_run_id": "run_review_plugins-store-extera-clean",
+      "independent_run_ids": [
+        "run_collect_plugins-store-extera-clean",
+        "run_review_plugins-store-extera-clean"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-plugin-guard",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-plugin-guard",
+      "reviewer_run_id": "run_review_plugins-store-plugin-guard",
+      "independent_run_ids": [
+        "run_collect_plugins-store-plugin-guard",
+        "run_review_plugins-store-plugin-guard"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-quantahut",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-quantahut",
+      "reviewer_run_id": "run_review_plugins-store-quantahut",
+      "independent_run_ids": [
+        "run_collect_plugins-store-quantahut",
+        "run_review_plugins-store-quantahut"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-sorter-plus",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-sorter-plus",
+      "reviewer_run_id": "run_review_plugins-store-sorter-plus",
+      "independent_run_ids": [
+        "run_collect_plugins-store-sorter-plus",
+        "run_review_plugins-store-sorter-plus"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-culprit-detector",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-culprit-detector",
+      "reviewer_run_id": "run_review_plugins-store-culprit-detector",
+      "independent_run_ids": [
+        "run_collect_plugins-store-culprit-detector",
+        "run_review_plugins-store-culprit-detector"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-customitemmenu",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-customitemmenu",
+      "reviewer_run_id": "run_review_plugins-store-customitemmenu",
+      "independent_run_ids": [
+        "run_collect_plugins-store-customitemmenu",
+        "run_review_plugins-store-customitemmenu"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-profile-plugin",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-profile-plugin",
+      "reviewer_run_id": "run_review_plugins-store-profile-plugin",
+      "independent_run_ids": [
+        "run_collect_plugins-store-profile-plugin",
+        "run_review_plugins-store-profile-plugin"
+      ],
+      "facts_count": 5
+    },
+    {
+      "source_id": "plugins-store-chat-word-stats",
+      "has_collector": true,
+      "has_reviewer": true,
+      "review_status": "accepted",
+      "collector_run_id": "run_collect_plugins-store-chat-word-stats",
+      "reviewer_run_id": "run_review_plugins-store-chat-word-stats",
+      "independent_run_ids": [
+        "run_collect_plugins-store-chat-word-stats",
+        "run_review_plugins-store-chat-word-stats"
+      ],
+      "facts_count": 5
     }
   ]
 }
