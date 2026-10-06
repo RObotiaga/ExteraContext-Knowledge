@@ -46,7 +46,7 @@ COMMON_CROSS_CLIENT_IDENTIFIERS = {
 STOP = {
     "как", "что", "для", "или", "это", "при", "над", "под", "мне", "нужно", "сделать",
     "the", "and", "for", "with", "from", "into", "how", "use", "using", "plugin", "плагин",
-    "exteragram", "exteragramm", "exteragram", "ayugram",
+    "exteragram", "exteragramm", "ayugram",
 }
 
 ALIASES = {
@@ -60,7 +60,7 @@ ALIASES = {
     "hook": ["xposed", "callback"],
     "аккаунт": ["account", "multi-account"],
     "поток": ["thread", "ui", "background"],
-    "интерфейс": ["ui", "view"],
+    "интерфейс": ["ui", "view", "run_on_ui_thread"],
     "настрой": ["settings", "preferences"],
     "медиа": ["media", "document", "photo"],
     "файл": ["file", "document"],
@@ -149,7 +149,7 @@ def source_bonus(source_id: str) -> float:
     s = (source_id or "").lower()
     if s in OFFICIAL_SOURCES:
         return 5.0
-    if s in DIRECT_SOURCES or s.startswith("plugins-store-"):
+    if s in DIRECT_SOURCES:
         return 2.5
     if s.startswith(DONOR_PREFIXES):
         return -0.5
@@ -160,7 +160,7 @@ def directness(source_id: str) -> str:
     s = (source_id or "").lower()
     if s in OFFICIAL_SOURCES:
         return "official"
-    if s in DIRECT_SOURCES or s.startswith("plugins-store-"):
+    if s in DIRECT_SOURCES:
         return "target-ecosystem"
     if s.startswith(DONOR_PREFIXES):
         return "donor"
